@@ -1,0 +1,4515 @@
+,NOC,Year,Num_Athletes
+0,30. Februar,1952,2
+1,A North American Team,1900,4
+2,Acipactli,1964,3
+3,Acturus,1948,2
+4,Afghanistan,1936,16
+5,Afghanistan,1948,25
+6,Afghanistan,1956,12
+7,Afghanistan,1960,16
+8,Afghanistan,1964,8
+9,Afghanistan,1968,5
+10,Afghanistan,1972,8
+11,Afghanistan,1980,11
+12,Afghanistan,1988,5
+13,Afghanistan,1996,2
+14,Afghanistan,2004,5
+15,Afghanistan,2008,4
+16,Afghanistan,2012,6
+17,Afghanistan,2016,3
+18,Afghanistan,2020,5
+19,Afghanistan,2024,7
+20,Akatonbo,1964,3
+21,Alain IV,1964,3
+22,Albania,1972,5
+23,Albania,1992,9
+24,Albania,1996,9
+25,Albania,2000,5
+26,Albania,2004,7
+27,Albania,2008,12
+28,Albania,2012,10
+29,Albania,2016,6
+30,Albania,2020,10
+31,Albania,2024,9
+32,Alcaid,1952,3
+33,Alcyon-6,1900,1
+34,Alcyon-7,1900,2
+35,Aldebaran,1964,2
+36,Aldebaran II,1960,2
+37,Aletta,1960,3
+38,Algeria,1964,7
+39,Algeria,1968,9
+40,Algeria,1972,7
+41,Algeria,1980,63
+42,Algeria,1984,33
+43,Algeria,1988,45
+44,Algeria,1992,36
+45,Algeria,1996,47
+46,Algeria,2000,51
+47,Algeria,2004,71
+48,Algeria,2008,57
+49,Algeria,2012,39
+50,Algeria,2016,74
+51,Algeria,2020,45
+52,Algeria,2024,55
+53,Ali-Baba II,1948,7
+54,Ali-Baba IV,1952,2
+55,Ali-Baba IX,1964,2
+56,Ali-Baba VI,1960,2
+57,Allegro,1948,3
+58,Almaz,1964,2
+59,Aloha II,1924,3
+60,Aloha II,1948,2
+61,Amateur Athletic Association,1900,5
+62,American Samoa,1988,6
+63,American Samoa,1992,3
+64,American Samoa,1996,7
+65,American Samoa,2000,4
+66,American Samoa,2004,3
+67,American Samoa,2008,4
+68,American Samoa,2012,4
+69,American Samoa,2016,4
+70,American Samoa,2020,6
+71,American Samoa,2024,2
+72,Amolgavar,1924,3
+73,Amstel Amsterdam,1908,4
+74,Amulet-3,1900,4
+75,Amulet-7,1900,2
+76,Ancora,1920,4
+77,Andorinha,1948,2
+78,Andorra,1976,3
+79,Andorra,1980,2
+80,Andorra,1984,2
+81,Andorra,1988,4
+82,Andorra,1992,8
+83,Andorra,1996,8
+84,Andorra,2000,5
+85,Andorra,2004,6
+86,Andorra,2008,5
+87,Andorra,2012,6
+88,Andorra,2016,4
+89,Andorra,2020,3
+90,Andorra,2024,4
+91,Andromeda,1964,3
+92,Angelita,1932,12
+93,Angelita,1936,6
+94,Angerburg,1936,1
+95,Angola,1980,17
+96,Angola,1988,33
+97,Angola,1992,33
+98,Angola,1996,30
+99,Angola,2000,30
+100,Angola,2004,30
+101,Angola,2008,33
+102,Angola,2012,35
+103,Angola,2016,26
+104,Angola,2020,20
+105,Angola,2024,26
+106,Anitra,1936,6
+107,Antares,1948,2
+108,Antigua and Barbuda,1976,17
+109,Antigua and Barbuda,1984,27
+110,Antigua and Barbuda,1988,25
+111,Antigua and Barbuda,1992,18
+112,Antigua and Barbuda,1996,19
+113,Antigua and Barbuda,2000,4
+114,Antigua and Barbuda,2004,5
+115,Antigua and Barbuda,2008,5
+116,Antigua and Barbuda,2012,4
+117,Antigua and Barbuda,2016,9
+118,Antigua and Barbuda,2020,6
+119,Antigua and Barbuda,2024,5
+120,Antwerpia V,1920,5
+121,Antwerpia V,1924,5
+122,Apache,1948,5
+123,Aphrodite,1964,3
+124,Arcturus,1952,2
+125,Ardilla,1960,3
+126,Aretusa,1956,3
+127,Argentina,1900,1
+128,Argentina,1908,1
+129,Argentina,1920,1
+130,Argentina,1924,100
+131,Argentina,1928,93
+132,Argentina,1932,47
+133,Argentina,1936,57
+134,Argentina,1948,283
+135,Argentina,1952,161
+136,Argentina,1956,39
+137,Argentina,1960,108
+138,Argentina,1964,143
+139,Argentina,1968,132
+140,Argentina,1972,123
+141,Argentina,1976,106
+142,Argentina,1984,115
+143,Argentina,1988,134
+144,Argentina,1992,111
+145,Argentina,1996,221
+146,Argentina,2000,161
+147,Argentina,2004,175
+148,Argentina,2008,141
+149,Argentina,2012,148
+150,Argentina,2016,228
+151,Argentina,2020,208
+152,Argentina,2024,154
+153,Argentina-1,1924,2
+154,Argentina-1,2000,2
+155,Argentina-1,2004,2
+156,Argentina-1,2008,2
+157,Argentina-1,2016,2
+158,Argentina-2,1924,2
+159,Argentina-2,2000,2
+160,Argentina-2,2004,2
+161,Argentina-2,2008,2
+162,Argentina-2,2016,2
+163,Argeste,1964,3
+164,Argo II,1960,3
+165,Argonaut Rowing Club,1908,6
+166,Argus,1948,4
+167,Ariel,1948,2
+168,Ariette-10,1900,2
+169,Ariette-8,1900,1
+170,Armenia,1996,38
+171,Armenia,2000,26
+172,Armenia,2004,19
+173,Armenia,2008,26
+174,Armenia,2012,31
+175,Armenia,2016,34
+176,Armenia,2020,19
+177,Armenia,2024,17
+178,Aruba,1988,12
+179,Aruba,1992,5
+180,Aruba,1996,3
+181,Aruba,2000,5
+182,Aruba,2004,4
+183,Aruba,2008,2
+184,Aruba,2012,4
+185,Aruba,2016,7
+186,Aruba,2020,4
+187,Aruba,2024,7
+188,Aschenbrodel,1900,12
+189,Astrid III,1960,3
+190,Atalanta Boat Club-1,1904,2
+191,Atalanta Boat Club-2,1904,2
+192,Athens-2,1906,11
+193,Atlanta,1920,9
+194,Augsburg,1936,1
+195,Ausonia,1948,3
+196,Australasia,1908,48
+197,Australasia,1912,29
+198,Australia,1896,4
+199,Australia,1900,5
+200,Australia,1904,6
+201,Australia,1906,10
+202,Australia,1920,29
+203,Australia,1924,60
+204,Australia,1928,29
+205,Australia,1932,20
+206,Australia,1936,39
+207,Australia,1948,101
+208,Australia,1952,135
+209,Australia,1956,402
+210,Australia,1960,270
+211,Australia,1964,382
+212,Australia,1968,224
+213,Australia,1972,266
+214,Australia,1976,274
+215,Australia,1980,190
+216,Australia,1984,337
+217,Australia,1988,339
+218,Australia,1992,390
+219,Australia,1996,542
+220,Australia,2000,762
+221,Australia,2004,585
+222,Australia,2008,559
+223,Australia,2012,506
+224,Australia,2016,510
+225,Australia,2020,638
+226,Australia,2024,649
+227,Australia-1,1996,4
+228,Australia-1,2000,12
+229,Australia-1,2004,8
+230,Australia-1,2008,4
+231,Australia-1,2012,4
+232,Australia-1,2016,4
+233,Australia-2,1996,4
+234,Australia-2,2000,12
+235,Australia-2,2004,8
+236,Australia-2,2008,4
+237,Australia-2,2012,4
+238,Australia-2,2016,4
+239,Australia-3,2000,2
+240,Australia/Great Britain,1896,2
+241,Austria,1896,8
+242,Austria,1900,24
+243,Austria,1904,6
+244,Austria,1906,100
+245,Austria,1908,13
+246,Austria,1912,127
+247,Austria,1924,56
+248,Austria,1928,113
+249,Austria,1932,33
+250,Austria,1936,362
+251,Austria,1948,236
+252,Austria,1952,236
+253,Austria,1956,57
+254,Austria,1960,191
+255,Austria,1964,80
+256,Austria,1968,59
+257,Austria,1972,143
+258,Austria,1976,73
+259,Austria,1980,92
+260,Austria,1984,130
+261,Austria,1988,96
+262,Austria,1992,127
+263,Austria,1996,88
+264,Austria,2000,114
+265,Austria,2004,88
+266,Austria,2008,89
+267,Austria,2012,90
+268,Austria,2016,81
+269,Austria,2020,103
+270,Austria,2024,121
+271,Austria-1,1900,2
+272,Austria-1,1996,2
+273,Austria-1,2004,2
+274,Austria-1,2008,2
+275,Austria-1,2016,2
+276,Austria-2,1996,2
+277,Austria-2,2004,2
+278,Austria-2,2008,2
+279,Austria-2,2016,2
+280,Azerbaijan,1996,24
+281,Azerbaijan,2000,32
+282,Azerbaijan,2004,37
+283,Azerbaijan,2008,44
+284,Azerbaijan,2012,59
+285,Azerbaijan,2016,69
+286,Azerbaijan,2020,55
+287,Azerbaijan,2024,49
+288,"BLO Polo Club, Rugby",1900,4
+289,Babe,1928,5
+290,Baby-1,1900,2
+291,Baby-9,1900,1
+292,Baccara,1960,3
+293,"Bagatelle Polo Club, Paris",1900,4
+294,Bahamas,1952,1
+295,Bahamas,1956,3
+296,Bahamas,1960,4
+297,Bahamas,1964,4
+298,Bahamas,1968,22
+299,Bahamas,1972,25
+300,Bahamas,1976,19
+301,Bahamas,1984,31
+302,Bahamas,1988,18
+303,Bahamas,1992,18
+304,Bahamas,1996,36
+305,Bahamas,2000,39
+306,Bahamas,2004,28
+307,Bahamas,2008,33
+308,Bahamas,2012,29
+309,Bahamas,2016,38
+310,Bahamas,2020,22
+311,Bahamas,2024,21
+312,Bahrain,1984,14
+313,Bahrain,1988,16
+314,Bahrain,1992,15
+315,Bahrain,1996,5
+316,Bahrain,2000,4
+317,Bahrain,2004,10
+318,Bahrain,2008,15
+319,Bahrain,2012,14
+320,Bahrain,2016,33
+321,Bahrain,2020,33
+322,Bahrain,2024,15
+323,Bajazzo,1960,3
+324,Balaton,1960,2
+325,Ballerina IV,1960,3
+326,Bamba,1928,6
+327,Bangladesh,1984,2
+328,Bangladesh,1988,11
+329,Bangladesh,1992,9
+330,Bangladesh,1996,4
+331,Bangladesh,2000,6
+332,Bangladesh,2004,4
+333,Bangladesh,2008,5
+334,Bangladesh,2012,7
+335,Bangladesh,2016,7
+336,Bangladesh,2020,8
+337,Bangladesh,2024,5
+338,Barbados,1968,13
+339,Barbados,1972,20
+340,Barbados,1976,17
+341,Barbados,1984,25
+342,Barbados,1988,26
+343,Barbados,1992,22
+344,Barbados,1996,22
+345,Barbados,2000,28
+346,Barbados,2004,15
+347,Barbados,2008,10
+348,Barbados,2012,8
+349,Barbados,2016,13
+350,Barbados,2020,9
+351,Barbados,2024,4
+352,Barco Deloro,1964,4
+353,Barion/Bari-2,1906,3
+354,Barrenjoey,1964,3
+355,Beatrijs III-1,1920,3
+356,Beaver,1956,2
+357,Beaver,1960,2
+358,Belarus,1996,259
+359,Belarus,2000,231
+360,Belarus,2004,192
+361,Belarus,2008,233
+362,Belarus,2012,185
+363,Belarus,2016,142
+364,Belarus,2020,137
+365,Belarus-1,2008,2
+366,Belarus-2,2008,2
+367,Belgium,1900,60
+368,Belgium,1906,27
+369,Belgium,1908,87
+370,Belgium,1912,67
+371,Belgium,1920,488
+372,Belgium,1924,218
+373,Belgium,1928,255
+374,Belgium,1932,69
+375,Belgium,1936,202
+376,Belgium,1948,171
+377,Belgium,1952,181
+378,Belgium,1956,82
+379,Belgium,1960,148
+380,Belgium,1964,74
+381,Belgium,1968,106
+382,Belgium,1972,106
+383,Belgium,1976,149
+384,Belgium,1980,84
+385,Belgium,1984,86
+386,Belgium,1988,85
+387,Belgium,1992,103
+388,Belgium,1996,81
+389,Belgium,2000,94
+390,Belgium,2004,70
+391,Belgium,2008,112
+392,Belgium,2012,142
+393,Belgium,2016,138
+394,Belgium,2020,185
+395,Belgium,2024,240
+396,Belgium-1,1900,7
+397,Belgium-1,1920,4
+398,Belgium-1,1924,4
+399,Belgium-2,1900,2
+400,Belgium-2,1920,4
+401,Belgium-2,1924,4
+402,Belgium-3,1920,4
+403,Belgium-4,1920,4
+404,Belize,1968,7
+405,Belize,1972,2
+406,Belize,1976,4
+407,Belize,1984,13
+408,Belize,1988,13
+409,Belize,1992,18
+410,Belize,1996,5
+411,Belize,2000,2
+412,Belize,2004,2
+413,Belize,2008,4
+414,Belize,2012,3
+415,Belize,2016,3
+416,Belize,2020,4
+417,Belize,2024,1
+418,Bella,1960,2
+419,Bellatrix IX,1960,3
+420,Bellatrix XIII,1964,2
+421,Bem II,1936,2
+422,Bem II,1952,2
+423,Benin,1972,3
+424,Benin,1980,17
+425,Benin,1984,3
+426,Benin,1988,10
+427,Benin,1992,7
+428,Benin,1996,7
+429,Benin,2000,4
+430,Benin,2004,4
+431,Benin,2008,5
+432,Benin,2012,5
+433,Benin,2016,6
+434,Benin,2020,7
+435,Benin,2024,5
+436,Bera,1924,5
+437,Berliner Ruderclub,1908,2
+438,Berliner Ruderclub Sport-Borussia-1,1912,9
+439,Berliner Ruderverein von 1876-2,1912,9
+440,Bermuda,1936,9
+441,Bermuda,1948,28
+442,Bermuda,1952,12
+443,Bermuda,1960,1
+444,Bermuda,1964,1
+445,Bermuda,1968,6
+446,Bermuda,1972,9
+447,Bermuda,1976,20
+448,Bermuda,1984,13
+449,Bermuda,1988,14
+450,Bermuda,1992,29
+451,Bermuda,1996,10
+452,Bermuda,2000,7
+453,Bermuda,2004,10
+454,Bermuda,2008,6
+455,Bermuda,2012,8
+456,Bermuda,2016,8
+457,Bermuda,2020,2
+458,Bermuda,2024,8
+459,Bermudes,1960,3
+460,Bermudian,1960,2
+461,Bhutan,1984,6
+462,Bhutan,1988,6
+463,Bhutan,1992,12
+464,Bhutan,1996,2
+465,Bhutan,2000,2
+466,Bhutan,2004,2
+467,Bhutan,2008,2
+468,Bhutan,2012,2
+469,Bhutan,2016,2
+470,Bhutan,2020,4
+471,Bhutan,2024,3
+472,Bim,1960,3
+473,Bingo,1964,3
+474,Bissbi,1932,4
+475,Blue Red,1924,5
+476,Bluebottle,1956,3
+477,Boer Team,1904,5
+478,Bohemia,1900,8
+479,Bohemia,1906,29
+480,Bohemia,1908,41
+481,Bohemia,1912,68
+482,Bohemia-1,1912,2
+483,Bohemia-2,1912,2
+484,Bohemia-3,1912,2
+485,Bohemia/Great Britain,1900,2
+486,Bolivia,1936,2
+487,Bolivia,1964,1
+488,Bolivia,1968,4
+489,Bolivia,1972,14
+490,Bolivia,1976,5
+491,Bolivia,1984,13
+492,Bolivia,1988,12
+493,Bolivia,1992,21
+494,Bolivia,1996,9
+495,Bolivia,2000,5
+496,Bolivia,2004,11
+497,Bolivia,2008,7
+498,Bolivia,2012,5
+499,Bolivia,2016,12
+500,Bolivia,2020,5
+501,Bolivia,2024,4
+502,Bona Fide,1900,3
+503,Bonaparte,2008,1
+504,Bonzo,1924,3
+505,Boreas,1960,3
+506,Boreas-2,1920,2
+507,Bosnia & Herzegovina,2024,6
+508,Bosnia and Herzegovina,1992,13
+509,Bosnia and Herzegovina,1996,12
+510,Bosnia and Herzegovina,2000,11
+511,Bosnia and Herzegovina,2004,11
+512,Bosnia and Herzegovina,2008,7
+513,Bosnia and Herzegovina,2012,8
+514,Bosnia and Herzegovina,2016,11
+515,Bosnia and Herzegovina,2020,8
+516,Boston Archers,1904,4
+517,Botswana,1980,8
+518,Botswana,1984,8
+519,Botswana,1988,11
+520,Botswana,1992,6
+521,Botswana,1996,7
+522,Botswana,2000,9
+523,Botswana,2004,12
+524,Botswana,2008,11
+525,Botswana,2012,4
+526,Botswana,2016,14
+527,Botswana,2020,16
+528,Botswana,2024,19
+529,Brandenburg,1936,1
+530,Brat,1920,2
+531,Brazil,1900,3
+532,Brazil,1920,38
+533,Brazil,1924,18
+534,Brazil,1932,67
+535,Brazil,1936,93
+536,Brazil,1948,101
+537,Brazil,1952,114
+538,Brazil,1956,61
+539,Brazil,1960,82
+540,Brazil,1964,61
+541,Brazil,1968,89
+542,Brazil,1972,104
+543,Brazil,1976,89
+544,Brazil,1980,149
+545,Brazil,1984,197
+546,Brazil,1988,233
+547,Brazil,1992,233
+548,Brazil,1996,243
+549,Brazil,2000,228
+550,Brazil,2004,310
+551,Brazil,2008,330
+552,Brazil,2012,294
+553,Brazil,2016,571
+554,Brazil,2020,416
+555,Brazil,2024,401
+556,Brazil-1,1996,4
+557,Brazil-1,2000,4
+558,Brazil-1,2004,4
+559,Brazil-1,2008,4
+560,Brazil-1,2012,6
+561,Brazil-1,2016,6
+562,Brazil-2,1996,4
+563,Brazil-2,2000,4
+564,Brazil-2,2004,4
+565,Brazil-2,2008,4
+566,Brazil-2,2012,6
+567,Brazil-2,2016,6
+568,Bremen,1936,1
+569,Brentina,2008,1
+570,Breslau,1936,1
+571,Briar,2008,1
+572,Brigantia,1964,2
+573,British Virgin Islands,1984,13
+574,British Virgin Islands,1988,4
+575,British Virgin Islands,1992,4
+576,British Virgin Islands,1996,11
+577,British Virgin Islands,2000,1
+578,British Virgin Islands,2004,1
+579,British Virgin Islands,2008,2
+580,British Virgin Islands,2012,2
+581,British Virgin Islands,2016,4
+582,British Virgin Islands,2020,3
+583,Bronia,1960,3
+584,Brunei,1996,1
+585,Brunei,2000,2
+586,Brunei,2004,1
+587,Brunei,2012,3
+588,Brunei,2016,3
+589,Brunei,2020,2
+590,Brunei Darussalam,2024,3
+591,Brussels Swimming and Water Polo Club,1900,10
+592,Brynhild-2,1900,1
+593,Bu III,1952,2
+594,Bucintoro Venezia,1906,8
+595,Bucintoro Venezia-1,1906,3
+596,Bulgaria,1924,31
+597,Bulgaria,1928,10
+598,Bulgaria,1932,2
+599,Bulgaria,1936,85
+600,Bulgaria,1952,179
+601,Bulgaria,1956,82
+602,Bulgaria,1960,183
+603,Bulgaria,1964,116
+604,Bulgaria,1968,189
+605,Bulgaria,1972,226
+606,Bulgaria,1976,254
+607,Bulgaria,1980,397
+608,Bulgaria,1988,281
+609,Bulgaria,1992,232
+610,Bulgaria,1996,181
+611,Bulgaria,2000,150
+612,Bulgaria,2004,119
+613,Bulgaria,2008,87
+614,Bulgaria,2012,75
+615,Bulgaria,2016,58
+616,Bulgaria,2020,56
+617,Bulgaria,2024,61
+618,Bulgaria-1,1992,2
+619,Bulgaria-2,1992,2
+620,Buraddoo,1956,3
+621,Buraddoo,1960,3
+622,Burevestnik,1952,3
+623,Burkina Faso,1972,1
+624,Burkina Faso,1988,9
+625,Burkina Faso,1992,4
+626,Burkina Faso,1996,5
+627,Burkina Faso,2000,4
+628,Burkina Faso,2004,5
+629,Burkina Faso,2008,6
+630,Burkina Faso,2012,5
+631,Burkina Faso,2016,5
+632,Burkina Faso,2020,8
+633,Burkina Faso,2024,8
+634,Burundi,1996,7
+635,Burundi,2000,6
+636,Burundi,2004,7
+637,Burundi,2008,3
+638,Burundi,2012,6
+639,Burundi,2016,10
+640,Burundi,2020,7
+641,Burundi,2024,8
+642,Buscape II,1948,2
+643,C.V.A.-14,1900,2
+644,C.V.A.-7,1900,4
+645,Cabo Verde,2024,7
+646,Calcinhas,1960,2
+647,Calimucho,2008,1
+648,Calypse II,1960,2
+649,Cambodia,1956,2
+650,Cambodia,1964,13
+651,Cambodia,1972,17
+652,Cambodia,1996,5
+653,Cambodia,2000,4
+654,Cambodia,2004,4
+655,Cambodia,2008,4
+656,Cambodia,2012,6
+657,Cambodia,2016,6
+658,Cambodia,2020,3
+659,Cambodia,2024,3
+660,Cambria,1964,3
+661,Cambridge University Boat Club-2,1908,9
+662,Camelia,1928,4
+663,Cameroon,1964,2
+664,Cameroon,1968,5
+665,Cameroon,1972,18
+666,Cameroon,1976,4
+667,Cameroon,1980,29
+668,Cameroon,1984,56
+669,Cameroon,1988,21
+670,Cameroon,1992,12
+671,Cameroon,1996,19
+672,Cameroon,2000,39
+673,Cameroon,2004,19
+674,Cameroon,2008,32
+675,Cameroon,2012,32
+676,Cameroon,2016,22
+677,Cameroon,2020,12
+678,Cameroon,2024,6
+679,Camille,1908,1
+680,Canada,1900,7
+681,Canada,1904,15
+682,Canada,1906,4
+683,Canada,1908,133
+684,Canada,1912,51
+685,Canada,1920,85
+686,Canada,1924,83
+687,Canada,1928,113
+688,Canada,1932,179
+689,Canada,1936,166
+690,Canada,1948,184
+691,Canada,1952,144
+692,Canada,1956,143
+693,Canada,1960,130
+694,Canada,1964,184
+695,Canada,1968,291
+696,Canada,1972,344
+697,Canada,1976,531
+698,Canada,1984,572
+699,Canada,1988,503
+700,Canada,1992,441
+701,Canada,1996,396
+702,Canada,2000,410
+703,Canada,2004,383
+704,Canada,2008,446
+705,Canada,2012,354
+706,Canada,2016,397
+707,Canada,2020,509
+708,Canada,2024,538
+709,Canada-1,1992,2
+710,Canada-1,1996,6
+711,Canada-1,2000,6
+712,Canada-1,2004,4
+713,Canada-1,2016,4
+714,Canada-2,1992,2
+715,Canada-2,1996,6
+716,Canada-2,2000,6
+717,Canada-2,2004,4
+718,Canada-2,2016,4
+719,Canopus,1956,3
+720,Canopus,1960,3
+721,Cape Verde,1996,3
+722,Cape Verde,2000,2
+723,Cape Verde,2004,3
+724,Cape Verde,2008,2
+725,Cape Verde,2012,3
+726,Cape Verde,2016,5
+727,Cape Verde,2020,6
+728,Caprice,1932,4
+729,Carabinier-15,1900,1
+730,Carabinier-5,1900,1
+731,Cayman Islands,1976,2
+732,Cayman Islands,1984,14
+733,Cayman Islands,1988,12
+734,Cayman Islands,1992,13
+735,Cayman Islands,1996,9
+736,Cayman Islands,2000,4
+737,Cayman Islands,2004,8
+738,Cayman Islands,2008,6
+739,Cayman Islands,2012,7
+740,Cayman Islands,2016,5
+741,Cayman Islands,2020,9
+742,Cayman Islands,2024,5
+743,Centr Afric Re,2024,4
+744,Central African Republic,1968,1
+745,Central African Republic,1984,3
+746,Central African Republic,1988,15
+747,Central African Republic,1992,21
+748,Central African Republic,1996,5
+749,Central African Republic,2000,3
+750,Central African Republic,2004,4
+751,Central African Republic,2008,3
+752,Central African Republic,2012,6
+753,Central African Republic,2016,6
+754,Central African Republic,2020,2
+755,"Central Turnverein, Chicago",1904,6
+756,Century Boat Club-1,1904,4
+757,Cercle Nautique de Reims-4,1900,2
+758,Cercle de l'Aviron Roubaix-4,1900,10
+759,Ceres II,1948,3
+760,Cha-Cha III,1960,2
+761,Chad,1964,2
+762,Chad,1968,4
+763,Chad,1972,5
+764,Chad,1984,3
+765,Chad,1988,6
+766,Chad,1992,7
+767,Chad,1996,4
+768,Chad,2000,3
+769,Chad,2004,1
+770,Chad,2008,2
+771,Chad,2012,2
+772,Chad,2016,2
+773,Chad,2020,3
+774,Chad,2024,3
+775,Chaje II,1964,3
+776,Chamukina,1960,2
+777,Chance,1948,2
+778,Chicago Archers,1904,4
+779,Chicago Athletic Association,1904,5
+780,Chicago Athletic Association-2,1904,11
+781,Chile,1912,28
+782,Chile,1920,2
+783,Chile,1924,18
+784,Chile,1928,46
+785,Chile,1936,55
+786,Chile,1948,72
+787,Chile,1952,82
+788,Chile,1956,43
+789,Chile,1960,9
+790,Chile,1964,16
+791,Chile,1968,25
+792,Chile,1972,13
+793,Chile,1976,9
+794,Chile,1984,64
+795,Chile,1988,23
+796,Chile,1992,15
+797,Chile,1996,24
+798,Chile,2000,58
+799,Chile,2004,29
+800,Chile,2008,29
+801,Chile,2012,44
+802,Chile,2016,47
+803,Chile,2020,63
+804,Chile,2024,52
+805,China,1932,2
+806,China,1936,65
+807,China,1948,33
+808,China,1952,1
+809,China,1984,323
+810,China,1988,423
+811,China,1992,378
+812,China,1996,418
+813,China,2000,392
+814,China,2004,490
+815,China,2008,708
+816,China,2012,463
+817,China,2016,483
+818,China,2020,574
+819,China,2024,587
+820,China-1,1988,2
+821,China-1,1992,8
+822,China-1,1996,10
+823,China-1,2000,12
+824,China-1,2004,14
+825,China-1,2008,10
+826,China-1,2012,8
+827,China-1,2016,8
+828,China-2,1988,2
+829,China-2,1992,8
+830,China-2,1996,10
+831,China-2,2000,10
+832,China-2,2004,14
+833,China-2,2008,10
+834,China-2,2012,8
+835,China-2,2016,8
+836,China-3,2008,2
+837,Chinese Taipei,1956,23
+838,Chinese Taipei,1960,31
+839,Chinese Taipei,1964,96
+840,Chinese Taipei,1968,93
+841,Chinese Taipei,1972,44
+842,Chinese Taipei,1984,52
+843,Chinese Taipei,1988,119
+844,Chinese Taipei,1992,38
+845,Chinese Taipei,1996,103
+846,Chinese Taipei,2000,71
+847,Chinese Taipei,2004,104
+848,Chinese Taipei,2008,92
+849,Chinese Taipei,2012,55
+850,Chinese Taipei,2016,67
+851,Chinese Taipei,2020,117
+852,Chinese Taipei,2024,78
+853,Chinese Taipei-1,1988,2
+854,Chinese Taipei-1,1996,2
+855,Chinese Taipei-1,2000,2
+856,Chinese Taipei-2,1988,2
+857,Chinese Taipei-2,1996,2
+858,Chinese Taipei-2,2000,2
+859,Chok,1960,3
+860,Christian Brothers' College-1,1904,11
+861,Chuckles,1956,2
+862,Cicely-1,1900,1
+863,Cinara-13,1900,1
+864,Cincinnati Archers,1904,8
+865,Ciocca,1952,5
+866,Ciocca II,1948,7
+867,Ciocca III,1960,3
+868,Circus,1960,2
+869,Ciss,1924,3
+870,Clearwater,2008,1
+871,Clementine V,1964,2
+872,Club Nautique de Dieppe-5,1900,6
+873,Club Nautique de Franais-1,1900,4
+874,Club Nautique de Lyon-2,1900,8
+875,Cobweb-1,1908,5
+876,Colette-10,1900,1
+877,Colette-12,1900,2
+878,Colombia,1932,2
+879,Colombia,1936,6
+880,Colombia,1948,11
+881,Colombia,1956,47
+882,Colombia,1960,23
+883,Colombia,1964,40
+884,Colombia,1968,70
+885,Colombia,1972,75
+886,Colombia,1976,44
+887,Colombia,1980,28
+888,Colombia,1984,48
+889,Colombia,1988,57
+890,Colombia,1992,61
+891,Colombia,1996,62
+892,Colombia,2000,54
+893,Colombia,2004,71
+894,Colombia,2008,90
+895,Colombia,2012,120
+896,Colombia,2016,157
+897,Colombia,2020,77
+898,Colombia,2024,105
+899,Comanche,1952,2
+900,Combine,1960,2
+901,Comoros,1996,4
+902,Comoros,2000,2
+903,Comoros,2004,3
+904,Comoros,2008,3
+905,Comoros,2012,3
+906,Comoros,2016,4
+907,Comoros,2020,3
+908,Comoros,2024,5
+909,Compigne Polo Club,1900,4
+910,Complex II,1952,4
+911,"Concordia Turnverein, St Louis",1904,6
+912,Congo,2024,4
+913,Congo (Brazzaville),1964,2
+914,Congo (Brazzaville),1972,8
+915,Congo (Brazzaville),1980,25
+916,Congo (Brazzaville),1984,13
+917,Congo (Brazzaville),1988,10
+918,Congo (Brazzaville),1992,10
+919,Congo (Brazzaville),1996,5
+920,Congo (Brazzaville),2000,5
+921,Congo (Brazzaville),2004,5
+922,Congo (Brazzaville),2008,5
+923,Congo (Brazzaville),2012,7
+924,Congo (Brazzaville),2016,10
+925,Congo (Kinshasa),1968,8
+926,Congo (Kinshasa),1984,9
+927,Congo (Kinshasa),1988,21
+928,Congo (Kinshasa),1992,19
+929,Congo (Kinshasa),1996,14
+930,Congo (Kinshasa),2000,3
+931,Congo (Kinshasa),2004,6
+932,Congo (Kinshasa),2008,5
+933,Congo (Kinshasa),2012,4
+934,Congo (Kinshasa),2016,4
+935,Cook Islands,1988,8
+936,Cook Islands,1992,2
+937,Cook Islands,1996,3
+938,Cook Islands,2000,2
+939,Cook Islands,2004,3
+940,Cook Islands,2008,4
+941,Cook Islands,2012,9
+942,Cook Islands,2016,9
+943,Cook Islands,2020,9
+944,Cook Islands,2024,2
+945,Cornwall,1908,15
+946,Costa Rica,1936,1
+947,Costa Rica,1964,2
+948,Costa Rica,1968,27
+949,Costa Rica,1972,4
+950,Costa Rica,1976,10
+951,Costa Rica,1980,37
+952,Costa Rica,1984,32
+953,Costa Rica,1988,33
+954,Costa Rica,1992,20
+955,Costa Rica,1996,13
+956,Costa Rica,2000,9
+957,Costa Rica,2004,21
+958,Costa Rica,2008,8
+959,Costa Rica,2012,11
+960,Costa Rica,2016,12
+961,Costa Rica,2020,18
+962,Costa Rica,2024,6
+963,Cote d'Ivoire,1964,10
+964,Cote d'Ivoire,1968,11
+965,Cote d'Ivoire,1972,13
+966,Cote d'Ivoire,1976,11
+967,Cote d'Ivoire,1984,18
+968,Cote d'Ivoire,1988,29
+969,Cote d'Ivoire,1992,18
+970,Cote d'Ivoire,1996,13
+971,Cote d'Ivoire,2000,18
+972,Cote d'Ivoire,2004,5
+973,Cote d'Ivoire,2008,22
+974,Cote d'Ivoire,2012,10
+975,Cote d'Ivoire,2016,15
+976,Covunco III,1956,2
+977,Crabe I-11,1900,1
+978,Crabe I-2,1900,1
+979,Crabe I-3,1900,1
+980,Crabe II-1,1900,5
+981,Crabe II-12,1900,5
+982,Crabe II-4,1900,5
+983,Crete,1906,11
+984,Croatia,1992,46
+985,Croatia,1996,117
+986,Croatia,2000,108
+987,Croatia,2004,100
+988,Croatia,2008,125
+989,Croatia,2012,118
+990,Croatia,2016,93
+991,Croatia,2020,74
+992,Croatia,2024,85
+993,Crocodile-11,1900,2
+994,Crocodile-13,1900,1
+995,Cte d'Ivoire,2024,18
+996,Cuba,1900,2
+997,Cuba,1904,6
+998,Cuba,1924,10
+999,Cuba,1928,1
+1000,Cuba,1932,3
+1001,Cuba,1948,110
+1002,Cuba,1952,55
+1003,Cuba,1956,22
+1004,Cuba,1960,19
+1005,Cuba,1964,76
+1006,Cuba,1968,227
+1007,Cuba,1972,201
+1008,Cuba,1976,194
+1009,Cuba,1980,288
+1010,Cuba,1992,196
+1011,Cuba,1996,178
+1012,Cuba,2000,271
+1013,Cuba,2004,177
+1014,Cuba,2008,167
+1015,Cuba,2012,118
+1016,Cuba,2016,143
+1017,Cuba,2020,82
+1018,Cuba,2024,69
+1019,Cuba-1,2008,2
+1020,Cuba-2,2008,2
+1021,Cupidon III,1928,5
+1022,Cupidon Viking,1928,5
+1023,Cuxhaven,1936,1
+1024,Cyprus,1980,15
+1025,Cyprus,1984,12
+1026,Cyprus,1988,11
+1027,Cyprus,1992,19
+1028,Cyprus,1996,24
+1029,Cyprus,2000,24
+1030,Cyprus,2004,21
+1031,Cyprus,2008,18
+1032,Cyprus,2012,13
+1033,Cyprus,2016,21
+1034,Cyprus,2020,23
+1035,Cyprus,2024,23
+1036,Czech Republic,1996,165
+1037,Czech Republic,2000,154
+1038,Czech Republic,2004,163
+1039,Czech Republic,2008,150
+1040,Czech Republic,2012,147
+1041,Czech Republic,2016,131
+1042,Czech Republic,2020,151
+1043,Czech Republic-1,1996,2
+1044,Czech Republic-1,2000,4
+1045,Czech Republic-1,2004,4
+1046,Czech Republic-1,2008,4
+1047,Czech Republic-1,2012,6
+1048,Czech Republic-1,2016,2
+1049,Czech Republic-2,1996,2
+1050,Czech Republic-2,2000,4
+1051,Czech Republic-2,2004,4
+1052,Czech Republic-2,2008,4
+1053,Czech Republic-2,2012,6
+1054,Czech Republic-2,2016,2
+1055,Czechia,2024,149
+1056,Czechoslovakia,1920,178
+1057,Czechoslovakia,1924,238
+1058,Czechoslovakia,1928,147
+1059,Czechoslovakia,1932,44
+1060,Czechoslovakia,1936,293
+1061,Czechoslovakia,1948,153
+1062,Czechoslovakia,1952,218
+1063,Czechoslovakia,1956,161
+1064,Czechoslovakia,1960,202
+1065,Czechoslovakia,1964,187
+1066,Czechoslovakia,1968,203
+1067,Czechoslovakia,1972,268
+1068,Czechoslovakia,1976,251
+1069,Czechoslovakia,1980,317
+1070,Czechoslovakia,1988,226
+1071,Czechoslovakia,1992,263
+1072,Czechoslovakia-1,1920,2
+1073,Czechoslovakia-1,1924,2
+1074,Czechoslovakia-1,1972,2
+1075,Czechoslovakia-1,1992,2
+1076,Czechoslovakia-2,1924,2
+1077,Czechoslovakia-2,1972,2
+1078,Czechoslovakia-2,1992,2
+1079,Czechoslovakia-3,1920,2
+1080,Czechoslovakia-3,1972,2
+1081,Czechoslovakia-3,1992,2
+1082,DPR Korea,2024,18
+1083,DR Congo,2024,6
+1084,Daisy,1960,3
+1085,Daisy,1964,2
+1086,Damoiselle,1952,3
+1087,Damoiselle IV,1960,3
+1088,Danaldo,1960,2
+1089,Dansk Idrts Forbund,1906,11
+1090,Danuta,1936,5
+1091,Danzig,1936,1
+1092,"Davenport Turngemeinde, Davenport",1904,6
+1093,DeRuyter,1936,5
+1094,DeRuyter,1952,3
+1095,Demi-Mondaine-15,1900,1
+1096,Demi-Mondaine-17,1900,1
+1097,Democratic Republic of the Congo,2020,7
+1098,Denmark,1896,15
+1099,Denmark,1900,33
+1100,Denmark,1906,57
+1101,Denmark,1908,107
+1102,Denmark,1912,207
+1103,Denmark,1920,246
+1104,Denmark,1924,151
+1105,Denmark,1928,118
+1106,Denmark,1932,94
+1107,Denmark,1936,166
+1108,Denmark,1948,245
+1109,Denmark,1952,195
+1110,Denmark,1956,48
+1111,Denmark,1960,101
+1112,Denmark,1964,63
+1113,Denmark,1968,93
+1114,Denmark,1972,155
+1115,Denmark,1976,81
+1116,Denmark,1980,60
+1117,Denmark,1984,74
+1118,Denmark,1988,130
+1119,Denmark,1992,136
+1120,Denmark,1996,133
+1121,Denmark,2000,112
+1122,Denmark,2004,103
+1123,Denmark,2008,101
+1124,Denmark,2012,145
+1125,Denmark,2016,143
+1126,Denmark,2020,138
+1127,Denmark,2024,161
+1128,Denmark-1,1912,2
+1129,Denmark-1,1924,2
+1130,Denmark-1,1992,4
+1131,Denmark-1,1996,6
+1132,Denmark-1,2000,6
+1133,Denmark-1,2004,6
+1134,Denmark-1,2008,2
+1135,Denmark-1,2012,2
+1136,Denmark-2,1912,2
+1137,Denmark-2,1924,2
+1138,Denmark-2,1992,4
+1139,Denmark-2,1996,6
+1140,Denmark-2,2000,6
+1141,Denmark-2,2004,6
+1142,Denmark-2,2008,2
+1143,Denmark-2,2012,2
+1144,Denmark-3,1912,2
+1145,Denmark-4,1912,2
+1146,Denmark/Sweden,1900,6
+1147,Deutscher Schwimm Verband Berlin,1900,4
+1148,Devon and Somerset Wanderers,1900,12
+1149,Diablo,1964,2
+1150,Diabolo St Maurice,2008,1
+1151,Dick-8,1900,1
+1152,Digby,2008,1
+1153,Dinah V,1960,3
+1154,Djibouti,1984,3
+1155,Djibouti,1988,6
+1156,Djibouti,1992,8
+1157,Djibouti,1996,5
+1158,Djibouti,2000,2
+1159,Djibouti,2008,2
+1160,Djibouti,2012,4
+1161,Djibouti,2016,8
+1162,Djibouti,2020,5
+1163,Djibouti,2024,7
+1164,Djinn,1948,5
+1165,Djinn,1952,5
+1166,Dolfijn,1948,6
+1167,Dominica,1996,6
+1168,Dominica,2000,4
+1169,Dominica,2004,2
+1170,Dominica,2008,2
+1171,Dominica,2012,2
+1172,Dominica,2016,2
+1173,Dominica,2020,2
+1174,Dominica,2024,4
+1175,Dominican Republic,1964,1
+1176,Dominican Republic,1968,24
+1177,Dominican Republic,1972,5
+1178,Dominican Republic,1976,11
+1179,Dominican Republic,1980,7
+1180,Dominican Republic,1984,24
+1181,Dominican Republic,1988,18
+1182,Dominican Republic,1992,32
+1183,Dominican Republic,1996,16
+1184,Dominican Republic,2000,13
+1185,Dominican Republic,2004,33
+1186,Dominican Republic,2008,27
+1187,Dominican Republic,2012,36
+1188,Dominican Republic,2016,30
+1189,Dominican Republic,2020,69
+1190,Dominican Republic,2024,64
+1191,Don Schufro,2008,1
+1192,Donar III,1948,3
+1193,Dormy-1,1908,3
+1194,Dow Jones,2008,1
+1195,Dresden,1936,1
+1196,Druzhba,1956,3
+1197,Druzhba,1964,3
+1198,Ducky-16,1900,1
+1199,Ducky-4,1900,2
+1200,Dylan-2,1908,2
+1201,EA II,1936,6
+1202,EOR,2024,44
+1203,East Germany,1968,346
+1204,East Germany,1972,448
+1205,East Germany,1976,407
+1206,East Germany,1980,495
+1207,East Germany,1988,402
+1208,East Germany-1,1972,2
+1209,East Germany-2,1972,2
+1210,East Germany-3,1972,2
+1211,East Timor,2020,3
+1212,Ecuador,1924,4
+1213,Ecuador,1968,41
+1214,Ecuador,1972,4
+1215,Ecuador,1976,8
+1216,Ecuador,1980,16
+1217,Ecuador,1984,15
+1218,Ecuador,1988,15
+1219,Ecuador,1992,15
+1220,Ecuador,1996,28
+1221,Ecuador,2000,11
+1222,Ecuador,2004,18
+1223,Ecuador,2008,26
+1224,Ecuador,2012,36
+1225,Ecuador,2016,40
+1226,Ecuador,2020,52
+1227,Ecuador,2024,47
+1228,Edelweiss II-1,1920,3
+1229,Egypt,1906,5
+1230,Egypt,1920,22
+1231,Egypt,1924,30
+1232,Egypt,1928,43
+1233,Egypt,1936,66
+1234,Egypt,1948,166
+1235,Egypt,1952,196
+1236,Egypt,1956,6
+1237,Egypt,1964,83
+1238,Egypt,1968,35
+1239,Egypt,1972,26
+1240,Egypt,1976,26
+1241,Egypt,1984,148
+1242,Egypt,1988,59
+1243,Egypt,1992,83
+1244,Egypt,1996,33
+1245,Egypt,2000,103
+1246,Egypt,2004,104
+1247,Egypt,2008,116
+1248,Egypt,2012,132
+1249,Egypt,2016,137
+1250,Egypt,2020,195
+1251,Egypt,2024,207
+1252,Eissero VI,1952,2
+1253,El Salvador,1932,4
+1254,El Salvador,1968,104
+1255,El Salvador,1972,18
+1256,El Salvador,1984,15
+1257,El Salvador,1988,7
+1258,El Salvador,1992,6
+1259,El Salvador,1996,10
+1260,El Salvador,2000,10
+1261,El Salvador,2004,9
+1262,El Salvador,2008,14
+1263,El Salvador,2012,11
+1264,El Salvador,2016,10
+1265,El Salvador,2020,7
+1266,El Salvador,2024,9
+1267,Eleda,1920,7
+1268,Elisabeth V,1924,3
+1269,Elisabeth X,1952,5
+1270,Elsie,1920,4
+1271,Elvis Va,2008,1
+1272,Emily,1924,5
+1273,Encore,1952,3
+1274,England,1912,12
+1275,England-1,1908,11
+1276,England-1,1912,12
+1277,Enotria,1948,2
+1278,Equatorial Guinea,1984,5
+1279,Equatorial Guinea,1988,7
+1280,Equatorial Guinea,1992,8
+1281,Equatorial Guinea,1996,8
+1282,Equatorial Guinea,2000,4
+1283,Equatorial Guinea,2004,2
+1284,Equatorial Guinea,2008,3
+1285,Equatorial Guinea,2012,2
+1286,Equatorial Guinea,2016,1
+1287,Equatorial Guinea,2020,3
+1288,Equatorial Guinea,2024,3
+1289,Eritrea,2000,3
+1290,Eritrea,2004,5
+1291,Eritrea,2008,11
+1292,Eritrea,2012,12
+1293,Eritrea,2016,12
+1294,Eritrea,2020,14
+1295,Eritrea,2024,12
+1296,Erna Signe,1912,10
+1297,Escapade,1952,3
+1298,Espadarte,1952,2
+1299,Espardate,1948,2
+1300,Esperia,1936,5
+1301,Espuma del Mar,1960,2
+1302,Espuma del Mar,1964,2
+1303,Essen,1936,1
+1304,Esterel-1,1900,2
+1305,Estonia,1920,20
+1306,Estonia,1924,47
+1307,Estonia,1928,18
+1308,Estonia,1932,3
+1309,Estonia,1936,35
+1310,Estonia,1992,46
+1311,Estonia,1996,52
+1312,Estonia,2000,41
+1313,Estonia,2004,45
+1314,Estonia,2008,53
+1315,Estonia,2012,36
+1316,Estonia,2016,49
+1317,Estonia,2020,42
+1318,Estonia,2024,26
+1319,Eswatini,2020,4
+1320,Eswatini,2024,3
+1321,Ethiopia,1956,30
+1322,Ethiopia,1960,15
+1323,Ethiopia,1964,19
+1324,Ethiopia,1968,26
+1325,Ethiopia,1972,40
+1326,Ethiopia,1980,48
+1327,Ethiopia,1992,24
+1328,Ethiopia,1996,19
+1329,Ethiopia,2000,27
+1330,Ethiopia,2004,27
+1331,Ethiopia,2008,29
+1332,Ethiopia,2012,34
+1333,Ethiopia,2016,38
+1334,Ethiopia,2020,38
+1335,Ethiopia,2024,35
+1336,Ethnikos Gymnastikos Syllogos,1896,2
+1337,Evita VI,1960,2
+1338,Fada,1936,2
+1339,Falcon IV,1956,2
+1340,Falcon VI,1960,2
+1341,Faneca,1956,2
+1342,Faneca,1964,2
+1343,Fantasio III,1960,2
+1344,Fantlet-2,1900,1
+1345,Fantlet-7,1900,2
+1346,Favorite Hammonia-3,1900,11
+1347,Favorite-1,1900,8
+1348,Favorite-17,1900,4
+1349,Federated States of Micronesia,2000,5
+1350,Federated States of Micronesia,2004,5
+1351,Federated States of Micronesia,2008,5
+1352,Federated States of Micronesia,2012,6
+1353,Federated States of Micronesia,2016,5
+1354,Federated States of Micronesia,2020,3
+1355,Femur-1,1900,1
+1356,Femur-18,1900,1
+1357,Feo,1928,6
+1358,Fiji,1956,5
+1359,Fiji,1960,3
+1360,Fiji,1968,1
+1361,Fiji,1972,4
+1362,Fiji,1976,5
+1363,Fiji,1984,26
+1364,Fiji,1988,41
+1365,Fiji,1992,36
+1366,Fiji,1996,21
+1367,Fiji,2000,9
+1368,Fiji,2004,9
+1369,Fiji,2008,6
+1370,Fiji,2012,9
+1371,Fiji,2016,53
+1372,Fiji,2020,32
+1373,Fiji,2024,36
+1374,Finland,1906,18
+1375,Finland,1908,94
+1376,Finland,1912,201
+1377,Finland,1920,136
+1378,Finland,1924,249
+1379,Finland,1928,132
+1380,Finland,1932,66
+1381,Finland,1936,174
+1382,Finland,1948,204
+1383,Finland,1952,399
+1384,Finland,1956,144
+1385,Finland,1960,211
+1386,Finland,1964,146
+1387,Finland,1968,126
+1388,Finland,1972,133
+1389,Finland,1976,108
+1390,Finland,1980,125
+1391,Finland,1984,107
+1392,Finland,1988,101
+1393,Finland,1992,130
+1394,Finland,1996,105
+1395,Finland,2000,88
+1396,Finland,2004,67
+1397,Finland,2008,70
+1398,Finland,2012,69
+1399,Finland,2016,67
+1400,Finland,2020,49
+1401,Finland,2024,62
+1402,Finland-1,1924,2
+1403,Finland-2,1924,2
+1404,Finn II,1912,3
+1405,Firebird II,1964,2
+1406,Floresco,2008,1
+1407,Formosa,1900,1
+1408,Fornebo,1920,4
+1409,Fortuna,1952,2
+1410,Foxhunters Hurlingham,1900,5
+1411,Fram,1908,5
+1412,Fram III,1964,3
+1413,France,1896,26
+1414,France,1900,679
+1415,France,1904,1
+1416,France,1906,149
+1417,France,1908,293
+1418,France,1912,210
+1419,France,1920,437
+1420,France,1924,620
+1421,France,1928,411
+1422,France,1932,157
+1423,France,1936,289
+1424,France,1948,421
+1425,France,1952,400
+1426,France,1956,220
+1427,France,1960,353
+1428,France,1964,212
+1429,France,1968,311
+1430,France,1972,356
+1431,France,1976,302
+1432,France,1980,200
+1433,France,1984,354
+1434,France,1988,413
+1435,France,1992,476
+1436,France,1996,445
+1437,France,2000,466
+1438,France,2004,453
+1439,France,2008,441
+1440,France,2012,422
+1441,France,2016,504
+1442,France,2020,538
+1443,France,2024,801
+1444,France-1,1900,17
+1445,France-1,1908,11
+1446,France-1,1920,4
+1447,France-1,1924,4
+1448,France-1,1992,4
+1449,France-1,1996,4
+1450,France-1,2000,2
+1451,France-1,2004,4
+1452,France-1,2008,2
+1453,France-1,2012,2
+1454,France-1,2016,4
+1455,France-2,1900,3
+1456,France-2,1908,11
+1457,France-2,1920,4
+1458,France-2,1924,4
+1459,France-2,1992,4
+1460,France-2,1996,4
+1461,France-2,2000,2
+1462,France-2,2004,4
+1463,France-2,2008,2
+1464,France-2,2012,2
+1465,France-2,2016,4
+1466,France-3,1900,2
+1467,France-3,1920,4
+1468,France-3,1992,2
+1469,France-4,1900,2
+1470,France/Great Britain,1900,2
+1471,Frankfurt Club,1900,15
+1472,Freddy,1936,2
+1473,Freia-19,1900,1
+1474,Freia-5,1900,2
+1475,Freja,1908,3
+1476,Frieda,1928,5
+1477,Frimousse,1900,3
+1478,Frip IV,1960,2
+1479,Fruits,1928,5
+1480,Gabbiano,1960,3
+1481,Gabon,1972,1
+1482,Gabon,1984,4
+1483,Gabon,1988,2
+1484,Gabon,1992,5
+1485,Gabon,1996,9
+1486,Gabon,2000,6
+1487,Gabon,2004,5
+1488,Gabon,2008,4
+1489,Gabon,2012,21
+1490,Gabon,2016,6
+1491,Gabon,2020,5
+1492,Gabon,2024,5
+1493,Galatea II,1952,3
+1494,Galejan,1960,3
+1495,Galerna,1948,3
+1496,Gallant,1932,5
+1497,Galopin De La Font,2008,1
+1498,Galopin-20,1900,2
+1499,Galopin-9,1900,4
+1500,Galt Football Club,1904,13
+1501,Gam II,1956,2
+1502,Gambia,1984,16
+1503,Gambia,1988,6
+1504,Gambia,1992,8
+1505,Gambia,1996,12
+1506,Gambia,2000,2
+1507,Gambia,2004,3
+1508,Gambia,2008,3
+1509,Gambia,2012,2
+1510,Gambia,2016,4
+1511,Gambia,2024,8
+1512,Gem,1964,2
+1513,Gem II,1948,2
+1514,Gem III,1952,2
+1515,Gem IV,1956,2
+1516,Gem VII,1960,2
+1517,Georgia,1996,42
+1518,Georgia,2000,47
+1519,Georgia,2004,39
+1520,Georgia,2008,38
+1521,Georgia,2012,36
+1522,Georgia,2016,45
+1523,Georgia,2020,36
+1524,Georgia,2024,38
+1525,Germania II,1936,6
+1526,"Germania Ruder Club, Hamburg",1900,9
+1527,"Germania Ruder Club, Hamburg-2",1900,5
+1528,Germany,1896,93
+1529,Germany,1900,41
+1530,Germany,1904,51
+1531,Germany,1906,157
+1532,Germany,1908,142
+1533,Germany,1912,285
+1534,Germany,1928,394
+1535,Germany,1932,202
+1536,Germany,1936,567
+1537,Germany,1952,352
+1538,Germany,1956,253
+1539,Germany,1960,413
+1540,Germany,1964,467
+1541,Germany,1992,647
+1542,Germany,1996,618
+1543,Germany,2000,551
+1544,Germany,2004,576
+1545,Germany,2008,547
+1546,Germany,2012,494
+1547,Germany,2016,528
+1548,Germany,2020,597
+1549,Germany,2024,647
+1550,Germany-1,1900,1
+1551,Germany-1,1908,2
+1552,Germany-1,1912,2
+1553,Germany-1,1992,2
+1554,Germany-1,1996,4
+1555,Germany-1,2000,8
+1556,Germany-1,2004,8
+1557,Germany-1,2008,4
+1558,Germany-1,2012,8
+1559,Germany-1,2016,4
+1560,Germany-2,1908,2
+1561,Germany-2,1912,2
+1562,Germany-2,1992,2
+1563,Germany-2,1996,4
+1564,Germany-2,2000,8
+1565,Germany-2,2004,8
+1566,Germany-2,2008,4
+1567,Germany-2,2012,8
+1568,Germany-2,2016,4
+1569,Germany-3,1992,2
+1570,Germany/United States,1904,2
+1571,Ghana,1952,9
+1572,Ghana,1960,15
+1573,Ghana,1964,40
+1574,Ghana,1968,36
+1575,Ghana,1972,41
+1576,Ghana,1984,27
+1577,Ghana,1988,21
+1578,Ghana,1992,41
+1579,Ghana,1996,40
+1580,Ghana,2000,28
+1581,Ghana,2004,29
+1582,Ghana,2008,9
+1583,Ghana,2012,7
+1584,Ghana,2016,15
+1585,Ghana,2020,16
+1586,Ghana,2024,11
+1587,Gilliatt V,1956,3
+1588,Girl Pat,1952,3
+1589,Giselle-6,1900,2
+1590,Gitana-2,1900,10
+1591,Gitana-21,1900,5
+1592,Glider,1964,2
+1593,Glisten,1964,2
+1594,Gran Gesto,2008,1
+1595,Great Britain,1896,23
+1596,Great Britain,1900,54
+1597,Great Britain,1904,6
+1598,Great Britain,1906,104
+1599,Great Britain,1908,752
+1600,Great Britain,1912,372
+1601,Great Britain,1920,321
+1602,Great Britain,1924,411
+1603,Great Britain,1928,348
+1604,Great Britain,1932,168
+1605,Great Britain,1936,236
+1606,Great Britain,1948,578
+1607,Great Britain,1952,388
+1608,Great Britain,1956,272
+1609,Great Britain,1960,379
+1610,Great Britain,1964,293
+1611,Great Britain,1968,328
+1612,Great Britain,1972,429
+1613,Great Britain,1976,353
+1614,Great Britain,1980,328
+1615,Great Britain,1984,509
+1616,Great Britain,1988,468
+1617,Great Britain,1992,500
+1618,Great Britain,1996,379
+1619,Great Britain,2000,403
+1620,Great Britain,2004,352
+1621,Great Britain,2008,413
+1622,Great Britain,2012,672
+1623,Great Britain,2016,470
+1624,Great Britain,2020,548
+1625,Great Britain,2024,533
+1626,Great Britain-1,1900,2
+1627,Great Britain-1,1908,14
+1628,Great Britain-1,1912,4
+1629,Great Britain-1,1920,6
+1630,Great Britain-1,1924,6
+1631,Great Britain-1,1972,2
+1632,Great Britain-1,1988,2
+1633,Great Britain-1,1992,6
+1634,Great Britain-1,1996,6
+1635,Great Britain-1,2000,6
+1636,Great Britain-1,2004,4
+1637,Great Britain-1,2008,2
+1638,Great Britain-1,2012,6
+1639,Great Britain-1,2016,4
+1640,Great Britain-2,1900,2
+1641,Great Britain-2,1908,14
+1642,Great Britain-2,1912,4
+1643,Great Britain-2,1920,6
+1644,Great Britain-2,1924,6
+1645,Great Britain-2,1972,2
+1646,Great Britain-2,1988,2
+1647,Great Britain-2,1992,6
+1648,Great Britain-2,1996,6
+1649,Great Britain-2,2000,6
+1650,Great Britain-2,2004,4
+1651,Great Britain-2,2008,2
+1652,Great Britain-2,2012,6
+1653,Great Britain-2,2016,4
+1654,Great Britain-3,1908,6
+1655,Great Britain-3,1912,4
+1656,Great Britain-3,1920,4
+1657,Great Britain-4,1908,4
+1658,Great Britain-4,1912,2
+1659,Great Britain-4,1920,2
+1660,Great Britain/Germany,1896,2
+1661,Greece,1896,140
+1662,Greece,1900,4
+1663,Greece,1904,12
+1664,Greece,1906,318
+1665,Greece,1908,49
+1666,Greece,1912,77
+1667,Greece,1920,98
+1668,Greece,1924,79
+1669,Greece,1928,47
+1670,Greece,1932,16
+1671,Greece,1936,64
+1672,Greece,1948,93
+1673,Greece,1952,52
+1674,Greece,1956,14
+1675,Greece,1960,52
+1676,Greece,1964,16
+1677,Greece,1968,44
+1678,Greece,1972,66
+1679,Greece,1976,40
+1680,Greece,1980,45
+1681,Greece,1984,73
+1682,Greece,1988,72
+1683,Greece,1992,76
+1684,Greece,1996,180
+1685,Greece,2000,175
+1686,Greece,2004,495
+1687,Greece,2008,172
+1688,Greece,2012,115
+1689,Greece,2016,104
+1690,Greece,2020,100
+1691,Greece,2024,126
+1692,Greece-1,1896,2
+1693,Greece-1,1906,4
+1694,Greece-1,2004,2
+1695,Greece-1,2008,2
+1696,Greece-2,1896,2
+1697,Greece-2,1906,4
+1698,Greece-2,2004,2
+1699,Greece-2,2008,2
+1700,Greece-3,1896,2
+1701,Greece-3,1906,4
+1702,Greece-4,1906,2
+1703,Greenoaks Dundee,2008,1
+1704,Grenada,1984,6
+1705,Grenada,1988,7
+1706,Grenada,1992,5
+1707,Grenada,1996,5
+1708,Grenada,2000,3
+1709,Grenada,2004,5
+1710,Grenada,2008,9
+1711,Grenada,2012,8
+1712,Grenada,2016,6
+1713,Grenada,2020,6
+1714,Grenada,2024,6
+1715,Grifo III,1960,3
+1716,Grifo IV,1964,3
+1717,Grifone,1964,3
+1718,Gteborgs Roddfrening-2,1912,5
+1719,Gteborgs Roddklubb-1,1912,9
+1720,Guam,1988,26
+1721,Guam,1992,45
+1722,Guam,1996,9
+1723,Guam,2000,7
+1724,Guam,2004,4
+1725,Guam,2008,7
+1726,Guam,2012,8
+1727,Guam,2016,5
+1728,Guam,2020,5
+1729,Guam,2024,9
+1730,Guanahani,1964,3
+1731,Guatemala,1932,1
+1732,Guatemala,1952,35
+1733,Guatemala,1968,67
+1734,Guatemala,1972,11
+1735,Guatemala,1976,28
+1736,Guatemala,1980,10
+1737,Guatemala,1984,53
+1738,Guatemala,1988,37
+1739,Guatemala,1992,41
+1740,Guatemala,1996,28
+1741,Guatemala,2000,18
+1742,Guatemala,2004,19
+1743,Guatemala,2008,13
+1744,Guatemala,2012,24
+1745,Guatemala,2016,25
+1746,Guatemala,2020,24
+1747,Guatemala,2024,16
+1748,Guinea,1968,15
+1749,Guinea,1980,10
+1750,Guinea,1984,1
+1751,Guinea,1988,7
+1752,Guinea,1992,11
+1753,Guinea,1996,5
+1754,Guinea,2000,6
+1755,Guinea,2004,4
+1756,Guinea,2008,5
+1757,Guinea,2012,4
+1758,Guinea,2016,5
+1759,Guinea,2020,5
+1760,Guinea,2024,25
+1761,Guinea Bissau,1996,3
+1762,Guinea Bissau,2000,3
+1763,Guinea Bissau,2004,3
+1764,Guinea Bissau,2008,3
+1765,Guinea Bissau,2012,4
+1766,Guinea Bissau,2016,5
+1767,Guinea-Bissau,2020,4
+1768,Guinea-Bissau,2024,6
+1769,Gullvinge,1952,3
+1770,Gustel V,1936,5
+1771,Gustel X,1952,3
+1772,Gustl XI,1956,3
+1773,Guyana,1948,7
+1774,Guyana,1952,1
+1775,Guyana,1956,6
+1776,Guyana,1960,6
+1777,Guyana,1964,1
+1778,Guyana,1968,6
+1779,Guyana,1972,4
+1780,Guyana,1980,10
+1781,Guyana,1984,12
+1782,Guyana,1988,8
+1783,Guyana,1992,7
+1784,Guyana,1996,9
+1785,Guyana,2000,4
+1786,Guyana,2004,4
+1787,Guyana,2008,4
+1788,Guyana,2012,6
+1789,Guyana,2016,7
+1790,Guyana,2020,7
+1791,Guyana,2024,5
+1792,Guyoni,1908,3
+1793,Gwendoline-2,1900,6
+1794,Gwendoline-22,1900,3
+1795,GyoshuII,1964,2
+1796,Gyp-23,1900,1
+1797,Gyp-6,1900,1
+1798,Gyrinus-1,1908,6
+1799,Haiti,1900,3
+1800,Haiti,1924,16
+1801,Haiti,1928,3
+1802,Haiti,1932,3
+1803,Haiti,1960,1
+1804,Haiti,1972,7
+1805,Haiti,1976,14
+1806,Haiti,1984,3
+1807,Haiti,1988,5
+1808,Haiti,1992,8
+1809,Haiti,1996,7
+1810,Haiti,2000,5
+1811,Haiti,2004,8
+1812,Haiti,2008,7
+1813,Haiti,2012,5
+1814,Haiti,2016,10
+1815,Haiti,2020,6
+1816,Haiti,2024,12
+1817,Hakahana,1960,2
+1818,Hamburg,1936,1
+1819,Hannover,1936,1
+1820,Harmony,1960,2
+1821,Hatuey,1924,3
+1822,Hayama,1964,2
+1823,Hb-20,1900,1
+1824,Hb-24,1900,1
+1825,Heatherbell,1912,7
+1826,Heidelberg,1936,1
+1827,Heira II,1920,9
+1828,Helsingfors R. K.,1912,5
+1829,Hera-1,1908,10
+1830,Heroine,1908,4
+1831,Hi-Hi,1928,4
+1832,Hilarius,1948,2
+1833,Hirondelle,1952,2
+1834,Hojwa,1952,3
+1835,Holland,1932,2
+1836,Hollandia,1928,6
+1837,Honduras,1968,6
+1838,Honduras,1976,3
+1839,Honduras,1984,26
+1840,Honduras,1988,18
+1841,Honduras,1992,27
+1842,Honduras,1996,7
+1843,Honduras,2000,20
+1844,Honduras,2004,5
+1845,Honduras,2008,26
+1846,Honduras,2012,25
+1847,Honduras,2016,23
+1848,Honduras,2020,28
+1849,Honduras,2024,4
+1850,Hong Kong,1952,9
+1851,Hong Kong,1956,4
+1852,Hong Kong,1960,4
+1853,Hong Kong,1964,47
+1854,Hong Kong,1968,25
+1855,Hong Kong,1972,18
+1856,Hong Kong,1976,50
+1857,Hong Kong,1984,87
+1858,Hong Kong,1988,87
+1859,Hong Kong,1992,66
+1860,Hong Kong,1996,32
+1861,Hong Kong,2000,46
+1862,Hong Kong,2004,34
+1863,Hong Kong,2008,47
+1864,Hong Kong,2012,55
+1865,Hong Kong,2016,47
+1866,"Hong Kong, China",2020,65
+1867,"Hong Kong, China",2024,51
+1868,Hong Kong-1,1988,2
+1869,Hong Kong-1,2004,4
+1870,Hong Kong-2,1988,2
+1871,Hong Kong-2,2004,4
+1872,Hornet,1952,2
+1873,Humbug V,1964,2
+1874,Hungaria,1928,5
+1875,Hungaria Evezos Egylet,1912,9
+1876,Hungary,1896,18
+1877,Hungary,1900,34
+1878,Hungary,1904,9
+1879,Hungary,1906,99
+1880,Hungary,1908,98
+1881,Hungary,1912,194
+1882,Hungary,1924,136
+1883,Hungary,1928,214
+1884,Hungary,1932,118
+1885,Hungary,1936,334
+1886,Hungary,1948,222
+1887,Hungary,1952,345
+1888,Hungary,1956,197
+1889,Hungary,1960,308
+1890,Hungary,1964,319
+1891,Hungary,1968,303
+1892,Hungary,1972,367
+1893,Hungary,1976,288
+1894,Hungary,1980,392
+1895,Hungary,1988,315
+1896,Hungary,1992,351
+1897,Hungary,1996,315
+1898,Hungary,2000,238
+1899,Hungary,2004,254
+1900,Hungary,2008,216
+1901,Hungary,2012,201
+1902,Hungary,2016,204
+1903,Hungary,2020,237
+1904,Hungary,2024,255
+1905,Hungary-1,1924,2
+1906,Hungary-1,2004,2
+1907,Hungary-2,1912,2
+1908,Hungary-2,1924,2
+1909,Hungary-2,2004,2
+1910,Hungary-3,1912,2
+1911,Hurlingham-2,1908,4
+1912,IR Iran,2024,46
+1913,Iceland,1908,1
+1914,Iceland,1912,2
+1915,Iceland,1936,13
+1916,Iceland,1948,27
+1917,Iceland,1952,18
+1918,Iceland,1956,2
+1919,Iceland,1960,11
+1920,Iceland,1964,5
+1921,Iceland,1968,16
+1922,Iceland,1972,30
+1923,Iceland,1976,22
+1924,Iceland,1980,12
+1925,Iceland,1984,35
+1926,Iceland,1988,42
+1927,Iceland,1992,31
+1928,Iceland,1996,15
+1929,Iceland,2000,29
+1930,Iceland,2004,34
+1931,Iceland,2008,31
+1932,Iceland,2012,36
+1933,Iceland,2016,14
+1934,Iceland,2020,5
+1935,Iceland,2024,7
+1936,Ilderim,1936,6
+1937,Impala,1956,2
+1938,Inca,1956,2
+1939,Independent Rowing Club-3,1904,2
+1940,India,1900,5
+1941,India,1920,7
+1942,India,1924,20
+1943,India,1928,24
+1944,India,1932,26
+1945,India,1936,30
+1946,India,1948,89
+1947,India,1952,94
+1948,India,1956,79
+1949,India,1960,49
+1950,India,1964,111
+1951,India,1968,27
+1952,India,1972,43
+1953,India,1976,26
+1954,India,1980,78
+1955,India,1984,53
+1956,India,1988,55
+1957,India,1992,61
+1958,India,1996,54
+1959,India,2000,70
+1960,India,2004,81
+1961,India,2008,67
+1962,India,2012,91
+1963,India,2016,130
+1964,India,2020,151
+1965,India,2024,138
+1966,India-1,1924,2
+1967,India-1,2012,2
+1968,India-2,1924,2
+1969,India-2,2012,2
+1970,Individual Olympic Athletes,1992,76
+1971,Individual Olympic Athletes,2000,4
+1972,Individual Olympic Athletes,2012,4
+1973,Individual Olympic Athletes,2016,9
+1974,Indonesia,1952,3
+1975,Indonesia,1956,24
+1976,Indonesia,1960,22
+1977,Indonesia,1968,6
+1978,Indonesia,1972,7
+1979,Indonesia,1976,11
+1980,Indonesia,1984,23
+1981,Indonesia,1988,43
+1982,Indonesia,1992,43
+1983,Indonesia,1996,33
+1984,Indonesia,2000,42
+1985,Indonesia,2004,31
+1986,Indonesia,2008,18
+1987,Indonesia,2012,22
+1988,Indonesia,2016,27
+1989,Indonesia,2020,35
+1990,Indonesia,2024,36
+1991,Indonesia-1,1992,4
+1992,Indonesia-1,1996,6
+1993,Indonesia-1,2000,6
+1994,Indonesia-1,2004,4
+1995,Indonesia-1,2008,4
+1996,Indonesia-1,2016,2
+1997,Indonesia-2,1992,4
+1998,Indonesia-2,1996,6
+1999,Indonesia-2,2000,6
+2000,Indonesia-2,2004,4
+2001,Indonesia-2,2008,4
+2002,Indonesia-2,2016,2
+2003,Inga-Lill XXXXIII,1960,3
+2004,Ingegerd,1928,4
+2005,Iran,1900,1
+2006,Iran,1948,39
+2007,Iran,1952,23
+2008,Iran,1956,17
+2009,Iran,1960,24
+2010,Iran,1964,96
+2011,Iran,1968,14
+2012,Iran,1972,56
+2013,Iran,1976,104
+2014,Iran,1988,26
+2015,Iran,1992,44
+2016,Iran,1996,18
+2017,Iran,2000,34
+2018,Iran,2004,37
+2019,Iran,2008,55
+2020,Iran,2012,57
+2021,Iran,2016,67
+2022,Iran,2020,76
+2023,Iraq,1948,13
+2024,Iraq,1960,28
+2025,Iraq,1964,19
+2026,Iraq,1968,4
+2027,Iraq,1980,44
+2028,Iraq,1984,25
+2029,Iraq,1988,28
+2030,Iraq,1992,8
+2031,Iraq,1996,3
+2032,Iraq,2000,4
+2033,Iraq,2004,24
+2034,Iraq,2008,4
+2035,Iraq,2012,8
+2036,Iraq,2016,20
+2037,Iraq,2020,3
+2038,Iraq,2024,23
+2039,Ireland,1912,6
+2040,Ireland,1924,56
+2041,Ireland,1928,44
+2042,Ireland,1932,18
+2043,Ireland,1948,81
+2044,Ireland,1952,25
+2045,Ireland,1956,25
+2046,Ireland,1960,58
+2047,Ireland,1964,32
+2048,Ireland,1968,57
+2049,Ireland,1972,84
+2050,Ireland,1976,59
+2051,Ireland,1980,57
+2052,Ireland,1984,55
+2053,Ireland,1988,78
+2054,Ireland,1992,77
+2055,Ireland,1996,99
+2056,Ireland,2000,76
+2057,Ireland,2004,55
+2058,Ireland,2008,63
+2059,Ireland,2012,76
+2060,Ireland,2016,93
+2061,Ireland,2020,150
+2062,Ireland,2024,185
+2063,Ireland-1,1924,2
+2064,Ireland-2,1908,12
+2065,Ireland-2,1924,2
+2066,Ireland-3,1908,4
+2067,Ireland-3,1912,6
+2068,Irene,1920,5
+2069,Israel,1952,31
+2070,Israel,1956,3
+2071,Israel,1960,46
+2072,Israel,1964,13
+2073,Israel,1968,39
+2074,Israel,1972,17
+2075,Israel,1976,34
+2076,Israel,1984,65
+2077,Israel,1988,29
+2078,Israel,1992,44
+2079,Israel,1996,38
+2080,Israel,2000,58
+2081,Israel,2004,46
+2082,Israel,2008,60
+2083,Israel,2012,56
+2084,Israel,2016,59
+2085,Israel,2020,128
+2086,Israel,2024,138
+2087,Italia,1936,6
+2088,Italy,1896,1
+2089,Italy,1900,36
+2090,Italy,1904,1
+2091,Italy,1906,47
+2092,Italy,1908,97
+2093,Italy,1912,96
+2094,Italy,1920,291
+2095,Italy,1924,330
+2096,Italy,1928,262
+2097,Italy,1932,154
+2098,Italy,1936,335
+2099,Italy,1948,296
+2100,Italy,1952,363
+2101,Italy,1956,196
+2102,Italy,1960,392
+2103,Italy,1964,246
+2104,Italy,1968,268
+2105,Italy,1972,345
+2106,Italy,1976,312
+2107,Italy,1980,203
+2108,Italy,1984,368
+2109,Italy,1988,374
+2110,Italy,1992,431
+2111,Italy,1996,460
+2112,Italy,2000,453
+2113,Italy,2004,470
+2114,Italy,2008,455
+2115,Italy,2012,374
+2116,Italy,2016,395
+2117,Italy,2020,524
+2118,Italy,2024,610
+2119,Italy-1,2000,2
+2120,Italy-1,2004,2
+2121,Italy-1,2008,2
+2122,Italy-1,2012,4
+2123,Italy-1,2016,2
+2124,Italy-2,2000,2
+2125,Italy-2,2004,2
+2126,Italy-2,2008,2
+2127,Italy-2,2012,4
+2128,Italy-2,2016,2
+2129,Ivory Coast,2020,32
+2130,Jamaica,1948,26
+2131,Jamaica,1952,16
+2132,Jamaica,1956,13
+2133,Jamaica,1964,29
+2134,Jamaica,1968,35
+2135,Jamaica,1972,51
+2136,Jamaica,1976,36
+2137,Jamaica,1980,32
+2138,Jamaica,1984,75
+2139,Jamaica,1988,49
+2140,Jamaica,1992,51
+2141,Jamaica,1996,69
+2142,Jamaica,2000,65
+2143,Jamaica,2004,62
+2144,Jamaica,2008,66
+2145,Jamaica,2012,62
+2146,Jamaica,2016,77
+2147,Jamaica,2020,87
+2148,Jamaica,2024,81
+2149,Japan,1912,4
+2150,Japan,1920,26
+2151,Japan,1924,33
+2152,Japan,1928,56
+2153,Japan,1932,203
+2154,Japan,1936,322
+2155,Japan,1952,133
+2156,Japan,1956,222
+2157,Japan,1960,273
+2158,Japan,1964,446
+2159,Japan,1968,289
+2160,Japan,1972,293
+2161,Japan,1976,328
+2162,Japan,1984,365
+2163,Japan,1988,408
+2164,Japan,1992,374
+2165,Japan,1996,432
+2166,Japan,2000,347
+2167,Japan,2004,402
+2168,Japan,2008,446
+2169,Japan,2012,395
+2170,Japan,2016,436
+2171,Japan,2020,787
+2172,Japan,2024,598
+2173,Japan-1,1924,2
+2174,Japan-1,1988,2
+2175,Japan-1,1992,8
+2176,Japan-1,1996,8
+2177,Japan-1,2000,8
+2178,Japan-1,2004,6
+2179,Japan-1,2008,4
+2180,Japan-1,2012,2
+2181,Japan-2,1924,2
+2182,Japan-2,1988,2
+2183,Japan-2,1992,8
+2184,Japan-2,1996,8
+2185,Japan-2,2000,8
+2186,Japan-2,2004,6
+2187,Japan-2,2008,4
+2188,Japan-2,2012,2
+2189,Japan-3,1992,2
+2190,Jeanette-25,1900,1
+2191,Jeannette-18,1900,1
+2192,Jest,1956,2
+2193,Jet,1952,3
+2194,Jill,1952,3
+2195,Jo,1920,3
+2196,Johan,1948,5
+2197,John B,1960,3
+2198,John B,1964,3
+2199,Jordan,1980,6
+2200,Jordan,1984,15
+2201,Jordan,1988,9
+2202,Jordan,1992,5
+2203,Jordan,1996,5
+2204,Jordan,2000,8
+2205,Jordan,2004,8
+2206,Jordan,2008,7
+2207,Jordan,2012,9
+2208,Jordan,2016,8
+2209,Jordan,2020,15
+2210,Jordan,2024,13
+2211,Joy,1932,2
+2212,Joy,1948,3
+2213,June Climene,1960,3
+2214,Jupiter,1932,2
+2215,K Division Metropolitan Police Team-3,1908,8
+2216,K.S.S.S. 1912-2,1912,6
+2217,KNS,1936,2
+2218,Kalayaan,1964,3
+2219,Kannibaltje,1956,2
+2220,Kathleen,1956,2
+2221,Kazakhstan,1996,142
+2222,Kazakhstan,2000,158
+2223,Kazakhstan,2004,130
+2224,Kazakhstan,2008,146
+2225,Kazakhstan,2012,132
+2226,Kazakhstan,2016,123
+2227,Kazakhstan,2020,116
+2228,Kazakhstan,2024,123
+2229,Kemphaan,1928,5
+2230,Kenya,1956,31
+2231,Kenya,1960,30
+2232,Kenya,1964,41
+2233,Kenya,1968,50
+2234,Kenya,1972,69
+2235,Kenya,1984,67
+2236,Kenya,1988,88
+2237,Kenya,1992,55
+2238,Kenya,1996,54
+2239,Kenya,2000,59
+2240,Kenya,2004,46
+2241,Kenya,2008,47
+2242,Kenya,2012,51
+2243,Kenya,2016,80
+2244,Kenya,2020,89
+2245,Kenya,2024,77
+2246,Kerstin-1,1912,3
+2247,Kiel,1936,1
+2248,Kingfisher,1956,2
+2249,Kiribati,2004,3
+2250,Kiribati,2008,2
+2251,Kiribati,2012,3
+2252,Kiribati,2016,3
+2253,Kiribati,2020,3
+2254,Kiribati,2024,3
+2255,Kitty-1,1912,8
+2256,Kln,1936,1
+2257,Knigsberg,1936,1
+2258,Kon-Tiki,1956,2
+2259,Konstanz,1936,1
+2260,Korea,2024,248
+2261,Korshun,1952,3
+2262,Kosovo,2016,8
+2263,Kosovo,2020,11
+2264,Kosovo,2024,9
+2265,Kristiania Roklub,1912,9
+2266,Kristiania Roklub-1,1912,10
+2267,Kuling,1964,3
+2268,Kullan,1920,3
+2269,Kurush II,1948,2
+2270,Kurush IV,1952,2
+2271,Kurush IV,1956,2
+2272,Kuwait,1968,2
+2273,Kuwait,1972,4
+2274,Kuwait,1976,21
+2275,Kuwait,1980,67
+2276,Kuwait,1984,31
+2277,Kuwait,1988,34
+2278,Kuwait,1992,37
+2279,Kuwait,1996,27
+2280,Kuwait,2000,30
+2281,Kuwait,2004,11
+2282,Kuwait,2008,8
+2283,Kuwait,2012,12
+2284,Kuwait,2020,10
+2285,Kuwait,2024,9
+2286,Kyrgyzstan,1996,53
+2287,Kyrgyzstan,2000,71
+2288,Kyrgyzstan,2004,32
+2289,Kyrgyzstan,2008,22
+2290,Kyrgyzstan,2012,15
+2291,Kyrgyzstan,2016,19
+2292,Kyrgyzstan,2020,17
+2293,Kyrgyzstan,2024,17
+2294,L'Aile VI,1928,6
+2295,"La Salle Turnverein, Chicago",1904,6
+2296,LaBandera,1948,5
+2297,Lady C,1964,2
+2298,Lalage,1936,5
+2299,Lalage,1948,5
+2300,Lancet,2008,1
+2301,Lao PDR,2024,4
+2302,Laos,1980,19
+2303,Laos,1988,3
+2304,Laos,1992,7
+2305,Laos,1996,5
+2306,Laos,2000,3
+2307,Laos,2004,5
+2308,Laos,2008,4
+2309,Laos,2012,3
+2310,Laos,2016,5
+2311,Laos,2020,4
+2312,"Large boat, Central Naval Prep School ""Poros""-1",1906,17
+2313,Lasha,1960,3
+2314,Latvia,1924,47
+2315,Latvia,1928,24
+2316,Latvia,1932,13
+2317,Latvia,1936,33
+2318,Latvia,1992,40
+2319,Latvia,1996,55
+2320,Latvia,2000,60
+2321,Latvia,2004,45
+2322,Latvia,2008,53
+2323,Latvia,2012,46
+2324,Latvia,2016,33
+2325,Latvia,2020,38
+2326,Latvia,2024,32
+2327,Latvia-1,2012,2
+2328,Latvia-2,2012,2
+2329,Laurea-1,1900,1
+2330,Lbeck,1936,1
+2331,Leander Club #1-1,1908,2
+2332,Leander Club #2-2,1908,2
+2333,Leander Club-1,1908,9
+2334,Leander Club-1,1912,9
+2335,Leander Club-2,1908,4
+2336,Lebanon,1948,9
+2337,Lebanon,1952,9
+2338,Lebanon,1960,20
+2339,Lebanon,1964,8
+2340,Lebanon,1968,15
+2341,Lebanon,1972,36
+2342,Lebanon,1976,4
+2343,Lebanon,1980,19
+2344,Lebanon,1984,30
+2345,Lebanon,1988,31
+2346,Lebanon,1992,18
+2347,Lebanon,1996,1
+2348,Lebanon,2000,6
+2349,Lebanon,2004,5
+2350,Lebanon,2008,6
+2351,Lebanon,2012,10
+2352,Lebanon,2016,9
+2353,Lebanon,2020,6
+2354,Lebanon,2024,11
+2355,Legionario,1948,2
+2356,Leipzig,1936,1
+2357,"Lemzos Thorichton ""Psara""-3",1906,17
+2358,"Lemzos Thorichton ""Spetsai""-4",1906,17
+2359,Lerina,1900,9
+2360,Lesotho,1972,2
+2361,Lesotho,1980,7
+2362,Lesotho,1984,5
+2363,Lesotho,1988,6
+2364,Lesotho,1992,8
+2365,Lesotho,1996,11
+2366,Lesotho,2000,6
+2367,Lesotho,2004,3
+2368,Lesotho,2008,5
+2369,Lesotho,2012,4
+2370,Lesotho,2016,9
+2371,Lesotho,2020,2
+2372,Lesotho,2024,3
+2373,Lett,1960,3
+2374,Libellule de Paris,1900,7
+2375,Libellule de Paris-3,1900,5
+2376,Liberia,1956,11
+2377,Liberia,1960,6
+2378,Liberia,1964,2
+2379,Liberia,1972,5
+2380,Liberia,1984,10
+2381,Liberia,1988,11
+2382,Liberia,1996,7
+2383,Liberia,2000,10
+2384,Liberia,2004,2
+2385,Liberia,2008,4
+2386,Liberia,2012,3
+2387,Liberia,2016,3
+2388,Liberia,2020,4
+2389,Liberia,2024,10
+2390,Libya,1968,1
+2391,Libya,1980,38
+2392,Libya,1988,7
+2393,Libya,1992,5
+2394,Libya,1996,5
+2395,Libya,2000,3
+2396,Libya,2004,8
+2397,Libya,2008,6
+2398,Libya,2012,4
+2399,Libya,2016,7
+2400,Libya,2020,4
+2401,Libya,2024,6
+2402,Liechtenstein,1936,8
+2403,Liechtenstein,1948,2
+2404,Liechtenstein,1952,2
+2405,Liechtenstein,1960,8
+2406,Liechtenstein,1964,3
+2407,Liechtenstein,1968,3
+2408,Liechtenstein,1972,12
+2409,Liechtenstein,1976,9
+2410,Liechtenstein,1984,8
+2411,Liechtenstein,1988,16
+2412,Liechtenstein,1992,8
+2413,Liechtenstein,1996,2
+2414,Liechtenstein,2000,2
+2415,Liechtenstein,2004,1
+2416,Liechtenstein,2008,2
+2417,Liechtenstein,2012,4
+2418,Liechtenstein,2016,3
+2419,Liechtenstein,2020,9
+2420,Liechtenstein,2024,1
+2421,"Life boat naval ship ""Spetsai""-1",1906,7
+2422,Linglom,1964,3
+2423,Lithuania,1924,13
+2424,Lithuania,1928,13
+2425,Lithuania,1992,54
+2426,Lithuania,1996,81
+2427,Lithuania,2000,77
+2428,Lithuania,2004,70
+2429,Lithuania,2008,78
+2430,Lithuania,2012,72
+2431,Lithuania,2016,80
+2432,Lithuania,2020,59
+2433,Lithuania,2024,63
+2434,Liverpool Police Team-2,1908,8
+2435,Llanoria,1948,5
+2436,Llanoria,1952,6
+2437,London City Police-1,1908,8
+2438,Lotta IV,1948,2
+2439,Lotta IV,1952,2
+2440,Lucky,1964,2
+2441,Lucky Girl-1,1912,5
+2442,Lucky Star,1948,2
+2443,Lucky Star,1952,2
+2444,Lucky Star,2008,1
+2445,Ludwigshafener Ruder Verein-1,1900,5
+2446,Ludwigshafener Ruderverein,1912,5
+2447,Lully II,1936,5
+2448,Luxembourg,1900,1
+2449,Luxembourg,1912,44
+2450,Luxembourg,1920,35
+2451,Luxembourg,1924,122
+2452,Luxembourg,1928,107
+2453,Luxembourg,1932,11
+2454,Luxembourg,1936,129
+2455,Luxembourg,1948,115
+2456,Luxembourg,1952,101
+2457,Luxembourg,1956,27
+2458,Luxembourg,1960,117
+2459,Luxembourg,1964,27
+2460,Luxembourg,1968,7
+2461,Luxembourg,1972,15
+2462,Luxembourg,1976,9
+2463,Luxembourg,1980,4
+2464,Luxembourg,1984,5
+2465,Luxembourg,1988,11
+2466,Luxembourg,1992,8
+2467,Luxembourg,1996,7
+2468,Luxembourg,2000,9
+2469,Luxembourg,2004,14
+2470,Luxembourg,2008,19
+2471,Luxembourg,2012,11
+2472,Luxembourg,2016,15
+2473,Luxembourg,2020,14
+2474,Luxembourg,2024,13
+2475,Lyn-2,1920,5
+2476,Lynn,1936,5
+2477,Ma'Lindo,1960,2
+2478,Mac Miche,1912,3
+2479,Macedonia,1996,16
+2480,Macedonia,2000,15
+2481,Macedonia,2004,14
+2482,Macedonia,2008,7
+2483,Macedonia,2012,4
+2484,Macedonia,2016,6
+2485,Macky VI,1960,3
+2486,Mad Dog,1960,2
+2487,Madagascar,1964,4
+2488,Madagascar,1968,6
+2489,Madagascar,1972,13
+2490,Madagascar,1980,18
+2491,Madagascar,1984,5
+2492,Madagascar,1992,17
+2493,Madagascar,1996,14
+2494,Madagascar,2000,13
+2495,Madagascar,2004,8
+2496,Madagascar,2008,6
+2497,Madagascar,2012,7
+2498,Madagascar,2016,6
+2499,Madagascar,2020,6
+2500,Madagascar,2024,7
+2501,Magda IX,1912,10
+2502,Magdalen College Boat Club-1,1908,4
+2503,Maid of Lebanon,1960,2
+2504,Mainz,1936,1
+2505,Malawi,1972,18
+2506,Malawi,1984,23
+2507,Malawi,1988,22
+2508,Malawi,1992,4
+2509,Malawi,1996,2
+2510,Malawi,2000,2
+2511,Malawi,2004,4
+2512,Malawi,2008,4
+2513,Malawi,2012,3
+2514,Malawi,2016,5
+2515,Malawi,2020,5
+2516,Malawi,2024,3
+2517,Malaya,1956,34
+2518,Malaya,1960,11
+2519,Malaysia,1964,81
+2520,Malaysia,1968,35
+2521,Malaysia,1972,57
+2522,Malaysia,1976,25
+2523,Malaysia,1984,27
+2524,Malaysia,1988,17
+2525,Malaysia,1992,26
+2526,Malaysia,1996,39
+2527,Malaysia,2000,51
+2528,Malaysia,2004,34
+2529,Malaysia,2008,38
+2530,Malaysia,2012,38
+2531,Malaysia,2016,42
+2532,Malaysia,2020,47
+2533,Malaysia,2024,32
+2534,Malaysia-1,1992,2
+2535,Malaysia-1,1996,2
+2536,Malaysia-1,2000,2
+2537,Malaysia-1,2004,2
+2538,Malaysia-1,2008,2
+2539,Malaysia-2,1992,2
+2540,Malaysia-2,1996,2
+2541,Malaysia-2,2000,2
+2542,Malaysia-2,2004,2
+2543,Malaysia-2,2008,2
+2544,Maldives,1988,9
+2545,Maldives,1992,10
+2546,Maldives,1996,9
+2547,Maldives,2000,4
+2548,Maldives,2004,4
+2549,Maldives,2008,4
+2550,Maldives,2012,5
+2551,Maldives,2016,4
+2552,Maldives,2020,4
+2553,Maldives,2024,5
+2554,Mali,1964,2
+2555,Mali,1968,2
+2556,Mali,1972,3
+2557,Mali,1980,7
+2558,Mali,1984,5
+2559,Mali,1988,8
+2560,Mali,1992,6
+2561,Mali,1996,4
+2562,Mali,2000,5
+2563,Mali,2004,21
+2564,Mali,2008,17
+2565,Mali,2012,6
+2566,Mali,2016,6
+2567,Mali,2020,4
+2568,Mali,2024,24
+2569,Malta,1928,9
+2570,Malta,1936,11
+2571,Malta,1948,1
+2572,Malta,1960,11
+2573,Malta,1968,1
+2574,Malta,1972,5
+2575,Malta,1980,12
+2576,Malta,1984,7
+2577,Malta,1988,6
+2578,Malta,1992,8
+2579,Malta,1996,10
+2580,Malta,2000,7
+2581,Malta,2004,7
+2582,Malta,2008,6
+2583,Malta,2012,5
+2584,Malta,2016,8
+2585,Malta,2020,8
+2586,Malta,2024,5
+2587,Mamie-4,1900,2
+2588,Mamie-6,1900,4
+2589,Manana,1956,2
+2590,Marga-2,1912,6
+2591,Margaret,1948,2
+2592,Mari,1960,2
+2593,Marie-Tim,1952,2
+2594,"Marinai della nave da guerra ""Varese""",1906,24
+2595,Marmara,1936,2
+2596,Marmi II-1,1920,3
+2597,Marshall Islands,2008,5
+2598,Marshall Islands,2012,4
+2599,Marshall Islands,2016,5
+2600,Marshall Islands,2020,2
+2601,Marshall Islands,2024,4
+2602,Marsouin-26,1900,1
+2603,Marsouin-8,1900,1
+2604,Martha-1,1900,8
+2605,Martha-27,1900,4
+2606,Maryke,1964,2
+2607,Mascaret-28,1900,1
+2608,Mascaret-4,1900,2
+2609,Mascotte,1900,9
+2610,Matrero II,1936,6
+2611,Mauritania,1984,2
+2612,Mauritania,1988,7
+2613,Mauritania,1992,6
+2614,Mauritania,1996,4
+2615,Mauritania,2000,2
+2616,Mauritania,2004,2
+2617,Mauritania,2008,2
+2618,Mauritania,2012,2
+2619,Mauritania,2016,2
+2620,Mauritania,2020,2
+2621,Mauritania,2024,2
+2622,Mauritius,1984,7
+2623,Mauritius,1988,11
+2624,Mauritius,1992,22
+2625,Mauritius,1996,32
+2626,Mauritius,2000,26
+2627,Mauritius,2004,9
+2628,Mauritius,2008,11
+2629,Mauritius,2012,11
+2630,Mauritius,2016,11
+2631,Mauritius,2020,8
+2632,Mauritius,2024,12
+2633,Mauritius-1,1996,2
+2634,Mauritius-2,1996,2
+2635,May Be,1936,5
+2636,May Be VII,1952,5
+2637,May-Be 1960,1960,2
+2638,Mebi,1924,3
+2639,Merope,1952,2
+2640,Merope,1960,2
+2641,Merope III,1956,2
+2642,Merope III,1960,2
+2643,Meteor,1960,2
+2644,Mexico,1924,28
+2645,Mexico,1928,55
+2646,Mexico,1932,100
+2647,Mexico,1936,32
+2648,Mexico,1948,149
+2649,Mexico,1952,85
+2650,Mexico,1956,36
+2651,Mexico,1960,108
+2652,Mexico,1964,118
+2653,Mexico,1968,446
+2654,Mexico,1972,281
+2655,Mexico,1976,137
+2656,Mexico,1980,74
+2657,Mexico,1984,155
+2658,Mexico,1988,144
+2659,Mexico,1992,140
+2660,Mexico,1996,111
+2661,Mexico,2000,98
+2662,Mexico,2004,137
+2663,Mexico,2008,103
+2664,Mexico,2012,119
+2665,Mexico,2016,139
+2666,Mexico,2020,196
+2667,Mexico,2024,155
+2668,Micronesia,2024,3
+2669,Mignon-29,1900,1
+2670,Mignon-3,1900,2
+2671,Milwaukee Athletic Club-1,1904,5
+2672,"Milwaukee Turnverein, Milwaukee",1904,6
+2673,Minerva Amsterdam,1900,17
+2674,Minotaur,1960,3
+2675,Mirtala,1952,3
+2676,Miss Denmark 1964,1964,2
+2677,Miss Nippon IV,1964,3
+2678,Miss Nippon V,1964,3
+2679,Missouri Athletic Club-3,1904,11
+2680,Mistral Hojris,2008,1
+2681,MitaII,1964,2
+2682,Mizar,1960,2
+2683,Mohawk Indians-2,1904,12
+2684,Moldova,1996,50
+2685,Moldova,2000,35
+2686,Moldova,2004,33
+2687,Moldova,2008,30
+2688,Moldova,2012,20
+2689,Moldova,2016,23
+2690,Moldova,2020,26
+2691,Monaco,1920,7
+2692,Monaco,1924,9
+2693,Monaco,1928,12
+2694,Monaco,1932,1
+2695,Monaco,1936,11
+2696,Monaco,1948,4
+2697,Monaco,1952,8
+2698,Monaco,1960,10
+2699,Monaco,1964,1
+2700,Monaco,1968,2
+2701,Monaco,1972,5
+2702,Monaco,1976,10
+2703,Monaco,1984,8
+2704,Monaco,1988,9
+2705,Monaco,1992,4
+2706,Monaco,1996,4
+2707,Monaco,2000,4
+2708,Monaco,2004,3
+2709,Monaco,2008,5
+2710,Monaco,2012,6
+2711,Monaco,2016,8
+2712,Monaco,2020,6
+2713,Monaco,2024,6
+2714,Mongolia,1964,40
+2715,Mongolia,1968,38
+2716,Mongolia,1972,44
+2717,Mongolia,1976,33
+2718,Mongolia,1980,57
+2719,Mongolia,1988,32
+2720,Mongolia,1992,38
+2721,Mongolia,1996,18
+2722,Mongolia,2000,23
+2723,Mongolia,2004,21
+2724,Mongolia,2008,31
+2725,Mongolia,2012,32
+2726,Mongolia,2016,46
+2727,Mongolia,2020,61
+2728,Mongolia,2024,48
+2729,Monica,1964,3
+2730,Montenegro,2008,20
+2731,Montenegro,2012,34
+2732,Montenegro,2016,35
+2733,Montenegro,2020,35
+2734,Montenegro,2024,19
+2735,Moorina,1948,2
+2736,Morena,1948,5
+2737,Morocco,1960,111
+2738,Morocco,1964,21
+2739,Morocco,1968,25
+2740,Morocco,1972,39
+2741,Morocco,1976,9
+2742,Morocco,1984,35
+2743,Morocco,1988,29
+2744,Morocco,1992,45
+2745,Morocco,1996,38
+2746,Morocco,2000,55
+2747,Morocco,2004,57
+2748,Morocco,2008,49
+2749,Morocco,2012,67
+2750,Morocco,2016,52
+2751,Morocco,2020,51
+2752,Morocco,2024,63
+2753,Moseley Wanderers,1900,15
+2754,Mosk II,1920,7
+2755,Mouchette-2,1908,10
+2756,Mound City Rowing Club-2,1904,4
+2757,Mozambique,1980,16
+2758,Mozambique,1984,14
+2759,Mozambique,1988,12
+2760,Mozambique,1992,7
+2761,Mozambique,1996,3
+2762,Mozambique,2000,4
+2763,Mozambique,2004,4
+2764,Mozambique,2008,4
+2765,Mozambique,2012,6
+2766,Mozambique,2016,8
+2767,Mozambique,2020,10
+2768,Mozambique,2024,7
+2769,Mutafo,1964,3
+2770,Myanmar,1948,5
+2771,Myanmar,1952,5
+2772,Myanmar,1956,10
+2773,Myanmar,1960,8
+2774,Myanmar,1964,12
+2775,Myanmar,1968,4
+2776,Myanmar,1972,19
+2777,Myanmar,1980,2
+2778,Myanmar,1984,1
+2779,Myanmar,1988,3
+2780,Myanmar,1992,5
+2781,Myanmar,1996,3
+2782,Myanmar,2000,7
+2783,Myanmar,2004,2
+2784,Myanmar,2008,7
+2785,Myanmar,2012,6
+2786,Myanmar,2016,8
+2787,Myanmar,2020,2
+2788,Myanmar,2024,2
+2789,Myojo,1936,2
+2790,Mystery,1936,5
+2791,Mythilus,2008,1
+2792,Nadine,2008,1
+2793,Naiad,1956,2
+2794,Namibia,1992,10
+2795,Namibia,1996,10
+2796,Namibia,2000,16
+2797,Namibia,2004,10
+2798,Namibia,2008,11
+2799,Namibia,2012,9
+2800,Namibia,2016,11
+2801,Namibia,2020,11
+2802,Namibia,2024,4
+2803,Namoussa,1924,5
+2804,Nan-2,1900,1
+2805,Nauru,1996,3
+2806,Nauru,2000,2
+2807,Nauru,2004,3
+2808,Nauru,2008,1
+2809,Nauru,2012,2
+2810,Nauru,2016,2
+2811,Nauru,2020,2
+2812,Nauru,2024,1
+2813,Nausikaa 4,1964,2
+2814,Nautikos Omilos-3,1906,5
+2815,Nepal,1964,6
+2816,Nepal,1972,2
+2817,Nepal,1976,1
+2818,Nepal,1980,10
+2819,Nepal,1984,10
+2820,Nepal,1988,20
+2821,Nepal,1992,2
+2822,Nepal,1996,6
+2823,Nepal,2000,5
+2824,Nepal,2004,6
+2825,Nepal,2008,8
+2826,Nepal,2012,5
+2827,Nepal,2016,7
+2828,Nepal,2020,5
+2829,Nepal,2024,7
+2830,Nephos I,1948,4
+2831,Neptun II,1956,3
+2832,Netherlands,1900,46
+2833,Netherlands,1906,49
+2834,Netherlands,1908,214
+2835,Netherlands,1912,45
+2836,Netherlands,1920,205
+2837,Netherlands,1924,243
+2838,Netherlands,1928,373
+2839,Netherlands,1932,78
+2840,Netherlands,1936,219
+2841,Netherlands,1948,180
+2842,Netherlands,1952,172
+2843,Netherlands,1956,1
+2844,Netherlands,1960,154
+2845,Netherlands,1964,152
+2846,Netherlands,1968,140
+2847,Netherlands,1972,199
+2848,Netherlands,1976,175
+2849,Netherlands,1980,112
+2850,Netherlands,1984,185
+2851,Netherlands,1988,202
+2852,Netherlands,1992,257
+2853,Netherlands,1996,286
+2854,Netherlands,2000,285
+2855,Netherlands,2004,264
+2856,Netherlands,2008,276
+2857,Netherlands,2012,218
+2858,Netherlands,2016,321
+2859,Netherlands,2020,391
+2860,Netherlands,2024,449
+2861,Netherlands Antilles,1952,11
+2862,Netherlands Antilles,1960,5
+2863,Netherlands Antilles,1964,4
+2864,Netherlands Antilles,1968,5
+2865,Netherlands Antilles,1972,2
+2866,Netherlands Antilles,1976,4
+2867,Netherlands Antilles,1984,13
+2868,Netherlands Antilles,1988,4
+2869,Netherlands Antilles,1992,4
+2870,Netherlands Antilles,1996,7
+2871,Netherlands Antilles,2000,8
+2872,Netherlands Antilles,2004,3
+2873,Netherlands Antilles,2008,4
+2874,Netherlands-1,1996,2
+2875,Netherlands-1,2008,2
+2876,Netherlands-1,2012,2
+2877,Netherlands-1,2016,4
+2878,Netherlands-2,1996,2
+2879,Netherlands-2,2008,2
+2880,Netherlands-2,2012,2
+2881,Netherlands-2,2016,4
+2882,"New College, Oxford-2",1912,9
+2883,New York Athletic Club,1904,5
+2884,New York Athletic Club #1-1,1904,4
+2885,New York Athletic Club #2-4,1904,4
+2886,New York Athletic Club-1,1904,7
+2887,New York Athletic Club-4,1904,5
+2888,"New York Turnverein, New York",1904,6
+2889,New Zealand,1920,6
+2890,New Zealand,1924,6
+2891,New Zealand,1928,13
+2892,New Zealand,1932,29
+2893,New Zealand,1936,9
+2894,New Zealand,1948,8
+2895,New Zealand,1952,20
+2896,New Zealand,1956,52
+2897,New Zealand,1960,45
+2898,New Zealand,1964,86
+2899,New Zealand,1968,65
+2900,New Zealand,1972,112
+2901,New Zealand,1976,98
+2902,New Zealand,1980,7
+2903,New Zealand,1984,162
+2904,New Zealand,1988,112
+2905,New Zealand,1992,175
+2906,New Zealand,1996,129
+2907,New Zealand,2000,177
+2908,New Zealand,2004,184
+2909,New Zealand,2008,201
+2910,New Zealand,2012,204
+2911,New Zealand,2016,232
+2912,New Zealand,2020,279
+2913,New Zealand,2024,253
+2914,Newfoundland,1904,1
+2915,Nicaragua,1968,16
+2916,Nicaragua,1972,10
+2917,Nicaragua,1976,25
+2918,Nicaragua,1980,6
+2919,Nicaragua,1984,5
+2920,Nicaragua,1992,9
+2921,Nicaragua,1996,28
+2922,Nicaragua,2000,6
+2923,Nicaragua,2004,6
+2924,Nicaragua,2008,7
+2925,Nicaragua,2012,6
+2926,Nicaragua,2016,5
+2927,Nicaragua,2020,8
+2928,Nicaragua,2024,7
+2929,Niger,1964,1
+2930,Niger,1968,2
+2931,Niger,1972,4
+2932,Niger,1984,4
+2933,Niger,1988,6
+2934,Niger,1992,3
+2935,Niger,1996,3
+2936,Niger,2000,4
+2937,Niger,2004,4
+2938,Niger,2008,4
+2939,Niger,2012,6
+2940,Niger,2016,6
+2941,Niger,2020,7
+2942,Niger,2024,7
+2943,Nigeria,1952,15
+2944,Nigeria,1956,14
+2945,Nigeria,1960,15
+2946,Nigeria,1964,19
+2947,Nigeria,1968,46
+2948,Nigeria,1972,36
+2949,Nigeria,1980,56
+2950,Nigeria,1984,36
+2951,Nigeria,1988,82
+2952,Nigeria,1992,68
+2953,Nigeria,1996,84
+2954,Nigeria,2000,96
+2955,Nigeria,2004,71
+2956,Nigeria,2008,89
+2957,Nigeria,2012,58
+2958,Nigeria,2016,77
+2959,Nigeria,2020,68
+2960,Nigeria,2024,103
+2961,Nigeria-1,1988,2
+2962,Nigeria-1,1992,2
+2963,Nigeria-1,2000,2
+2964,Nigeria-1,2004,4
+2965,Nigeria-2,1988,2
+2966,Nigeria-2,1992,2
+2967,Nigeria-2,2000,2
+2968,Nigeria-2,2004,4
+2969,Nikh,1956,2
+2970,Nina,1912,7
+2971,Nina Claire-2,1900,8
+2972,Nina Claire-30,1900,4
+2973,Nirefs,1960,3
+2974,Nirwana,1952,5
+2975,Nokaut II,1960,2
+2976,Nora,1948,2
+2977,Noreg,1928,4
+2978,Norna,1928,4
+2979,Nortazo,1948,2
+2980,North Borneo,1956,2
+2981,North Korea,1972,83
+2982,North Korea,1976,40
+2983,North Korea,1980,121
+2984,North Korea,1992,115
+2985,North Korea,1996,32
+2986,North Korea,2000,47
+2987,North Korea,2004,71
+2988,North Korea,2008,66
+2989,North Korea,2012,57
+2990,North Korea,2016,38
+2991,North Korea-1,1992,4
+2992,North Korea-1,1996,2
+2993,North Korea-2,1992,4
+2994,North Korea-2,1996,2
+2995,North Macedonia,2020,8
+2996,North Macedonia,2024,6
+2997,North Yemen,1984,3
+2998,North Yemen,1988,8
+2999,Norway,1900,29
+3000,Norway,1904,5
+3001,Norway,1906,55
+3002,Norway,1908,89
+3003,Norway,1912,210
+3004,Norway,1920,208
+3005,Norway,1924,95
+3006,Norway,1928,71
+3007,Norway,1932,8
+3008,Norway,1936,70
+3009,Norway,1948,87
+3010,Norway,1952,179
+3011,Norway,1956,23
+3012,Norway,1960,42
+3013,Norway,1964,35
+3014,Norway,1968,86
+3015,Norway,1972,161
+3016,Norway,1976,79
+3017,Norway,1984,132
+3018,Norway,1988,79
+3019,Norway,1992,114
+3020,Norway,1996,116
+3021,Norway,2000,111
+3022,Norway,2004,52
+3023,Norway,2008,98
+3024,Norway,2012,69
+3025,Norway,2016,77
+3026,Norway,2020,112
+3027,Norway,2024,128
+3028,Norway-1,1912,2
+3029,Norway-1,2000,2
+3030,Norway-1,2004,4
+3031,Norway-1,2008,2
+3032,Norway-2,1912,2
+3033,Norway-2,1924,2
+3034,Norway-2,2000,2
+3035,Norway-2,2004,4
+3036,Norway-2,2008,2
+3037,Norway-3,1912,2
+3038,Norwegian Rowing Association,1908,9
+3039,"Norwegier Turnverein, Brooklyn",1904,6
+3040,Notavel,2008,1
+3041,Nrnberg,1936,1
+3042,Nurdug II,1912,3
+3043,Nykjbings paa Falster,1912,5
+3044,Oleander II,1960,3
+3045,Oleander XII,1964,3
+3046,Olen,1964,3
+3047,Olimpia,1960,2
+3048,Olle,1900,9
+3049,Olympion,1960,2
+3050,Oman,1984,22
+3051,Oman,1988,13
+3052,Oman,1992,5
+3053,Oman,1996,5
+3054,Oman,2000,8
+3055,Oman,2004,2
+3056,Oman,2008,4
+3057,Oman,2012,3
+3058,Oman,2016,4
+3059,Oman,2020,5
+3060,Oman,2024,4
+3061,Omas Helliniki P. S.,1906,8
+3062,Omilos Ereton Peiraios-2,1906,3
+3063,Omilos Ereton Smyrnis,1906,5
+3064,Oranje,1920,3
+3065,Orion,2008,1
+3066,Ormsund Roklub-2,1912,5
+3067,"Osborne Swimming Club, Manchester",1900,7
+3068,Oxalis,2008,1
+3069,Paka,1936,2
+3070,Paka V,1952,2
+3071,Pakaria,1960,2
+3072,Pakistan,1948,44
+3073,Pakistan,1952,51
+3074,Pakistan,1956,79
+3075,Pakistan,1960,53
+3076,Pakistan,1964,47
+3077,Pakistan,1968,15
+3078,Pakistan,1972,26
+3079,Pakistan,1976,24
+3080,Pakistan,1984,33
+3081,Pakistan,1988,33
+3082,Pakistan,1992,28
+3083,Pakistan,1996,24
+3084,Pakistan,2000,27
+3085,Pakistan,2004,26
+3086,Pakistan,2008,22
+3087,Pakistan,2012,21
+3088,Pakistan,2016,7
+3089,Pakistan,2020,10
+3090,Pakistan,2024,10
+3091,Palau,2000,5
+3092,Palau,2004,4
+3093,Palau,2008,5
+3094,Palau,2012,5
+3095,Palau,2016,6
+3096,Palau,2020,3
+3097,Palau,2024,3
+3098,Palestine,1996,1
+3099,Palestine,2000,2
+3100,Palestine,2004,3
+3101,Palestine,2008,4
+3102,Palestine,2012,5
+3103,Palestine,2016,6
+3104,Palestine,2020,5
+3105,Palestine,2024,8
+3106,Pam,1956,3
+3107,Pampero,1948,3
+3108,Pampero,1952,3
+3109,Pampero,1956,3
+3110,Pan,1928,5
+3111,Pan,1948,3
+3112,Pan,1952,3
+3113,Pan II,1956,3
+3114,Pan-Hellenic Athletic Club,1904,5
+3115,Panama,1928,2
+3116,Panama,1948,2
+3117,Panama,1952,1
+3118,Panama,1960,8
+3119,Panama,1964,15
+3120,Panama,1968,16
+3121,Panama,1972,8
+3122,Panama,1976,13
+3123,Panama,1984,10
+3124,Panama,1988,9
+3125,Panama,1992,7
+3126,Panama,1996,9
+3127,Panama,2000,7
+3128,Panama,2004,5
+3129,Panama,2008,5
+3130,Panama,2012,8
+3131,Panama,2016,14
+3132,Panama,2020,11
+3133,Panama,2024,13
+3134,Pandora,1964,2
+3135,Panhellenios Gymnastikos Syllogos-1,1906,11
+3136,Pannonia RC/National RC,1908,9
+3137,Papua New Guinea,1976,9
+3138,Papua New Guinea,1984,12
+3139,Papua New Guinea,1988,15
+3140,Papua New Guinea,1992,19
+3141,Papua New Guinea,1996,17
+3142,Papua New Guinea,2000,5
+3143,Papua New Guinea,2004,6
+3144,Papua New Guinea,2008,9
+3145,Papua New Guinea,2012,8
+3146,Papua New Guinea,2016,8
+3147,Papua New Guinea,2020,8
+3148,Papua New Guinea,2024,7
+3149,Paraguay,1968,1
+3150,Paraguay,1972,3
+3151,Paraguay,1976,6
+3152,Paraguay,1984,18
+3153,Paraguay,1988,13
+3154,Paraguay,1992,31
+3155,Paraguay,1996,7
+3156,Paraguay,2000,5
+3157,Paraguay,2004,22
+3158,Paraguay,2008,7
+3159,Paraguay,2012,10
+3160,Paraguay,2016,11
+3161,Paraguay,2020,9
+3162,Paraguay,2024,29
+3163,Partenope,1960,3
+3164,Pasodoble,1960,2
+3165,"Passaic Turnverein, Passaic",1904,6
+3166,Patricia,1960,3
+3167,Paula,1956,3
+3168,Pegaso,1936,2
+3169,Peiraikos Syndesmos-2,1906,8
+3170,Peri,1960,2
+3171,Peri II,1964,2
+3172,Persey,1960,3
+3173,Peru,1900,2
+3174,Peru,1932,3
+3175,Peru,1936,46
+3176,Peru,1948,49
+3177,Peru,1956,10
+3178,Peru,1960,33
+3179,Peru,1964,40
+3180,Peru,1968,33
+3181,Peru,1972,31
+3182,Peru,1976,14
+3183,Peru,1980,38
+3184,Peru,1984,44
+3185,Peru,1988,26
+3186,Peru,1992,21
+3187,Peru,1996,33
+3188,Peru,2000,22
+3189,Peru,2004,14
+3190,Peru,2008,13
+3191,Peru,2012,16
+3192,Peru,2016,34
+3193,Peru,2020,42
+3194,Peru,2024,32
+3195,Pettit-Poucet-6,1900,1
+3196,"Phalainis ton Thorichtou ""Hydra""-2",1906,24
+3197,"Phalainis ton Thorichtou ""Psara""-3",1906,7
+3198,"Philadelphia Turngemeinde, Philadelphia",1904,6
+3199,Philippines,1924,2
+3200,Philippines,1928,6
+3201,Philippines,1932,8
+3202,Philippines,1936,40
+3203,Philippines,1948,31
+3204,Philippines,1952,28
+3205,Philippines,1956,48
+3206,Philippines,1960,46
+3207,Philippines,1964,67
+3208,Philippines,1968,89
+3209,Philippines,1972,79
+3210,Philippines,1976,22
+3211,Philippines,1984,32
+3212,Philippines,1988,42
+3213,Philippines,1992,38
+3214,Philippines,1996,18
+3215,Philippines,2000,22
+3216,Philippines,2004,21
+3217,Philippines,2008,17
+3218,Philippines,2012,11
+3219,Philippines,2016,13
+3220,Philippines,2020,27
+3221,Philippines,2024,44
+3222,Phoenix,1964,3
+3223,Pierre et Jean-3,1900,1
+3224,Pierre et Jean-4,1900,2
+3225,Pigoule,1964,2
+3226,Pimm,1960,2
+3227,Pirouette-31,1900,1
+3228,Pirouette-5,1900,2
+3229,Pistoja/Firenze,1906,9
+3230,Plume-Patte-5,1900,2
+3231,Plume-patte-32,1900,1
+3232,Poland,1912,1
+3233,Poland,1924,100
+3234,Poland,1928,146
+3235,Poland,1932,71
+3236,Poland,1936,172
+3237,Poland,1948,52
+3238,Poland,1952,248
+3239,Poland,1956,118
+3240,Poland,1960,307
+3241,Poland,1964,240
+3242,Poland,1968,296
+3243,Poland,1972,412
+3244,Poland,1976,286
+3245,Poland,1980,418
+3246,Poland,1988,192
+3247,Poland,1992,259
+3248,Poland,1996,203
+3249,Poland,2000,236
+3250,Poland,2004,224
+3251,Poland,2008,312
+3252,Poland,2012,252
+3253,Poland,2016,285
+3254,Poland,2020,282
+3255,Poland,2024,312
+3256,Poland-1,1972,2
+3257,Poland-1,1992,2
+3258,Poland-1,1996,2
+3259,Poland-1,2000,2
+3260,Poland-1,2008,2
+3261,Poland-1,2012,2
+3262,Poland-1,2016,2
+3263,Poland-2,1972,2
+3264,Poland-2,1992,2
+3265,Poland-2,1996,2
+3266,Poland-2,2000,2
+3267,Poland-2,2008,2
+3268,Poland-2,2012,2
+3269,Poland-2,2016,2
+3270,Poland-3,1972,2
+3271,Polyteknisk Roklub-1,1912,5
+3272,Pop Art,2008,1
+3273,Portugal,1912,8
+3274,Portugal,1920,40
+3275,Portugal,1924,47
+3276,Portugal,1928,35
+3277,Portugal,1932,8
+3278,Portugal,1936,23
+3279,Portugal,1948,57
+3280,Portugal,1952,147
+3281,Portugal,1956,13
+3282,Portugal,1960,99
+3283,Portugal,1964,20
+3284,Portugal,1968,33
+3285,Portugal,1972,41
+3286,Portugal,1976,36
+3287,Portugal,1980,18
+3288,Portugal,1984,48
+3289,Portugal,1988,91
+3290,Portugal,1992,115
+3291,Portugal,1996,131
+3292,Portugal,2000,64
+3293,Portugal,2004,93
+3294,Portugal,2008,84
+3295,Portugal,2012,98
+3296,Portugal,2016,106
+3297,Portugal,2020,113
+3298,Portugal,2024,95
+3299,Posillipo III,1960,3
+3300,Potomac Archers,1904,4
+3301,Potsdam,1936,1
+3302,Pousse-Moi Pas VII,1964,2
+3303,Primorka,1952,2
+3304,Proteus II,1964,3
+3305,Puerto Rico,1948,9
+3306,Puerto Rico,1952,23
+3307,Puerto Rico,1956,14
+3308,Puerto Rico,1960,29
+3309,Puerto Rico,1964,45
+3310,Puerto Rico,1968,99
+3311,Puerto Rico,1972,60
+3312,Puerto Rico,1976,112
+3313,Puerto Rico,1980,3
+3314,Puerto Rico,1984,58
+3315,Puerto Rico,1988,56
+3316,Puerto Rico,1992,101
+3317,Puerto Rico,1996,91
+3318,Puerto Rico,2000,38
+3319,Puerto Rico,2004,52
+3320,Puerto Rico,2008,31
+3321,Puerto Rico,2012,28
+3322,Puerto Rico,2016,41
+3323,Puerto Rico,2020,39
+3324,Puerto Rico,2024,53
+3325,Pupilles de Neptune de Lille #1-3,1900,7
+3326,Pupilles de Neptune de Lille #2-1,1900,8
+3327,Pupilles de Neptune de Lille-1,1900,4
+3328,Qatar,1984,26
+3329,Qatar,1988,13
+3330,Qatar,1992,30
+3331,Qatar,1996,13
+3332,Qatar,2000,19
+3333,Qatar,2004,15
+3334,Qatar,2008,20
+3335,Qatar,2012,14
+3336,Qatar,2016,42
+3337,Qatar,2020,17
+3338,Qatar,2024,13
+3339,Qu'Importe,1936,5
+3340,Quand-Mme-2,1900,9
+3341,Quand-Mme-33,1900,4
+3342,Quando Quando,2008,1
+3343,Quicksilver-2,1908,2
+3344,"R.-V. Germania, Leitmeritz",1912,5
+3345,Racing Club de France,1900,11
+3346,Raili,1948,6
+3347,Ral-Club Barcelona,1900,5
+3348,Ralia,1952,5
+3349,Rambo,2008,1
+3350,Rampage,1964,2
+3351,Ravel,2008,1
+3352,Ravenswood Boat Club-2,1904,2
+3353,Red Dragon,1956,3
+3354,Red Indian,1948,2
+3355,Refugee Olympic Athletes,2016,12
+3356,Refugee Olympic Team,2020,35
+3357,Relampago,2008,1
+3358,Republic of Moldova,2024,30
+3359,Republic of the Congo,2020,3
+3360,Rhodesia,1960,10
+3361,Rhythm,1948,3
+3362,Riccar,1964,2
+3363,Rififi,1960,3
+3364,Rika II,1956,4
+3365,Roddklubben af 1912-1,1912,5
+3366,Roddklubben af 1912-2,1912,9
+3367,Roehampton-1,1908,4
+3368,Roklubb Kbnhavn-2,1912,5
+3369,Roma,1906,9
+3370,Romania,1900,1
+3371,Romania,1924,45
+3372,Romania,1928,33
+3373,Romania,1932,2
+3374,Romania,1936,118
+3375,Romania,1952,241
+3376,Romania,1956,103
+3377,Romania,1960,156
+3378,Romania,1964,232
+3379,Romania,1968,100
+3380,Romania,1972,258
+3381,Romania,1976,255
+3382,Romania,1980,339
+3383,Romania,1984,193
+3384,Romania,1988,172
+3385,Romania,1992,302
+3386,Romania,1996,284
+3387,Romania,2000,252
+3388,Romania,2004,193
+3389,Romania,2008,172
+3390,Romania,2012,155
+3391,Romania,2016,117
+3392,Romania,2020,119
+3393,Romania,2024,144
+3394,Romania-1,1992,2
+3395,Romania-1,2016,2
+3396,Romania-2,1992,2
+3397,Romania-2,2016,2
+3398,Romolo,1956,2
+3399,Rose Pompon,1920,3
+3400,Rostock,1936,1
+3401,Rowing Club Castillon-3,1900,3
+3402,Roy,1964,3
+3403,Royal Club Nautique de Gand,1900,11
+3404,Royal Club Nautique de Gand,1906,6
+3405,Royal Club Nautique de Gand,1908,9
+3406,Royal Club Nautique de Gand,1912,5
+3407,Rozenn-3,1900,1
+3408,Rush IV,1956,4
+3409,Rush V,1956,3
+3410,Rush VII,1964,3
+3411,Russia,1900,5
+3412,Russia,1908,7
+3413,Russia,1912,266
+3414,Russia,1924,3
+3415,Russia,1996,552
+3416,Russia,2000,602
+3417,Russia,2004,593
+3418,Russia,2008,600
+3419,Russia,2012,549
+3420,Russia,2016,406
+3421,Russia,2020,561
+3422,Russia,2024,46
+3423,Rwanda,1984,6
+3424,Rwanda,1988,8
+3425,Rwanda,1992,10
+3426,Rwanda,1996,4
+3427,Rwanda,2000,5
+3428,Rwanda,2004,5
+3429,Rwanda,2008,4
+3430,Rwanda,2012,7
+3431,Rwanda,2016,7
+3432,Rwanda,2020,5
+3433,Rwanda,2024,8
+3434,Saar,1952,93
+3435,Sabre,1952,3
+3436,Saga-2,1908,5
+3437,SagaII,1960,3
+3438,Saint Kitts and Nevis,1996,14
+3439,Saint Kitts and Nevis,2000,4
+3440,Saint Kitts and Nevis,2004,2
+3441,Saint Kitts and Nevis,2008,6
+3442,Saint Kitts and Nevis,2012,7
+3443,Saint Kitts and Nevis,2016,9
+3444,Saint Kitts and Nevis,2020,2
+3445,Saint Lucia,1996,8
+3446,Saint Lucia,2000,5
+3447,Saint Lucia,2004,2
+3448,Saint Lucia,2008,4
+3449,Saint Lucia,2012,4
+3450,Saint Lucia,2016,5
+3451,Saint Lucia,2020,5
+3452,Saint Lucia,2024,5
+3453,Saint Vincent and the Grenadines,1988,6
+3454,Saint Vincent and the Grenadines,1992,8
+3455,Saint Vincent and the Grenadines,1996,12
+3456,Saint Vincent and the Grenadines,2000,4
+3457,Saint Vincent and the Grenadines,2004,3
+3458,Saint Vincent and the Grenadines,2008,2
+3459,Saint Vincent and the Grenadines,2012,3
+3460,Saint Vincent and the Grenadines,2016,4
+3461,Saint Vincent and the Grenadines,2020,3
+3462,Salamander,1960,3
+3463,Salinero,2008,1
+3464,Samoa,1984,9
+3465,Samoa,1988,11
+3466,Samoa,1992,5
+3467,Samoa,1996,5
+3468,Samoa,2000,5
+3469,Samoa,2004,3
+3470,Samoa,2008,7
+3471,Samoa,2012,9
+3472,Samoa,2016,9
+3473,Samoa,2020,13
+3474,Samoa,2024,24
+3475,San Marino,1960,13
+3476,San Marino,1968,4
+3477,San Marino,1972,7
+3478,San Marino,1976,10
+3479,San Marino,1980,16
+3480,San Marino,1984,31
+3481,San Marino,1988,15
+3482,San Marino,1992,20
+3483,San Marino,1996,7
+3484,San Marino,2000,4
+3485,San Marino,2004,5
+3486,San Marino,2008,4
+3487,San Marino,2012,4
+3488,San Marino,2016,4
+3489,San Marino,2020,8
+3490,San Marino,2024,5
+3491,Sandra,1924,3
+3492,Sans Atout-1,1912,5
+3493,Santa Maria,1932,6
+3494,Sao Tome & Principe,2024,3
+3495,Sao Tome and Principe,1996,2
+3496,Sao Tome and Principe,2000,2
+3497,Sao Tome and Principe,2004,2
+3498,Sao Tome and Principe,2008,4
+3499,Sao Tome and Principe,2012,2
+3500,Sao Tome and Principe,2016,3
+3501,Sarcelle-3,1900,6
+3502,Sarcelle-35,1900,3
+3503,Saskia,1936,6
+3504,Sass-2,1912,3
+3505,Satchmo,2008,1
+3506,Saudi Arabia,1972,14
+3507,Saudi Arabia,1976,19
+3508,Saudi Arabia,1984,42
+3509,Saudi Arabia,1988,13
+3510,Saudi Arabia,1992,17
+3511,Saudi Arabia,1996,34
+3512,Saudi Arabia,2000,23
+3513,Saudi Arabia,2004,16
+3514,Saudi Arabia,2008,18
+3515,Saudi Arabia,2012,23
+3516,Saudi Arabia,2016,11
+3517,Saudi Arabia,2020,33
+3518,Saudi Arabia,2024,11
+3519,Scamasaxe-2,1900,2
+3520,Scamasaxe-3,1900,2
+3521,Scamasaxe-34,1900,2
+3522,Scaup,1948,2
+3523,Scotia,1900,9
+3524,Scotland,1912,8
+3525,Scotland-2,1912,8
+3526,Scotland-3,1908,11
+3527,Scram,1960,2
+3528,Sea Dog-2,1908,2
+3529,Seawanhaka Boat Club-1,1904,2
+3530,Senegal,1964,14
+3531,Senegal,1968,24
+3532,Senegal,1972,40
+3533,Senegal,1976,33
+3534,Senegal,1980,39
+3535,Senegal,1984,29
+3536,Senegal,1988,35
+3537,Senegal,1992,25
+3538,Senegal,1996,12
+3539,Senegal,2000,32
+3540,Senegal,2004,21
+3541,Senegal,2008,17
+3542,Senegal,2012,32
+3543,Senegal,2016,22
+3544,Senegal,2020,9
+3545,Senegal,2024,13
+3546,Serbia,1912,2
+3547,Serbia,2008,97
+3548,Serbia,2012,130
+3549,Serbia,2016,127
+3550,Serbia,2020,110
+3551,Serbia,2024,135
+3552,Serbia and Montenegro,1996,79
+3553,Serbia and Montenegro,2000,125
+3554,Serbia and Montenegro,2004,96
+3555,Serbia-1,2012,2
+3556,Serbia-2,2012,2
+3557,Serendipity,1964,3
+3558,Seychelles,1980,21
+3559,Seychelles,1984,15
+3560,Seychelles,1992,21
+3561,Seychelles,1996,9
+3562,Seychelles,2000,9
+3563,Seychelles,2004,10
+3564,Seychelles,2008,10
+3565,Seychelles,2012,6
+3566,Seychelles,2016,10
+3567,Seychelles,2020,6
+3568,Seychelles,2024,3
+3569,Sheerio,1936,6
+3570,Shoveller,1952,3
+3571,Shrew II,1960,2
+3572,Siames-Cat,1960,2
+3573,Sibindi-2,1908,3
+3574,Sidi Fekkar-36,1900,4
+3575,Sidi-Fekkar-14,1900,8
+3576,Sierra Leone,1968,4
+3577,Sierra Leone,1980,32
+3578,Sierra Leone,1984,10
+3579,Sierra Leone,1988,20
+3580,Sierra Leone,1992,15
+3581,Sierra Leone,1996,19
+3582,Sierra Leone,2000,3
+3583,Sierra Leone,2004,2
+3584,Sierra Leone,2008,3
+3585,Sierra Leone,2012,2
+3586,Sierra Leone,2016,4
+3587,Sierra Leone,2020,4
+3588,Sierra Leone,2024,4
+3589,Sif,1920,4
+3590,Sildra-1,1920,4
+3591,Silja,1936,6
+3592,Singapore,1948,1
+3593,Singapore,1952,7
+3594,Singapore,1956,48
+3595,Singapore,1960,2
+3596,Singapore,1968,6
+3597,Singapore,1972,12
+3598,Singapore,1976,4
+3599,Singapore,1984,14
+3600,Singapore,1988,27
+3601,Singapore,1992,37
+3602,Singapore,1996,35
+3603,Singapore,2000,23
+3604,Singapore,2004,18
+3605,Singapore,2008,36
+3606,Singapore,2012,36
+3607,Singapore,2016,32
+3608,Singapore,2020,30
+3609,Singapore,2024,32
+3610,Singapore-1,2004,2
+3611,Singapore-2,2004,2
+3612,Singy-37,1900,2
+3613,Singy-7,1900,2
+3614,Sirene,1960,2
+3615,Sjhxa,1952,3
+3616,Sjovinge,1960,2
+3617,Skidoo,1952,3
+3618,Skum,1960,2
+3619,Slaghoken,1948,3
+3620,Slaghoken II,1956,3
+3621,Slovakia,1996,94
+3622,Slovakia,2000,132
+3623,Slovakia,2004,80
+3624,Slovakia,2008,67
+3625,Slovakia,2012,65
+3626,Slovakia,2016,63
+3627,Slovakia,2020,56
+3628,Slovakia,2024,38
+3629,Slovakia-1,1996,2
+3630,Slovakia-1,2004,2
+3631,Slovakia-2,1996,2
+3632,Slovakia-2,2004,2
+3633,Slovenia,1992,47
+3634,Slovenia,1996,47
+3635,Slovenia,2000,90
+3636,Slovenia,2004,98
+3637,Slovenia,2008,73
+3638,Slovenia,2012,78
+3639,Slovenia,2016,70
+3640,Slovenia,2020,64
+3641,Slovenia,2024,117
+3642,Slovenia-1,2004,2
+3643,Slovenia-2,2004,2
+3644,Smyrna,1906,11
+3645,Snap,1948,3
+3646,Snowten III,1960,3
+3647,Snude,1952,3
+3648,So Tom and Prncipe,2020,5
+3649,"Socialer Turnverein, Detroit",1904,6
+3650,Societ Nautique de la Marne,1900,8
+3651,Societ Nautique de la Marne-1,1900,2
+3652,Societ Nautique de la Marne-3,1900,4
+3653,Socit Nautique de Bayonne,1912,19
+3654,Socit Nautique de Bayonne-1,1906,3
+3655,Socit Nautique de Bayonne-2,1906,8
+3656,Socit Nautique de la Basse Seine-1,1906,8
+3657,Socit Nautique de la Basse Seine-2,1906,3
+3658,Solomon Islands,1984,3
+3659,Solomon Islands,1988,5
+3660,Solomon Islands,1992,1
+3661,Solomon Islands,1996,4
+3662,Solomon Islands,2000,2
+3663,Solomon Islands,2004,2
+3664,Solomon Islands,2008,3
+3665,Solomon Islands,2012,4
+3666,Solomon Islands,2016,3
+3667,Solomon Islands,2020,3
+3668,Solomon Islands,2024,2
+3669,Solos Carex,2008,1
+3670,Somalia,1972,4
+3671,Somalia,1984,9
+3672,Somalia,1988,5
+3673,Somalia,1996,4
+3674,Somalia,2000,2
+3675,Somalia,2004,2
+3676,Somalia,2008,2
+3677,Somalia,2012,2
+3678,Somalia,2016,2
+3679,Somalia,2020,2
+3680,Somalia,2024,1
+3681,Sonja II,1912,3
+3682,Sorais-2,1908,5
+3683,Souriceau-38,1900,1
+3684,Souriceau-4,1900,2
+3685,South Africa,1904,3
+3686,South Africa,1908,33
+3687,South Africa,1912,56
+3688,South Africa,1920,93
+3689,South Africa,1924,44
+3690,South Africa,1928,40
+3691,South Africa,1932,18
+3692,South Africa,1936,54
+3693,South Africa,1948,43
+3694,South Africa,1952,106
+3695,South Africa,1956,85
+3696,South Africa,1960,70
+3697,South Africa,1992,141
+3698,South Africa,1996,111
+3699,South Africa,2000,161
+3700,South Africa,2004,128
+3701,South Africa,2008,179
+3702,South Africa,2012,145
+3703,South Africa,2016,155
+3704,South Africa,2020,211
+3705,South Africa,2024,161
+3706,South Africa-1,1920,2
+3707,South Africa-2,1920,2
+3708,South Korea,1948,48
+3709,South Korea,1952,22
+3710,South Korea,1956,36
+3711,South Korea,1960,49
+3712,South Korea,1964,240
+3713,South Korea,1968,66
+3714,South Korea,1972,43
+3715,South Korea,1976,51
+3716,South Korea,1984,240
+3717,South Korea,1988,547
+3718,South Korea,1992,306
+3719,South Korea,1996,397
+3720,South Korea,2000,339
+3721,South Korea,2004,324
+3722,South Korea,2008,317
+3723,South Korea,2012,304
+3724,South Korea,2016,255
+3725,South Korea,2020,338
+3726,South Korea-1,1988,2
+3727,South Korea-1,1992,8
+3728,South Korea-1,1996,10
+3729,South Korea-1,2000,10
+3730,South Korea-1,2004,10
+3731,South Korea-1,2008,6
+3732,South Korea-1,2012,4
+3733,South Korea-1,2016,4
+3734,South Korea-2,1988,2
+3735,South Korea-2,1992,8
+3736,South Korea-2,1996,10
+3737,South Korea-2,2000,10
+3738,South Korea-2,2004,10
+3739,South Korea-2,2008,6
+3740,South Korea-2,2012,4
+3741,South Korea-2,2016,4
+3742,"South St Louis Turnverein, St Louis",1904,6
+3743,South Sudan,2016,3
+3744,South Sudan,2020,2
+3745,South Sudan,2024,14
+3746,South Vietnam,1952,13
+3747,South Vietnam,1956,10
+3748,South Vietnam,1960,5
+3749,South Vietnam,1964,23
+3750,South Vietnam,1968,9
+3751,South Vietnam,1972,2
+3752,South Yemen,1988,5
+3753,Souvenance,1900,1
+3754,Soviet Union,1952,443
+3755,Soviet Union,1956,401
+3756,Soviet Union,1960,404
+3757,Soviet Union,1964,453
+3758,Soviet Union,1968,471
+3759,Soviet Union,1972,531
+3760,Soviet Union,1976,574
+3761,Soviet Union,1980,660
+3762,Soviet Union,1988,647
+3763,Spain,1900,6
+3764,Spain,1920,107
+3765,Spain,1924,140
+3766,Spain,1928,101
+3767,Spain,1932,8
+3768,Spain,1948,81
+3769,Spain,1952,42
+3770,Spain,1956,12
+3771,Spain,1960,228
+3772,Spain,1964,67
+3773,Spain,1968,137
+3774,Spain,1972,162
+3775,Spain,1976,160
+3776,Spain,1980,211
+3777,Spain,1984,257
+3778,Spain,1988,317
+3779,Spain,1992,537
+3780,Spain,1996,380
+3781,Spain,2000,431
+3782,Spain,2004,415
+3783,Spain,2008,347
+3784,Spain,2012,331
+3785,Spain,2016,353
+3786,Spain,2020,429
+3787,Spain,2024,526
+3788,Spain-1,1900,1
+3789,Spain-1,1920,2
+3790,Spain-1,1924,4
+3791,Spain-1,1996,2
+3792,Spain-1,2004,4
+3793,Spain-1,2008,4
+3794,Spain-1,2012,4
+3795,Spain-1,2016,6
+3796,Spain-2,1920,2
+3797,Spain-2,1924,4
+3798,Spain-2,1996,2
+3799,Spain-2,2004,4
+3800,Spain-2,2008,4
+3801,Spain-2,2012,4
+3802,Spain-2,2016,4
+3803,Spirit III,1956,4
+3804,Spirit VI,1960,3
+3805,Springbok,1932,2
+3806,Squid III,1964,2
+3807,Sri Lanka,1948,10
+3808,Sri Lanka,1952,7
+3809,Sri Lanka,1956,3
+3810,Sri Lanka,1960,5
+3811,Sri Lanka,1964,7
+3812,Sri Lanka,1968,3
+3813,Sri Lanka,1972,6
+3814,Sri Lanka,1980,4
+3815,Sri Lanka,1984,6
+3816,Sri Lanka,1988,9
+3817,Sri Lanka,1992,16
+3818,Sri Lanka,1996,11
+3819,Sri Lanka,2000,24
+3820,Sri Lanka,2004,8
+3821,Sri Lanka,2008,9
+3822,Sri Lanka,2012,8
+3823,Sri Lanka,2016,10
+3824,Sri Lanka,2020,13
+3825,Sri Lanka,2024,6
+3826,St Kitts and Nevis,2024,3
+3827,St. Louis Amateur Athletic Association,1904,12
+3828,St. Louis Southwest Turnverein #1-2,1904,5
+3829,St. Louis Southwest Turnverein #2-3,1904,5
+3830,St. Margrite,1948,2
+3831,St. Rose-2,1904,12
+3832,StVincent&Grenadines,2024,4
+3833,Stade Franais AC-2,1900,2
+3834,Starita,1948,2
+3835,Starlight III,1956,2
+3836,State VI,1964,3
+3837,Stella-2,1920,3
+3838,Struten,1960,3
+3839,Studenternes Roklub-2,1912,5
+3840,Subbnboana,1964,4
+3841,Sudan,1960,13
+3842,Sudan,1968,7
+3843,Sudan,1972,31
+3844,Sudan,1984,9
+3845,Sudan,1988,8
+3846,Sudan,1992,7
+3847,Sudan,1996,4
+3848,Sudan,2000,3
+3849,Sudan,2004,4
+3850,Sudan,2008,9
+3851,Sudan,2012,6
+3852,Sudan,2016,6
+3853,Sudan,2020,5
+3854,Sudan,2024,4
+3855,Sunrise,2008,1
+3856,Sunshine,1936,2
+3857,Suriname,1968,1
+3858,Suriname,1972,3
+3859,Suriname,1976,4
+3860,Suriname,1984,7
+3861,Suriname,1988,10
+3862,Suriname,1992,9
+3863,Suriname,1996,11
+3864,Suriname,2000,5
+3865,Suriname,2004,4
+3866,Suriname,2008,4
+3867,Suriname,2012,5
+3868,Suriname,2016,6
+3869,Suriname,2020,5
+3870,Suriname,2024,6
+3871,Surprise,1960,3
+3872,Suzon IV-39,1900,1
+3873,Suzon IV-5,1900,2
+3874,Suzy-2,1920,3
+3875,Swaziland,1972,4
+3876,Swaziland,1984,11
+3877,Swaziland,1988,15
+3878,Swaziland,1992,10
+3879,Swaziland,1996,6
+3880,Swaziland,2000,6
+3881,Swaziland,2004,3
+3882,Swaziland,2008,4
+3883,Swaziland,2012,3
+3884,Swaziland,2016,2
+3885,Sweden,1896,5
+3886,Sweden,1900,24
+3887,Sweden,1906,95
+3888,Sweden,1908,263
+3889,Sweden,1912,614
+3890,Sweden,1920,385
+3891,Sweden,1924,249
+3892,Sweden,1928,129
+3893,Sweden,1932,122
+3894,Sweden,1936,218
+3895,Sweden,1948,211
+3896,Sweden,1952,342
+3897,Sweden,1956,180
+3898,Sweden,1960,248
+3899,Sweden,1964,165
+3900,Sweden,1968,186
+3901,Sweden,1972,186
+3902,Sweden,1976,163
+3903,Sweden,1980,201
+3904,Sweden,1984,254
+3905,Sweden,1988,247
+3906,Sweden,1992,244
+3907,Sweden,1996,225
+3908,Sweden,2000,194
+3909,Sweden,2004,155
+3910,Sweden,2008,162
+3911,Sweden,2012,168
+3912,Sweden,2016,186
+3913,Sweden,2020,173
+3914,Sweden,2024,173
+3915,Sweden-1,1912,8
+3916,Sweden-1,1920,4
+3917,Sweden-1,1924,2
+3918,Sweden-1,1988,2
+3919,Sweden-1,1992,4
+3920,Sweden-1,1996,4
+3921,Sweden-1,2000,2
+3922,Sweden-1,2008,2
+3923,Sweden-2,1912,8
+3924,Sweden-2,1920,4
+3925,Sweden-2,1924,2
+3926,Sweden-2,1988,2
+3927,Sweden-2,1992,4
+3928,Sweden-2,1996,4
+3929,Sweden-2,2000,2
+3930,Sweden-2,2004,2
+3931,Sweden-2,2008,2
+3932,Sweden-3,1912,8
+3933,Sweden-4,1912,2
+3934,Swedish Star,1932,2
+3935,Swift,1948,2
+3936,Switzerland,1896,8
+3937,Switzerland,1900,43
+3938,Switzerland,1904,7
+3939,Switzerland,1906,45
+3940,Switzerland,1908,1
+3941,Switzerland,1912,7
+3942,Switzerland,1920,126
+3943,Switzerland,1924,258
+3944,Switzerland,1928,236
+3945,Switzerland,1932,9
+3946,Switzerland,1936,322
+3947,Switzerland,1948,279
+3948,Switzerland,1952,241
+3949,Switzerland,1956,18
+3950,Switzerland,1960,211
+3951,Switzerland,1964,122
+3952,Switzerland,1968,155
+3953,Switzerland,1972,265
+3954,Switzerland,1976,101
+3955,Switzerland,1980,86
+3956,Switzerland,1984,245
+3957,Switzerland,1988,151
+3958,Switzerland,1992,171
+3959,Switzerland,1996,172
+3960,Switzerland,2000,138
+3961,Switzerland,2004,134
+3962,Switzerland,2008,112
+3963,Switzerland,2012,122
+3964,Switzerland,2016,148
+3965,Switzerland,2020,196
+3966,Switzerland,2024,218
+3967,Switzerland-1,1924,2
+3968,Switzerland-1,2004,2
+3969,Switzerland-1,2008,2
+3970,Switzerland-1,2012,2
+3971,Switzerland-1,2016,2
+3972,Switzerland-2,1924,2
+3973,Switzerland-2,2004,2
+3974,Switzerland-2,2008,2
+3975,Switzerland-2,2012,2
+3976,Switzerland-2,2016,2
+3977,Sydney Rowing Club,1912,9
+3978,Sylvia,1928,6
+3979,Symphony,1948,2
+3980,Syndi,1964,2
+3981,Syria,1948,1
+3982,Syria,1968,2
+3983,Syria,1972,5
+3984,Syria,1980,71
+3985,Syria,1984,9
+3986,Syria,1988,13
+3987,Syria,1992,9
+3988,Syria,1996,8
+3989,Syria,2000,8
+3990,Syria,2004,6
+3991,Syria,2008,7
+3992,Syria,2012,10
+3993,Syria,2016,7
+3994,Syria,2020,6
+3995,Syria,2024,10
+3996,Taifun,1912,5
+3997,Taifun,1964,2
+3998,Tajamar,1960,2
+3999,Tajikistan,1996,8
+4000,Tajikistan,2000,4
+4001,Tajikistan,2004,9
+4002,Tajikistan,2008,16
+4003,Tajikistan,2012,16
+4004,Tajikistan,2016,7
+4005,Tajikistan,2020,10
+4006,Tajikistan,2024,14
+4007,Tan-Fe-Pah,1920,3
+4008,Tango,1960,3
+4009,Tango,1964,3
+4010,Tantalus,1964,2
+4011,Tanzania,1964,4
+4012,Tanzania,1968,5
+4013,Tanzania,1972,22
+4014,Tanzania,1980,48
+4015,Tanzania,1984,21
+4016,Tanzania,1988,10
+4017,Tanzania,1992,9
+4018,Tanzania,1996,7
+4019,Tanzania,2000,4
+4020,Tanzania,2004,9
+4021,Tanzania,2008,9
+4022,Tanzania,2012,6
+4023,Tanzania,2016,7
+4024,Tanzania,2020,3
+4025,Tanzania,2024,7
+4026,Tengiri,1960,2
+4027,Teresita,1952,3
+4028,Terrible,1960,2
+4029,Thailand,1952,15
+4030,Thailand,1956,38
+4031,Thailand,1960,22
+4032,Thailand,1964,64
+4033,Thailand,1968,46
+4034,Thailand,1972,37
+4035,Thailand,1976,62
+4036,Thailand,1984,40
+4037,Thailand,1988,15
+4038,Thailand,1992,64
+4039,Thailand,1996,54
+4040,Thailand,2000,68
+4041,Thailand,2004,47
+4042,Thailand,2008,53
+4043,Thailand,2012,43
+4044,Thailand,2016,58
+4045,Thailand,2020,48
+4046,Thailand,2024,58
+4047,Thailand-1,1996,2
+4048,Thailand-1,2004,2
+4049,Thailand-2,1996,2
+4050,Thailand-2,2004,2
+4051,Thalatta,1952,3
+4052,Thames Rowing Club,1912,5
+4053,The Cloud,1948,2
+4054,The Gambia,2020,5
+4055,Thessalonki-1,1906,11
+4056,Three Leaves,1960,2
+4057,Three Star Too,1936,2
+4058,Tichiboo,1956,2
+4059,Tilly,1956,3
+4060,Tim-Tam III,1952,3
+4061,Timor Leste,2004,2
+4062,Timor Leste,2008,1
+4063,Timor Leste,2012,2
+4064,Timor Leste,2016,3
+4065,Timor-Leste,2024,4
+4066,Tineke,1956,2
+4067,Tip,1956,3
+4068,Titia,1952,5
+4069,Tlaloc,1964,2
+4070,Togo,1972,7
+4071,Togo,1984,6
+4072,Togo,1988,6
+4073,Togo,1992,9
+4074,Togo,1996,7
+4075,Togo,2000,3
+4076,Togo,2004,3
+4077,Togo,2008,4
+4078,Togo,2012,6
+4079,Togo,2016,5
+4080,Togo,2020,4
+4081,Togo,2024,5
+4082,Tom Kyle,1952,3
+4083,Tomahawk II,1956,3
+4084,Tonga,1984,7
+4085,Tonga,1988,7
+4086,Tonga,1992,5
+4087,Tonga,1996,5
+4088,Tonga,2000,3
+4089,Tonga,2004,5
+4090,Tonga,2008,3
+4091,Tonga,2012,3
+4092,Tonga,2016,7
+4093,Tonga,2020,6
+4094,Tonga,2024,4
+4095,Tornade-16,1900,1
+4096,Tornado,1952,3
+4097,Tornado,1960,2
+4098,Toronto Argonauts,1904,9
+4099,Toronto Argonauts,1908,9
+4100,Toronto Argonauts,1912,9
+4101,Tournade-40,1900,1
+4102,Tramontane,1932,2
+4103,Trans-Mississippi Golf Association-2,1904,10
+4104,Trickson VI,1952,5
+4105,Trinidad and Tobago,1948,9
+4106,Trinidad and Tobago,1952,2
+4107,Trinidad and Tobago,1956,10
+4108,Trinidad and Tobago,1964,16
+4109,Trinidad and Tobago,1968,25
+4110,Trinidad and Tobago,1972,36
+4111,Trinidad and Tobago,1976,20
+4112,Trinidad and Tobago,1980,15
+4113,Trinidad and Tobago,1984,23
+4114,Trinidad and Tobago,1988,10
+4115,Trinidad and Tobago,1992,13
+4116,Trinidad and Tobago,1996,16
+4117,Trinidad and Tobago,2000,29
+4118,Trinidad and Tobago,2004,26
+4119,Trinidad and Tobago,2008,35
+4120,Trinidad and Tobago,2012,38
+4121,Trinidad and Tobago,2016,43
+4122,Trinidad and Tobago,2020,44
+4123,Trinidad and Tobago,2024,23
+4124,Trintel II,1960,3
+4125,Tritons Lillois-2,1900,12
+4126,Trkiye,2024,165
+4127,Tu-Fri,1952,3
+4128,Tulilind,1956,2
+4129,Tunisia,1960,56
+4130,Tunisia,1964,12
+4131,Tunisia,1968,8
+4132,Tunisia,1972,37
+4133,Tunisia,1976,16
+4134,Tunisia,1984,28
+4135,Tunisia,1988,45
+4136,Tunisia,1992,15
+4137,Tunisia,1996,52
+4138,Tunisia,2000,47
+4139,Tunisia,2004,64
+4140,Tunisia,2008,29
+4141,Tunisia,2012,87
+4142,Tunisia,2016,65
+4143,Tunisia,2020,73
+4144,Tunisia,2024,31
+4145,Turkey,1906,2
+4146,Turkey,1912,7
+4147,Turkey,1924,23
+4148,Turkey,1928,40
+4149,Turkey,1932,2
+4150,Turkey,1936,59
+4151,Turkey,1948,87
+4152,Turkey,1952,58
+4153,Turkey,1956,28
+4154,Turkey,1960,58
+4155,Turkey,1964,25
+4156,Turkey,1968,30
+4157,Turkey,1972,50
+4158,Turkey,1976,28
+4159,Turkey,1984,62
+4160,Turkey,1988,51
+4161,Turkey,1992,54
+4162,Turkey,1996,61
+4163,Turkey,2000,67
+4164,Turkey,2004,74
+4165,Turkey,2008,71
+4166,Turkey,2012,119
+4167,Turkey,2016,119
+4168,Turkey,2020,139
+4169,Turkmenistan,1996,7
+4170,Turkmenistan,2000,8
+4171,Turkmenistan,2004,10
+4172,Turkmenistan,2008,10
+4173,Turkmenistan,2012,10
+4174,Turkmenistan,2016,9
+4175,Turkmenistan,2020,10
+4176,Turkmenistan,2024,6
+4177,"Turnverein Vorwrts, Chicago",1904,6
+4178,"Turnverein Vorwrts, Cleveland",1904,6
+4179,Turquoise-1,1900,1
+4180,Turquoise-3,1900,2
+4181,Tutti V,1928,5
+4182,Tuvalu,2008,3
+4183,Tuvalu,2012,3
+4184,Tuvalu,2016,1
+4185,Tuvalu,2020,2
+4186,Tuvalu,2024,2
+4187,Twinkle,1960,2
+4188,Twins II,1928,5
+4189,Twins VIII,1956,4
+4190,UA Emirates,2024,16
+4191,USFSA,1900,13
+4192,Ubu,1928,5
+4193,Uganda,1956,5
+4194,Uganda,1960,16
+4195,Uganda,1964,19
+4196,Uganda,1968,14
+4197,Uganda,1972,35
+4198,Uganda,1980,16
+4199,Uganda,1984,30
+4200,Uganda,1988,30
+4201,Uganda,1992,9
+4202,Uganda,1996,12
+4203,Uganda,2000,13
+4204,Uganda,2004,11
+4205,Uganda,2008,11
+4206,Uganda,2012,16
+4207,Uganda,2016,23
+4208,Uganda,2020,28
+4209,Uganda,2024,27
+4210,Ukraine,1996,351
+4211,Ukraine,2000,368
+4212,Ukraine,2004,357
+4213,Ukraine,2008,323
+4214,Ukraine,2012,304
+4215,Ukraine,2016,268
+4216,Ukraine,2020,225
+4217,Ukraine,2024,212
+4218,Ukraine-1,2008,2
+4219,Ukraine-1,2016,2
+4220,Ukraine-2,2008,2
+4221,Ukraine-2,2016,2
+4222,Umberta V,1964,2
+4223,Unified Team,1992,646
+4224,Unified Team-1,1992,2
+4225,Unified Team-2,1992,2
+4226,Union des Socits Franais de Sports Athletiques,1900,29
+4227,Unique,1952,3
+4228,United Arab Emirates,1984,11
+4229,United Arab Emirates,1988,36
+4230,United Arab Emirates,1992,36
+4231,United Arab Emirates,1996,4
+4232,United Arab Emirates,2000,5
+4233,United Arab Emirates,2004,5
+4234,United Arab Emirates,2008,9
+4235,United Arab Emirates,2012,26
+4236,United Arab Emirates,2016,12
+4237,United Arab Emirates,2020,5
+4238,United Arab Republic,1960,123
+4239,United States,1896,27
+4240,United States,1900,114
+4241,United States,1904,823
+4242,United States,1906,81
+4243,United States,1908,219
+4244,United States,1912,364
+4245,United States,1920,473
+4246,United States,1924,447
+4247,United States,1928,416
+4248,United States,1932,724
+4249,United States,1936,473
+4250,United States,1948,412
+4251,United States,1952,436
+4252,United States,1956,431
+4253,United States,1960,418
+4254,United States,1964,482
+4255,United States,1968,529
+4256,United States,1972,574
+4257,United States,1976,554
+4258,United States,1984,693
+4259,United States,1988,715
+4260,United States,1992,728
+4261,United States,1996,827
+4262,United States,2000,748
+4263,United States,2004,706
+4264,United States,2008,744
+4265,United States,2012,669
+4266,United States,2016,699
+4267,United States,2020,856
+4268,United States,2024,854
+4269,United States Golf Association-3,1904,10
+4270,United States Virgin Islands,1968,6
+4271,United States Virgin Islands,1972,16
+4272,United States Virgin Islands,1976,26
+4273,United States Virgin Islands,1984,52
+4274,United States Virgin Islands,1988,46
+4275,United States Virgin Islands,1992,34
+4276,United States Virgin Islands,1996,14
+4277,United States Virgin Islands,2000,12
+4278,United States Virgin Islands,2004,9
+4279,United States Virgin Islands,2008,8
+4280,United States Virgin Islands,2012,9
+4281,United States Virgin Islands,2016,7
+4282,United States-1,1904,2
+4283,United States-1,1924,6
+4284,United States-1,1972,2
+4285,United States-1,1992,2
+4286,United States-1,1996,4
+4287,United States-1,2000,8
+4288,United States-1,2004,10
+4289,United States-1,2008,8
+4290,United States-1,2012,10
+4291,United States-1,2016,10
+4292,United States-10,1904,2
+4293,United States-11,1904,2
+4294,United States-12,1904,2
+4295,United States-13,1904,2
+4296,United States-14,1904,2
+4297,United States-2,1904,2
+4298,United States-2,1924,6
+4299,United States-2,1972,2
+4300,United States-2,1992,2
+4301,United States-2,1996,4
+4302,United States-2,2000,8
+4303,United States-2,2004,10
+4304,United States-2,2008,8
+4305,United States-2,2012,10
+4306,United States-2,2016,10
+4307,United States-3,1904,2
+4308,United States-3,1992,2
+4309,United States-3,1996,4
+4310,United States-4,1904,2
+4311,United States-5,1904,2
+4312,United States-6,1904,2
+4313,United States-7,1904,2
+4314,United States-8,1904,2
+4315,United States-9,1904,2
+4316,United States/France,1900,2
+4317,United States/Great Britain,1900,4
+4318,Univ. of Brussels,1900,11
+4319,Unknown,1912,2
+4320,Upton Park FC,1900,11
+4321,Uragan,1952,2
+4322,Uruguay,1924,40
+4323,Uruguay,1928,17
+4324,Uruguay,1932,6
+4325,Uruguay,1936,39
+4326,Uruguay,1948,77
+4327,Uruguay,1952,42
+4328,Uruguay,1956,29
+4329,Uruguay,1960,39
+4330,Uruguay,1964,29
+4331,Uruguay,1968,50
+4332,Uruguay,1972,20
+4333,Uruguay,1976,15
+4334,Uruguay,1984,23
+4335,Uruguay,1988,18
+4336,Uruguay,1992,18
+4337,Uruguay,1996,15
+4338,Uruguay,2000,17
+4339,Uruguay,2004,18
+4340,Uruguay,2008,13
+4341,Uruguay,2012,27
+4342,Uruguay,2016,17
+4343,Uruguay,2020,11
+4344,Uruguay,2024,27
+4345,Uzbekistan,1996,95
+4346,Uzbekistan,2000,85
+4347,Uzbekistan,2004,79
+4348,Uzbekistan,2008,69
+4349,Uzbekistan,2012,56
+4350,Uzbekistan,2016,80
+4351,Uzbekistan,2020,85
+4352,Uzbekistan,2024,119
+4353,Vanuatu,1988,6
+4354,Vanuatu,1992,8
+4355,Vanuatu,1996,4
+4356,Vanuatu,2000,3
+4357,Vanuatu,2004,2
+4358,Vanuatu,2008,3
+4359,Vanuatu,2012,5
+4360,Vanuatu,2016,4
+4361,Vanuatu,2020,3
+4362,Vanuatu,2024,6
+4363,Vaxholm Roddklubb,1912,5
+4364,Venezuela,1932,1
+4365,Venezuela,1948,2
+4366,Venezuela,1952,63
+4367,Venezuela,1956,38
+4368,Venezuela,1960,52
+4369,Venezuela,1964,21
+4370,Venezuela,1968,30
+4371,Venezuela,1972,33
+4372,Venezuela,1976,56
+4373,Venezuela,1980,43
+4374,Venezuela,1984,44
+4375,Venezuela,1988,17
+4376,Venezuela,1992,27
+4377,Venezuela,1996,53
+4378,Venezuela,2000,65
+4379,Venezuela,2004,53
+4380,Venezuela,2008,126
+4381,Venezuela,2012,85
+4382,Venezuela,2016,105
+4383,Venezuela,2020,47
+4384,Venezuela,2024,37
+4385,Venilia,1960,3
+4386,Vento Sul,1964,2
+4387,Verveine-19,1900,1
+4388,Verveine-41,1900,1
+4389,Vesania,1960,2
+4390,Vesper Boat Club,1900,9
+4391,Vesper Boat Club,1904,9
+4392,Vicking,1936,2
+4393,Vietnam,1980,38
+4394,Vietnam,1988,12
+4395,Vietnam,1992,10
+4396,Vietnam,1996,6
+4397,Vietnam,2000,7
+4398,Vietnam,2004,11
+4399,Vietnam,2008,18
+4400,Vietnam,2012,24
+4401,Vietnam,2016,28
+4402,Vietnam,2020,23
+4403,Vietnam,2024,20
+4404,Viking,1956,3
+4405,Viktoriya,1960,3
+4406,Vim III,1960,2
+4407,Vinga-1,1908,5
+4408,Vinha,1948,3
+4409,Vinha,1952,3
+4410,Virgin Islands,2020,5
+4411,"Virgin Islands, B",2024,4
+4412,"Virgin Islands, US",2024,5
+4413,Virginie,1952,3
+4414,Vision,1956,4
+4415,Voloira II,1960,3
+4416,Wales-4,1908,11
+4417,Wannsee,1936,2
+4418,Web II,1960,3
+4419,Web III,1964,3
+4420,Wendehals,1956,2
+4421,West Germany,1968,432
+4422,West Germany,1972,581
+4423,West Germany,1976,452
+4424,West Germany,1984,571
+4425,West Germany,1988,512
+4426,West Germany-1,1972,2
+4427,West Germany-1,1988,2
+4428,West Germany-2,1972,2
+4429,West Germany-2,1988,2
+4430,West Germany-3,1972,2
+4431,West Indies Federation,1960,18
+4432,Western Golf Association-1,1904,10
+4433,Western Rowing Club-3,1904,6
+4434,Whirlaway,1952,2
+4435,Whisper,2008,1
+4436,White Lady,1964,3
+4437,Whitini Star,2008,1
+4438,Widgeon,1964,2
+4439,Wiking,1936,5
+4440,Willem-Six,1924,3
+4441,Windor,1932,2
+4442,Winnipeg Shamrocks-1,1904,12
+4443,Wolseley-Siddeley-1,1908,4
+4444,Xantippa,1956,3
+4445,Xolotl,1964,3
+4446,Yangon,1960,2
+4447,Yemen,1992,8
+4448,Yemen,1996,4
+4449,Yemen,2000,2
+4450,Yemen,2004,3
+4451,Yemen,2008,8
+4452,Yemen,2012,4
+4453,Yemen,2016,3
+4454,Yemen,2020,6
+4455,Yemen,2024,4
+4456,Yeoman,1952,4
+4457,Yeoman V,1956,3
+4458,Yeoman VII,1960,3
+4459,Yeoman XII,1964,3
+4460,Ylliam II,1936,5
+4461,Ylliam VII,1948,6
+4462,Ylliam VIII,1952,5
+4463,Yugoslavia,1920,15
+4464,Yugoslavia,1924,116
+4465,Yugoslavia,1928,86
+4466,Yugoslavia,1932,1
+4467,Yugoslavia,1936,172
+4468,Yugoslavia,1948,162
+4469,Yugoslavia,1952,192
+4470,Yugoslavia,1956,37
+4471,Yugoslavia,1960,183
+4472,Yugoslavia,1964,123
+4473,Yugoslavia,1968,130
+4474,Yugoslavia,1972,208
+4475,Yugoslavia,1976,95
+4476,Yugoslavia,1980,180
+4477,Yugoslavia,1984,154
+4478,Yugoslavia,1988,183
+4479,Yugoslavia-1,1972,2
+4480,Yugoslavia-2,1972,2
+4481,Zambia,1964,15
+4482,Zambia,1968,7
+4483,Zambia,1972,12
+4484,Zambia,1980,43
+4485,Zambia,1984,18
+4486,Zambia,1988,33
+4487,Zambia,1992,11
+4488,Zambia,1996,8
+4489,Zambia,2000,8
+4490,Zambia,2004,6
+4491,Zambia,2008,8
+4492,Zambia,2012,7
+4493,Zambia,2016,7
+4494,Zambia,2020,31
+4495,Zambia,2024,32
+4496,Zefyros,1960,2
+4497,Zimbabwe,1928,2
+4498,Zimbabwe,1960,10
+4499,Zimbabwe,1964,31
+4500,Zimbabwe,1980,52
+4501,Zimbabwe,1984,20
+4502,Zimbabwe,1988,47
+4503,Zimbabwe,1992,28
+4504,Zimbabwe,1996,21
+4505,Zimbabwe,2000,26
+4506,Zimbabwe,2004,14
+4507,Zimbabwe,2008,16
+4508,Zimbabwe,2012,9
+4509,Zimbabwe,2016,31
+4510,Zimbabwe,2020,5
+4511,Zimbabwe,2024,7
+4512,Zut,1908,3
+4513,rn-2,1912,5
