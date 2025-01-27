@@ -1,59 +1,38 @@
-import numpy as np
 import sympy as sp
-from scipy.optimize import minimize
-from scipy.integrate import quad
-
 
 def sustainable_tourism_model():
     # Define constants and assumptions
     alpha_WD = 0.001  # ton/person Waste growth rate
-    alpha_WS = 1 # TODO
-    alpha_HD = 100 * 7.2 # gallon Water demand growth rate
-    alpha_HS = 1 # TODO
+    alpha_WS = 1  # TODO
+    alpha_HD = 100 * 7.2  # gallon Water demand growth rate
+    alpha_HS = 1  # TODO
     alpha_FD = 1  # TODO
-    alpha_FS = 1 # TODO
+    alpha_FS = 1  # TODO
     alpha_n = 1  # Visitor satisfaction coefficient
     
     C_W = 1000  # TODO
-    C_T = 70000   # Traffic capacity (assumed constant)
+    C_T = 70000  # Traffic capacity (assumed constant)
     initial_water_supply = 1000000 * 100  # 1 billion gallons/year
 
-    W_Pi = 0.4   # Weight of revenue in resident satisfaction
-    W_E = 0.4   # Weight of infrastructure in resident satisfaction
+    W_Pi = 0.4  # Weight of revenue in resident satisfaction
+    W_E = 0.4  # Weight of infrastructure in resident satisfaction
     W_V = 0.2  # Weight of economy in resident satisfaction
-
-    V_0 = 100  # Reference glacier volume (arbitrary scale, normalized)
-    Pi_0 = 1_000_000  # Reference business revenue (normalized)
-
-    k = 0.02  # Glacier melting rate coefficient
-    T_m = 10  # Mean temperature for glacier equation (°C)
-    C_0 = 1  # Constant in temperature equation
-
-    # Visitor satisfaction weight placeholder
-    visitor_satisfaction_weight = 0.7
 
     # Assume government spending on waste, water, and traffic
     I_W = 0
     I_H = 0
     I_T = 0
 
-    # Define variables
+    # Define symbolic variables
     n = sp.Symbol('n')  # Number of visitors
     T = sp.Symbol('T')  # Temperature (°C)
-
-    e_S = 0.5
-    e_D = -0.5
 
     # Price level
     P = 232
 
     # Business revenue
-    Pi = n*P
+    Pi = n * P
 
-    # Government revenue
-    R = 0.2 * Pi
-
-    
     # Waste demand
     W_D = alpha_WD * n 
 
@@ -68,20 +47,17 @@ def sustainable_tourism_model():
 
     # Traffic demand
     F_D = alpha_FD * n
-    # Traffic supply
     F_S = alpha_FS * sp.ln(I_T) + C_T
 
     # Infrastructure metric
-    ILI = ((H_D / H_S)**100 + (W_D / W_S)**100 + (F_D / F_S)**100)**(1 / 100)
+    ILI = ((H_D / H_S) ** 100 + (W_D / W_S) ** 100 + (F_D / F_S) ** 100) ** (1 / 100)
 
     # Glacier volume as a function of temperature
-
     Tm = 0 
     v = 1000
     t = -6
-    alpha = v / sp.ln(-((t-Tm) - 31))
-    #V_g = sp.sqrt(1 / beta * (C* sp.exp(-2 * beta * (0.5 * T**2 - Tm * T)) - alpha))
-    V_g = alpha * sp.ln(-((T-Tm)-31))
+    alpha = v / sp.ln(-((t - Tm) - 31))
+    V_g = alpha * sp.ln(-((T - Tm) - 31))
 
     # Resident satisfaction
     r_Pi = 1 / (1 + sp.exp(-0.0001 * (Pi - 45000)))
@@ -90,60 +66,58 @@ def sustainable_tourism_model():
 
     Omega = W_Pi * r_Pi + W_E * r_E + W_V * r_V
 
-    # Visitor satisfaction
-    W_P = 0.4 # Weight of price in determining attraction
-
-
-
     # Initialize number of visitors
     visitors_example = 16000  # Initial estimate of visitors
 
     # Iterate to adjust number of visitors based on omega
     tolerance = 1e-6  # Convergence tolerance
-    max_iterations = 1000  # Max iterations to avoid infinite loops
-    Omega_func = sp.lambdify([n, T], Omega, 'sympy')
+    max_iterations = 1  # Max iterations to avoid infinite loops
+    Omega_func = sp.lambdify([n, T], Omega, 'numpy')  # Use numpy for lambdify
+
+    # Set temperature value (e.g., T = 1)
+    temperature_value = 1  # Example temperature value (1°C)
 
     for _ in range(max_iterations):
         # Calculate Omega based on current number of visitors
-        
-        Omega_val = Omega_func(visitors_example, 1)  # Example temperature
+        Omega_func = sp.lambdify([n, T], Omega, 'numpy')
+        Omega_val = Omega_func(visitors_example, temperature_value)
 
         # Calculate visitor satisfaction omega
-        omega = W_P * (1 / (1 + sp.exp(0.03 * (P - 250)))) + W_E * r_E + W_V * r_V
-        
+        omega = W_Pi * (1 / (1 + sp.exp(0.03 * (P - 250)))) + W_E * r_E + W_V * r_V
+
         # Update number of visitors
-        new_visitors = alpha_n * omega
-        print(new_visitors)
-        # Check for convergence and limit values
+        new_visitors = n * omega
+        
+        # Evaluate new_visitors expression numerically
         new_visitors_num = new_visitors.evalf()  # Convert symbolic to numeric value
+        new_visitors_num = new_visitors.subs({n: visitors_example, T: 1}).evalf()  # Substitute and evaluate numerically
+        print(f"New Visitors: {new_visitors_num}")
+        # Check for convergence
+        if abs(new_visitors_num - visitors_example) < tolerance:
+            print(f"Converged to stable number of visitors: {new_visitors_num}")
+            break
 
-        # Avoid overflow or unrealistic values
-        # if float(new_visitors_num) > 100000 or float(new_visitors_num) < 100:
-        #     print(f"Visitor count out of bounds: {new_visitors_num}")
-        #     break
+        # Break after the first iteration to avoid infinite loop in this case
+        visitors_example = int(new_visitors_num.evalf())
 
-        # # Check for convergence
-        # if abs(new_visitors_num - visitors_example) < tolerance:
-        #     print(f"Converged to stable number of visitors: {new_visitors_num}")
-        #     break
+    # Final calculations with numeric substitutions
+    final_Omega = Omega_func(visitors_example, temperature_value)  # Example with temperature 1°C
 
-
-        # Update the number of visitors for the next iteration
-        visitors_example = new_visitors
-        break
-
-    # Final calculations
-    final_Omega = Omega_func(visitors_example, 1)  # Example with temperature 15°C
+    # Substitute for Pi and r_E with final visitors and temperature value
+    final_Pi = Pi.subs(n, visitors_example).subs(T, temperature_value).evalf()
+    final_r_E = r_E.subs(n, visitors_example).subs(T, temperature_value).evalf()
+    
 
     return {
         "Resident Satisfaction (Omega)": final_Omega,
-        "Business Revenue (Pi)": (Pi.subs(sp.Symbol('n'), visitors_example)),
-        "Infrastructure Metric (r)": (r_E.subs(sp.Symbol('n'), visitors_example)),
+        "Business Revenue (Pi)": final_Pi,
+        "Infrastructure Metric (r)": final_r_E,
     }
 
 # Example usage
 result = sustainable_tourism_model()
 print(result)
+
 # Glacier volume as a function of temperature
 # beta = 0.2 # TODO
 # Tm = 0 + 200
