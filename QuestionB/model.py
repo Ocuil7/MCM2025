@@ -5,10 +5,9 @@ def sustainable_tourism_model():
     alpha_WD = 0.001  # ton/person Waste growth rate
     alpha_WS = 1  # TODO
     alpha_HD = 100 * 7.2  # gallon Water demand growth rate
-    alpha_HS = 1  # TODO
-    alpha_FD = 1  # TODO
-    alpha_FS = 1  # TODO
-    alpha_n = 1  # Visitor satisfaction coefficient
+    alpha_HS = 0.000000001  # TODO
+    alpha_FD = 0.000000001  # TODO
+    alpha_FS = 0.000000001  # TODO
     
     C_W = 1000  # TODO
     C_T = 70000  # Traffic capacity (assumed constant)
@@ -16,12 +15,9 @@ def sustainable_tourism_model():
 
     W_Pi = 0.4  # Weight of revenue in resident satisfaction
     W_E = 0.4  # Weight of infrastructure in resident satisfaction
-    W_V = 0.2  # Weight of economy in resident satisfaction
+    W_V = 0.2  # Weight of environment in resident satisfaction
 
-    # Assume government spending on waste, water, and traffic
-    I_W = 0
-    I_H = 0
-    I_T = 0
+    
 
     # Define symbolic variables
     n = sp.Symbol('n')  # Number of visitors
@@ -32,6 +28,11 @@ def sustainable_tourism_model():
 
     # Business revenue
     Pi = n * P
+
+    # Assume government spending on waste, water, and traffic
+    I_W = 0
+    I_H = 0
+    I_T = 0
 
     # Waste demand
     W_D = alpha_WD * n 
@@ -70,8 +71,8 @@ def sustainable_tourism_model():
     visitors_example = 16000  # Initial estimate of visitors
 
     # Iterate to adjust number of visitors based on omega
-    tolerance = 1e-6  # Convergence tolerance
-    max_iterations = 1  # Max iterations to avoid infinite loops
+    tolerance = 100  # Convergence tolerance
+    max_iterations = 100  # Max iterations to avoid infinite loops
     Omega_func = sp.lambdify([n, T], Omega, 'numpy')  # Use numpy for lambdify
 
     # Set temperature value (e.g., T = 1)
@@ -86,7 +87,7 @@ def sustainable_tourism_model():
         omega = W_Pi * (1 / (1 + sp.exp(0.03 * (P - 250)))) + W_E * r_E + W_V * r_V
 
         # Update number of visitors
-        new_visitors = n * omega
+        new_visitors = n * (omega+0.316)
         
         # Evaluate new_visitors expression numerically
         new_visitors_num = new_visitors.evalf()  # Convert symbolic to numeric value
