@@ -1,4 +1,5 @@
 import sympy as sp
+import matplotlib.pyplot as plt
 
 def sustainable_tourism_model():
     # Define constants and assumptions
@@ -22,13 +23,11 @@ def sustainable_tourism_model():
     T = sp.Symbol('T')  # Temperature (°C)
 
     # Price level equation parameters
-    
     epsilon_S = 1.5  # elasticity of supply
     epsilon_D = 1.2  # elasticity of demand
-    c_0 = sp.ln(232/(16000 ** (1 / (epsilon_S - epsilon_D)))) # example constant value
+    c_0 = sp.ln(232/(16000 ** (1 / (epsilon_S - epsilon_D))))  # example constant value
 
     # Updated Price equation
-    
     P = sp.exp(c_0) * n ** (1 / (epsilon_S - epsilon_D))
     
     # Business revenue
@@ -58,7 +57,6 @@ def sustainable_tourism_model():
     # Infrastructure metric
     ILI = ((H_D / H_S) ** 2 + (W_D / W_S) ** 2 + (F_D / F_S) ** 2) ** (1 / 2)
 
-
     # Glacier volume as a function of temperature
     Tm = 0 
     v = 1000
@@ -81,6 +79,15 @@ def sustainable_tourism_model():
 
     # Create Omega function (once, outside the loop)
     Omega_func = sp.lambdify([n, T], Omega, 'numpy')  # Use numpy for lambdify
+
+    # Lists to store values for plotting
+    visitors_list = []
+    revenue_list = []
+    ILI_list = []
+    glacier_volume_list = []
+    H_ratio_list = []
+    W_ratio_list = []
+    T_ratio_list = []
 
     for _ in range(100):  # Max iterations to avoid infinite loops
         # Calculate Omega based on current number of visitors
@@ -105,6 +112,15 @@ def sustainable_tourism_model():
         new_visitors_num = new_visitors.subs({n: visitors_example, T: temperature_value}).evalf()
         print(f"New Visitors: {new_visitors_num}")
 
+        # Store the values for plotting
+        visitors_list.append(visitors_example)
+        revenue_list.append(Pi.subs(n, visitors_example).subs(T, temperature_value).evalf())
+        ILI_list.append(ILI.subs(n, visitors_example).subs(T, temperature_value).evalf())
+        glacier_volume_list.append(V_g.subs(T, temperature_value).evalf())
+        H_ratio_list.append(H_D.subs(n, visitors_example).evalf() / H_S.subs(n, visitors_example).evalf())
+        W_ratio_list.append(W_D.subs(n, visitors_example).evalf() / W_S.subs(n, visitors_example).evalf())
+        T_ratio_list.append(F_D.subs(n, visitors_example).evalf() / F_S.subs(n, visitors_example).evalf())
+
         # Check for convergence
         if abs(new_visitors_num - visitors_example) < 1e-6:
             print(f"Converged to stable number of visitors: {new_visitors_num}")
@@ -121,6 +137,43 @@ def sustainable_tourism_model():
     final_Pi = Pi.subs(n, visitors_example).subs(T, temperature_value).evalf()
     final_r_E = r_E.subs(n, visitors_example).subs(T, temperature_value).evalf()
 
+    # Plot the recorded data
+    fig, axs = plt.subplots(2, 2, figsize=(12, 10))
+
+    # Plot Number of Visitors vs Revenue
+    axs[0, 0].plot(visitors_list, revenue_list, label="Business Revenue (Pi)")
+    axs[0, 0].set_xlabel("Number of Visitors")
+    axs[0, 0].set_ylabel("Business Revenue (Pi)")
+    axs[0, 0].set_title("Number of Visitors vs Business Revenue")
+    axs[0, 0].grid(True)
+
+    # Plot ILI vs Number of Visitors
+    axs[0, 1].plot(visitors_list, ILI_list, label="Infrastructure Metric (ILI)")
+    axs[0, 1].set_xlabel("Number of Visitors")
+    axs[0, 1].set_ylabel("Infrastructure Metric (ILI)")
+    axs[0, 1].set_title("Number of Visitors vs Infrastructure Metric (ILI)")
+    axs[0, 1].grid(True)
+
+    # Plot Glacier Volume vs Number of Visitors
+    axs[1, 0].plot(visitors_list, glacier_volume_list, label="Glacier Volume")
+    axs[1, 0].set_xlabel("Number of Visitors")
+    axs[1, 0].set_ylabel("Glacier Volume (V_g)")
+    axs[1, 0].set_title("Number of Visitors vs Glacier Volume")
+    axs[1, 0].grid(True)
+
+    # Plot Waste, Water, and Traffic Ratios
+    axs[1, 1].plot(visitors_list, H_ratio_list, label="Water Ratio (H_D / H_S)", color='blue')
+    axs[1, 1].plot(visitors_list, W_ratio_list, label="Waste Ratio (W_D / W_S)", color='green')
+    axs[1, 1].plot(visitors_list, T_ratio_list, label="Traffic Ratio (F_D / F_S)", color='red')
+    axs[1, 1].set_xlabel("Number of Visitors")
+    axs[1, 1].set_ylabel("Ratio")
+    axs[1, 1].set_title("Waste, Water, and Traffic Ratios")
+    axs[1, 1].grid(True)
+    axs[1, 1].legend()
+
+    plt.tight_layout()
+    plt.show()
+
     return {
         "Resident Satisfaction (Omega)": final_Omega,
         "Business Revenue (Pi)": final_Pi,
@@ -130,43 +183,3 @@ def sustainable_tourism_model():
 # Example usage
 result = sustainable_tourism_model()
 print(result)
-
-
-# Glacier volume as a function of temperature
-# beta = 0.2 # TODO
-# Tm = 0 + 200
-# v = 1000
-# t = -6 + 200
-# alpha = 0.2
-# #C = (beta*(v**2) + alpha)/ (np.exp(beta*(Tm)**2 - beta*((t - Tm))))
-# C = v**2 + alpha*(t**2 - 2*Tm*t)
-# alpha = 0.2
-# beta = 0.2
-# T = -5 + 200
-# #V_g = np.sqrt((1 / beta) * (C* np.exp(beta * ((Tm **2) - (T - Tm)**2)) - alpha))
-# # Define the range of temperatures (in Celsius)
-# T_range = np.linspace(-10, 10, 100)  # Temperature range from -10°C to 10°C
-# print(C)
-# # Calculate glacier volume (V_g) for each temperature
-# #V_g_values = np.sqrt((1 / beta) * (C * np.exp(beta * (Tm**2 - (T_range - Tm)**2)) - alpha))
-# V = np.sqrt(C - alpha*(T_range**2 - 2*Tm*T_range))
-
-# # Plot the results
-# plt.plot(T_range, V, label='Glacier Volume')
-# plt.xlabel("Temperature (°C)")
-# plt.ylabel("Glacier Volume (V)")
-# plt.title("Glacier Volume as a Function of Temperature")
-# plt.grid(True)
-# plt.legend()
-# plt.show()
-
-# beta = 0.1 # TODO
-# Tm = 0 
-# v = 1000
-# t = -6
-# alpha = v / sp.log(-(t - 30))
-# print(alpha)
-# #V_g = sp.sqrt(1 / beta * (C* sp.exp(-2 * beta * (0.5 * T**2 - Tm * T)) - alpha))
-# T = 0
-# V_g = alpha * sp.log(-(T-31))
-# print(V_g)
