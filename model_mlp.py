@@ -22,6 +22,7 @@ class MLP(nn.Module):
         for hidden_dim in hidden_dims:
             layers.append(nn.Linear(prev_dim, hidden_dim))
             layers.append(nn.ReLU())
+            layers.append(nn.BatchNorm1d(hidden_dim))
             prev_dim = hidden_dim
 
         # Add the output layer for the latent space
@@ -149,7 +150,7 @@ with torch.no_grad():
         # Forward pass
         outputs = model(x, add_info)
         
-        print(f"Predictions: {outputs}, Actual: {y}")
+        # print(f"Predictions: {outputs}, Actual: {y}")
         
         # Compute loss
         loss = criterion(outputs, y)
