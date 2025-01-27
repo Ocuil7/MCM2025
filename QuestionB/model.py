@@ -75,13 +75,13 @@ def sustainable_tourism_model():
     r = ((H_D / H_S)**100 + (W_D / W_S)**100 + (F_D / F_S)**100)**(1 / 100)
 
     # Glacier volume as a function of temperature
-    beta = 0.1 # TODO
+
     Tm = 0 
     v = 1000
     t = -6
-    alpha = v / sp.log(-(t - 30))
+    alpha = v / sp.log(-((t-Tm) - 31))
     #V_g = sp.sqrt(1 / beta * (C* sp.exp(-2 * beta * (0.5 * T**2 - Tm * T)) - alpha))
-    V_g = alpha * sp.log(-(T-31))
+    V_g = alpha * sp.log(-((T-Tm)-31))
 
     # Resident satisfaction
     Omega = B_r * r + B_E * V_g / V_0 + B_Pi * Pi / Pi_0
