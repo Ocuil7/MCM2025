@@ -79,9 +79,9 @@ def sustainable_tourism_model():
     Tm = 0 
     v = 1000
     t = -6
-    alpha = 0.1
-    C = (beta*(v**2) + alpha)/ (np.exp(beta*(Tm)**2 - beta*(t - Tm)**2))
-    V_g = sp.sqrt(1 / beta * (C* sp.exp(-2 * beta * (0.5 * T**2 - Tm * T)) - alpha))
+    alpha = v / sp.log(-(t - 30))
+    #V_g = sp.sqrt(1 / beta * (C* sp.exp(-2 * beta * (0.5 * T**2 - Tm * T)) - alpha))
+    V_g = alpha * sp.log(-(T-31))
 
     # Resident satisfaction
     Omega = B_r * r + B_E * V_g / V_0 + B_Pi * Pi / Pi_0
@@ -113,29 +113,40 @@ def sustainable_tourism_model():
 from sympy import symbols, Function, Eq, dsolve, exp
 import matplotlib.pyplot as plt
 # Glacier volume as a function of temperature
-beta = 0.2 # TODO
-Tm = 0 + 200
-v = 1000
-t = -6 + 200
-alpha = 0.2
-#C = (beta*(v**2) + alpha)/ (np.exp(beta*(Tm)**2 - beta*((t - Tm))))
-C = v**2 + alpha*(t**2 - 2*Tm*t)
-alpha = 0.2
-beta = 0.2
-T = -5 + 200
-#V_g = np.sqrt((1 / beta) * (C* np.exp(beta * ((Tm **2) - (T - Tm)**2)) - alpha))
-# Define the range of temperatures (in Celsius)
-T_range = np.linspace(-10, 10, 100)  # Temperature range from -10°C to 10°C
-print(C)
-# Calculate glacier volume (V_g) for each temperature
-#V_g_values = np.sqrt((1 / beta) * (C * np.exp(beta * (Tm**2 - (T_range - Tm)**2)) - alpha))
-V = np.sqrt(C - alpha*(T_range**2 - 2*Tm*T_range))
+# beta = 0.2 # TODO
+# Tm = 0 + 200
+# v = 1000
+# t = -6 + 200
+# alpha = 0.2
+# #C = (beta*(v**2) + alpha)/ (np.exp(beta*(Tm)**2 - beta*((t - Tm))))
+# C = v**2 + alpha*(t**2 - 2*Tm*t)
+# alpha = 0.2
+# beta = 0.2
+# T = -5 + 200
+# #V_g = np.sqrt((1 / beta) * (C* np.exp(beta * ((Tm **2) - (T - Tm)**2)) - alpha))
+# # Define the range of temperatures (in Celsius)
+# T_range = np.linspace(-10, 10, 100)  # Temperature range from -10°C to 10°C
+# print(C)
+# # Calculate glacier volume (V_g) for each temperature
+# #V_g_values = np.sqrt((1 / beta) * (C * np.exp(beta * (Tm**2 - (T_range - Tm)**2)) - alpha))
+# V = np.sqrt(C - alpha*(T_range**2 - 2*Tm*T_range))
 
-# Plot the results
-plt.plot(T_range, V, label='Glacier Volume')
-plt.xlabel("Temperature (°C)")
-plt.ylabel("Glacier Volume (V)")
-plt.title("Glacier Volume as a Function of Temperature")
-plt.grid(True)
-plt.legend()
-plt.show()
+# # Plot the results
+# plt.plot(T_range, V, label='Glacier Volume')
+# plt.xlabel("Temperature (°C)")
+# plt.ylabel("Glacier Volume (V)")
+# plt.title("Glacier Volume as a Function of Temperature")
+# plt.grid(True)
+# plt.legend()
+# plt.show()
+
+beta = 0.1 # TODO
+Tm = 0 
+v = 1000
+t = -6
+alpha = v / sp.log(-(t - 30))
+print(alpha)
+#V_g = sp.sqrt(1 / beta * (C* sp.exp(-2 * beta * (0.5 * T**2 - Tm * T)) - alpha))
+T = 0
+V_g = alpha * sp.log(-(T-31))
+print(V_g)
