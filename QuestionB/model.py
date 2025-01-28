@@ -23,8 +23,8 @@ def sustainable_tourism_model():
 
     # Price level equation parameters
     
-    epsilon_S = 1.5  # elasticity of supply
-    epsilon_D = 1.2  # elasticity of demand
+    epsilon_S = 0.5  # elasticity of supply
+    epsilon_D = -0.3  # elasticity of demand
     c_0 = sp.ln(232/(16000 ** (1 / (epsilon_S - epsilon_D)))) # example constant value
 
     # Updated Price equation

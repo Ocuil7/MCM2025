@@ -1,298 +1,223 @@
 import sympy as sp
 import numpy as np
+import random
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-def sustainable_tourism_model():
-    # Define constants and assumptions
-    alpha_WD = 5  # ton/person Waste growth rate
-    alpha_WS = 1  # TODO
-    alpha_HD = 100 * 7.2  # gallon Water demand growth rate
-    alpha_HS = 0.000000001  # TODO
-    alpha_FD = 1  # TODO
-    alpha_FS = 0.000000001  # TODO
-    
-    C_W = 1000  # TODO
-    C_T = 70000  # Traffic capacity (assumed constant)
-    initial_water_supply = 1000000  # 1 billion gallons/year
 
-    W_Pi = 0.4  # Weight of revenue in resident satisfaction
-    W_E = 0.4  # Weight of infrastructure in resident satisfaction
-    W_V = 0.2  # Weight of environment in resident satisfaction
+# Function to apply moving average smoothing
+def moving_average(data, window_size):
+    return np.convolve(data, np.ones(window_size)/window_size, mode='valid')
 
-    # Define symbolic variables
-    n = sp.Symbol('n')  # Number of visitors
-    T = sp.Symbol('T')  # Temperature (°C)
+visitors_example = 1_700_000  # Initial number of visitors (example value)
+temperature_value = 1  # Example temperature value
 
-    # Price level equation parameters
-    epsilon_S = 1.5  # elasticity of supply
-    epsilon_D = 1.2  # elasticity of demand
-    c_0 = sp.ln(232/(16000 ** (1 / (epsilon_S - epsilon_D))))  # example constant value
+# Define constants and assumptions
+alpha_WD = 0.0065  # ton/person per year #
+alpha_WS = 0.02  # Ton/dollar Waste supply growth factor (assumed) #
+alpha_HD = 100 * 4  # gallon/person/year Water demand growth rate (gallons per tourist per year) #
+alpha_HS = 200  # gallon / dollar Water supply growth factor (assumed) #
+alpha_FD = 25  # Traffic demand growth rate
+alpha_FS = 500  # Traffic supply growth factor
 
-    # Updated Price equation
-    P = sp.exp(c_0) * n ** (1 / (epsilon_S - epsilon_D))
-    
-    # Business revenue
-    Pi = n * P
+N = 30000  # Maximum number of residents in the region
 
-    # Assume government spending on waste, water, and traffic
-    I_W = 100
-    I_H = 100
-    I_T = 100
+# Traffic and Waste Infrastructure Constants (initial values)
+initial_C_W = 300000  # Waste infrastructure capacity (e.g., tons)
+initial_C_T = 100000000  # Traffic capacity (e.g., 7 million vehicles/year)
+initial_C_H = 300_000_000 * 7  # 
 
-    # Waste demand
-    W_D = alpha_WD * n 
+# Define symbolic variables
+n = sp.Symbol('n')  # Number of visitors
+T = sp.Symbol('T')  # Temperature (°C)
 
-    # Waste supply
-    W_S = alpha_WS * sp.ln(I_W + 1) + C_W
+# Price level equation parameters
+epsilon_S = 0.5  # elasticity of supply
+epsilon_D = -0.3  # elasticity of demand
+c_0 = sp.ln(232/(1_700_000 ** (1 / (epsilon_S - epsilon_D))))  # Example constant value
 
-    # Water demand
-    H_D = alpha_HD * n
+# Updated Price equation
+P = sp.exp(c_0) * (n ** (1 / (epsilon_S - epsilon_D)))
 
-    # Water supply
-    H_S = initial_water_supply + alpha_HS * sp.ln(I_H + 1)
+# Business revenue
+Pi = n * P
+tau = 0.5
+R = tau * Pi
 
-    # Traffic demand
-    F_D = alpha_FD * n
-    F_S = alpha_FS * sp.ln(I_T + 1) + C_T
+# Assume government spending on waste, water, and traffic
+I = R - 30*n
+I_W = 0.2*I
+I_H = 0.1*I
+I_T = 0.7*I
 
-    # Infrastructure metric
-    ILI = ((H_D / H_S) ** 2 + (W_D / W_S) ** 2 + (F_D / F_S) ** 2) ** (1 / 2)
+# Waste demand
+W_D = alpha_WD * n 
+W_S = alpha_WS * I_W + initial_C_W
 
-    # Glacier volume as a function of temperature
-    Tm = 0 
-    v = 1050
-    t = -6
-    alpha = v / sp.ln(-((t - Tm) - 31))
-    V_g = alpha * sp.ln(-((T - Tm) - 31))
+# Water demand
+H_D = alpha_HD * n
+H_S = initial_C_H + alpha_HS * I_H 
 
-    # Resident satisfaction
-    r_Pi = 1 / (1 + sp.exp(-0.0001 * (Pi - 45000)))
-    r_E = 1 / (1 + sp.exp(20 * (ILI - 0.8)))
-    r_V = 1 / (1 + sp.exp(-0.01 * (V_g - 900)))
+# Traffic demand
+F_D = alpha_FD * n
+F_S = alpha_FS * I_T + initial_C_T
 
-    Omega = W_Pi * r_Pi + W_E * r_E + W_V * r_V
+# Infrastructure metric (Infrastructure Load Index)
+ILI = ((H_D / H_S) ** 2 + (W_D / W_S) ** 2 + (F_D / F_S) ** 2) ** (1 / 2)
 
-    # Initialize number of visitors
-    visitors_example = 16000  # Initial estimate of visitors
+# Glacier volume as a function of temperature (simplified model)
+Tm = 0  # Reference temperature
+v = 1050  # Glacier volume scaling factor (example)
+t = 1  # Temperature in the model (example)
+alpha = v / sp.ln(-((t - Tm) - 20))  # Simplified formula for glacier volume as a function of temperature
+V_g = alpha * sp.ln(-((T - Tm) - 20))
 
-    # Set temperature value (e.g., T = 1)
-    temperature_value = -6  # Example temperature value (1°C)
+# Resident satisfaction based on revenue, infrastructure, and environment
+r_Pi = 1 / (1 + sp.exp(-0.0001 * ((Pi) / N - 4)))
+r_E = 1 / (1 + sp.exp(20 * (ILI - 0.8)))
+r_V = 1 / (1 + sp.exp(-0.01 * (V_g - 900)))
 
-    # Create Omega function (once, outside the loop)
-    Omega_func = sp.lambdify([n, T], Omega, 'numpy')  # Use numpy for lambdify
+W_Pi = 0.4  # Weight of revenue in resident satisfaction
+W_E = 0.4  # Weight of infrastructure in resident satisfaction
+W_V = 0.2  # Weight of environment in resident satisfaction
 
-    # Lists to store values for plotting
-    visitors_list = [16000]
-    revenue_list = []
-    ILI_list = []
-    glacier_volume_list = [1050]
-    price_list = []  # List to store price values
-    H_ratio_list = []
-    W_ratio_list = []
-    T_ratio_list = []
-    W_D_list = []
-    W_S_list = []
-    H_D_list = []
-    H_S_list = []
-    F_D_list = []
-    F_S_list = []
-    omega_list = []  # List to track small omega values
-    Omega_list = []  # List to track Big Omega values
+Omega = W_Pi * r_Pi + W_E * r_E + W_V * r_V
 
-    for _ in range(1000):  # Max iterations to avoid infinite loops
-        # Calculate Omega based on current number of visitors
-        Omega_val = Omega_func(visitors_example, temperature_value)
+# Set temperature value (e.g., T = -6°C)
+temperature_value = 1  # Example temperature value
 
-        # Calculate visitor satisfaction omega
-        W_P_omega = 0.1
-        W_E_omega = 0.1
-        W_V_omega = 0.9
-        omega = W_P_omega * (1 / (1 + sp.exp(0.03 * (P - 250)))) + W_E_omega * r_E + W_V_omega * r_V
-        
-        # Store the omega and Omega values
-        omega_list.append(omega.subs(n, visitors_example).subs(T, temperature_value).evalf())
-        Omega_list.append(Omega_val)
 
-        # Update number of visitors
-        new_visitors = n * sp.exp(omega - 0.8)
-        
-        # Update temperature based on business revenue
-        G = Pi * 0.623
-        try:
-            temperature_value = 0.8 / sp.ln(2) * sp.ln(0.00001*G) + temperature_value
-        except ValueError:
-            print("Error in calculating temperature. Check value of G.")
-            break
-        temperature_value = temperature_value.subs({n: visitors_example}).evalf()
+# Lambda function for Omega to evaluate it efficiently
+Omega_func = sp.lambdify([n, T], Omega, 'numpy')  # Use numpy for lambdify
+# Lists to store values for plotting
+visitors_list = []
+revenue_list = []
+ILI_list = []
+glacier_volume_list = []
+price_list = []
+H_ratio_list = []
+W_ratio_list = []
+T_ratio_list = []
+temp_list = []
+W_D_list = []
+W_S_list = []
+H_D_list = []
+H_S_list = []
+F_D_list = []
+F_S_list = []
+omega_list = []  # Small omega
+Omega_list = []  # Big Omega
 
-        # Ensure temperature is real before proceeding
-        if temperature_value.is_real:
-            temperature_value = float(temperature_value)
-        else:
-            print(f"Warning: Non-real temperature value encountered. Skipping.")
-            continue
+for _ in range(200):  # Max iterations to avoid infinite loops
+    # Calculate Omega based on the current number of visitors
+    Omega_val = Omega_func(visitors_example, temperature_value)
 
-        # Evaluate new_visitors expression numerically
-        new_visitors_num = new_visitors.subs({n: visitors_example, T: temperature_value}).evalf()
-        print(f"New Visitors: {new_visitors_num}")
+    # Calculate visitor satisfaction omega
+    W_P_omega = 0.1
+    W_E_omega = 0.2
+    W_V_omega = 0.7
+    omega = W_P_omega * (1 / (1 + sp.exp(0.03*(P - 250)))) + W_E_omega * r_E + W_V_omega * r_V
 
-        # Store the values for plotting (check if real before appending)
-        visitors_list.append(visitors_example)
-        revenue_list.append(Pi.subs(n, visitors_example).subs(T, temperature_value).evalf())
-        ILI_list.append(ILI.subs(n, visitors_example).subs(T, temperature_value).evalf())
-        glacier_volume_list.append(V_g.subs(T, temperature_value).evalf())
+    # Store omega and Omega values
+    omega_list.append(omega.subs(n, visitors_example).subs(T, temperature_value).evalf())
+    Omega_list.append(Omega_val)
 
-        # Track the price (P) over time
-        price_list.append(P.subs(n, visitors_example).evalf())
+    # Update the number of visitors (visitors model)
+    new_visitors = n * sp.exp((omega - 0.83)*0.1)
 
-        # Ensure real-valued ratios
-        if H_S.subs(n, visitors_example).evalf() != 0:
-            H_ratio_list.append(H_D.subs(n, visitors_example).evalf() / H_S.subs(n, visitors_example).evalf())
-        else:
-            H_ratio_list.append(np.nan)  # Append NaN if division by zero
+    # Update temperature based on business revenue
+    G = Pi * 0.623
 
-        if W_S.subs(n, visitors_example).evalf() != 0:
-            W_ratio_list.append(W_D.subs(n, visitors_example).evalf() / W_S.subs(n, visitors_example).evalf())
-        else:
-            W_ratio_list.append(np.nan)  # Append NaN if division by zero
+    C_temp =1 - (0.8 / sp.ln(2) * sp.ln(394400000 * 0.623))
 
-        if F_S.subs(n, visitors_example).evalf() != 0:
-            T_ratio_list.append(F_D.subs(n, visitors_example).evalf() / F_S.subs(n, visitors_example).evalf())
-        else:
-            T_ratio_list.append(np.nan)  # Append NaN if division by zero
+    try:
+        temperature_value = C_temp + 0.8 / sp.ln(2) * sp.ln(G) + random.normalvariate(0, 0.0001)
+    except ValueError:
+        print("Error in calculating temperature. Check value of G.")
+        break
+    temperature_value = temperature_value.subs({n: visitors_example}).evalf()
 
-        # Tracking the individual variables for later plotting
-        W_D_list.append(W_D.subs(n, visitors_example).evalf())
-        W_S_list.append(W_S.subs(n, visitors_example).evalf())
-        H_D_list.append(H_D.subs(n, visitors_example).evalf())
-        H_S_list.append(H_S.subs(n, visitors_example).evalf())
-        F_D_list.append(F_D.subs(n, visitors_example).evalf())
-        F_S_list.append(F_S.subs(n, visitors_example).evalf())
+    # Ensure temperature is real before proceeding
+    if temperature_value.is_real:
+        temperature_value = float(temperature_value)
+    else:
+        print(f"Warning: Non-real temperature value encountered. Skipping.")
+        continue
 
-        # Check for convergence
-        if abs(new_visitors_num - visitors_example) < 0.0001:
-            print(f"Converged to stable number of visitors: {new_visitors_num}")
-            break
+    # Evaluate new_visitors expression numerically
+    new_visitors_num = new_visitors.subs({n: visitors_example, T: temperature_value}).evalf() + random.normalvariate(0, 1000)
+    print(f"New Visitors: {new_visitors_num}")
 
-        # Update number of visitors for next iteration
-        visitors_example = int(new_visitors_num)
+    # Store values for plotting
+    visitors_list.append(visitors_example)
+    revenue_list.append(Pi.subs(n, visitors_example).subs(T, temperature_value).evalf())
+    ILI_list.append(ILI.subs(n, visitors_example).subs(T, temperature_value).evalf())
+    glacier_volume_list.append(V_g.subs(T, temperature_value).evalf())
+    temp_list.append(temperature_value)
 
-    # Final calculations with numeric substitutions
-    final_Omega = Omega_func(visitors_example, temperature_value)
-    print(f"Final Omega: {final_Omega}")
+    # Track the price (P) over time
+    price_list.append(P.subs(n, visitors_example).evalf())
 
-    # Substitute for Pi and r_E with final visitors and temperature value
-    final_Pi = Pi.subs(n, visitors_example).subs(T, temperature_value).evalf()
-    final_r_E = r_E.subs(n, visitors_example).subs(T, temperature_value).evalf()
+    # Store demands and supplies for water, housing, and traffic
+    W_D_list.append(W_D.subs(n, visitors_example).evalf())
+    W_S_list.append(W_S.subs(n, visitors_example).evalf())
+    H_D_list.append(H_D.subs(n, visitors_example).evalf())
+    H_S_list.append(H_S.subs(n, visitors_example).evalf())
+    F_D_list.append(F_D.subs(n, visitors_example).evalf())
+    F_S_list.append(F_S.subs(n, visitors_example).evalf())
 
-    # Plot all variables individually
-    plt.figure(figsize=(12, 12))
+    # Ensure real-valued ratios
+    if H_S.subs(n, visitors_example).evalf() != 0:
+        H_ratio_list.append(H_D.subs(n, visitors_example).evalf() / H_S.subs(n, visitors_example).evalf())
+    else:
+        H_ratio_list.append(np.nan)  # Append NaN if division by zero
 
-    # Plot Number of Visitors over Iterations
-    plt.subplot(4, 4, 1)
-    plt.plot(visitors_list, label="Visitors")
-    plt.xlabel("Iteration")
-    plt.ylabel("Number of Visitors")
-    plt.title("Number of Visitors Over Time")
-    plt.grid(True)
+    if W_S.subs(n, visitors_example).evalf() != 0:
+        W_ratio_list.append(W_D.subs(n, visitors_example).evalf() / W_S.subs(n, visitors_example).evalf())
+    else:
+        W_ratio_list.append(np.nan)  # Append NaN if division by zero
 
-    # Plot Business Revenue (Pi) over Iterations
-    plt.subplot(4, 4, 2)
-    plt.plot(revenue_list, label="Business Revenue (Pi)", color='green')
-    plt.xlabel("Iteration")
-    plt.ylabel("Business Revenue (Pi)")
-    plt.title("Business Revenue Over Time")
-    plt.grid(True)
+    if F_S.subs(n, visitors_example).evalf() != 0:
+        T_ratio_list.append(F_D.subs(n, visitors_example).evalf() / F_S.subs(n, visitors_example).evalf())
+    else:
+        T_ratio_list.append(np.nan)  # Append NaN if division by zero
 
-    # Plot Infrastructure Metric (ILI) over Iterations
-    plt.subplot(4, 4, 3)
-    plt.plot(ILI_list, label="Infrastructure Metric (ILI)", color='red')
-    plt.xlabel("Iteration")
-    plt.ylabel("Infrastructure Metric (ILI)")
-    plt.title("Infrastructure Metric Over Time")
-    plt.grid(True)
+    # Check for convergence
+    if abs(new_visitors_num - visitors_example) < 0.0001:
+        print(f"Converged to stable number of visitors: {new_visitors_num}")
+        break
 
-    # Plot Glacier Volume (V_g) over Iterations
-    plt.subplot(4, 4, 4)
-    plt.plot(glacier_volume_list, label="Glacier Volume (V_g)", color='blue')
-    plt.xlabel("Iteration")
-    plt.ylabel("Glacier Volume (V_g)")
-    plt.title("Glacier Volume Over Time")
-    plt.grid(True)
+    # Update number of visitors for next iteration
+    visitors_example = int(new_visitors_num)
 
-    # Plot Price (P) over Iterations
-    plt.subplot(4, 4, 5)
-    plt.plot(price_list, label="Price (P)", color='purple')
-    plt.xlabel("Iteration")
-    plt.ylabel("Price (P)")
-    plt.title("Price Over Time")
-    plt.grid(True)
+# Smooth the visitors list (optional)
+smoothed_visitors_list = moving_average(visitors_list, window_size=10)
 
-    # Plot Water Ratio (H_D / H_S) over Iterations
-    plt.subplot(4, 4, 6)
-    plt.plot(H_ratio_list, label="Water Ratio (H_D / H_S)", color='orange')
-    plt.xlabel("Iteration")
-    plt.ylabel("Water Ratio (H_D / H_S)")
-    plt.title("Water Ratio Over Time")
-    plt.grid(True)
+print(revenue_list)
+print(price_list)
+print(visitors_list)
 
-    # Plot Waste Ratio (W_D / W_S) over Iterations
-    plt.subplot(4, 4, 7)
-    plt.plot(W_ratio_list, label="Waste Ratio (W_D / W_S)", color='cyan')
-    plt.xlabel("Iteration")
-    plt.ylabel("Waste Ratio (W_D / W_S)")
-    plt.title("Waste Ratio Over Time")
-    plt.grid(True)
+# Plot all variables individually
+plt.figure(figsize=(16, 20))
 
-    # Plot Traffic Ratio (F_D / F_S) over Iterations
-    plt.subplot(4, 4, 8)
-    plt.plot(T_ratio_list, label="Traffic Ratio (F_D / F_S)", color='brown')
-    plt.xlabel("Iteration")
-    plt.ylabel("Traffic Ratio (F_D / F_S)")
-    plt.title("Traffic Ratio Over Time")
-    plt.grid(True)
+# Plot Number of Visitors (with smoothing)
+plt.subplot(3, 2, 1)
+plt.plot(smoothed_visitors_list, label='Visitors', color='tab:blue', linewidth=2, marker='o', markersize=2, markerfacecolor='darkblue', markeredgewidth=2)
+plt.title('Number of Visitors', fontsize=18, fontweight='bold', color='darkblue')
+plt.xlabel('Year', fontsize=14, fontweight='bold')
+plt.ylabel('Visitors', fontsize=14, fontweight='bold')
+plt.grid(True, linestyle='--', linewidth=0.6, alpha=0.7)
 
-    # Plot Waste Demand (W_D) over Iterations
-    plt.subplot(4, 4, 9)
-    plt.plot(W_D_list, label="Waste Demand (W_D)", color='yellow')
-    plt.xlabel("Iteration")
-    plt.ylabel("Waste Demand (W_D)")
-    plt.title("Waste Demand Over Time")
-    plt.grid(True)
+# Plot Glacier Volume
+plt.subplot(3, 2, 2)
+plt.plot(glacier_volume_list, label='Glacier Volume (km^3)', color='tab:red', linewidth=2, marker='o', markersize=2, markerfacecolor='darkred', markeredgewidth=2)
+plt.title('Glacier Volume (km^3)', fontsize=18, fontweight='bold', color='darkred')
+plt.xlabel('year', fontsize=14, fontweight='bold')
+plt.ylabel('Volume', fontsize=14, fontweight='bold')
+plt.grid(True, linestyle='--', linewidth=0.6, alpha=0.7)
 
-    # Plot Waste Supply (W_S) over Iterations
-    plt.subplot(4, 4, 10)
-    plt.plot(W_S_list, label="Waste Supply (W_S)", color='pink')
-    plt.xlabel("Iteration")
-    plt.ylabel("Waste Supply (W_S)")
-    plt.title("Waste Supply Over Time")
-    plt.grid(True)
+# Adjust layout to prevent overlap
+plt.tight_layout()
 
-    # Plot Omega over Iterations (Big Omega)
-    plt.subplot(4, 4, 1)
-    plt.plot(Omega_list, label="Big Omega (Resident Satisfaction)")
-    plt.xlabel("Iteration")
-    plt.ylabel("Big Omega")
-    plt.title("Big Omega Over Time")
-    plt.grid(True)
-
-    # Plot omega over Iterations (small omega)
-    plt.subplot(4, 4, 2)
-    plt.plot(omega_list, label="Small omega (Visitor Satisfaction)", color='orange')
-    plt.xlabel("Iteration")
-    plt.ylabel("Small omega")
-    plt.title("Small omega Over Time")
-    plt.grid(True)
-
-    plt.tight_layout()
-    plt.show()
-
-    return {
-        "Resident Satisfaction (Omega)": final_Omega,
-        "Business Revenue (Pi)": final_Pi,
-        "Infrastructure Metric (r)": final_r_E,
-    }
-
-# Example usage
-result = sustainable_tourism_model()
-print(result)
+# Show the plot
+plt.show()
